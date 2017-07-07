@@ -1,1 +1,2 @@
-# CoT_AQ
+# hello-world
+Hello world new project template.

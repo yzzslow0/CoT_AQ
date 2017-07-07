@@ -1,0 +1,53 @@
+2017-07-07T08:16:40.910Z - normal: Load ~/.CocosCreator/settings.json
+2017-07-07T08:16:40.913Z - normal: checking language setting...
+2017-07-07T08:16:40.914Z - normal: Language: zh
+2017-07-07T08:16:41.735Z - success: protocol editor-framework registered
+2017-07-07T08:16:41.735Z - success: protocol app registered
+2017-07-07T08:16:41.735Z - success: protocol theme registered
+2017-07-07T08:16:41.739Z - success: protocol profile registered
+2017-07-07T08:16:41.739Z - success: protocol packages registered
+2017-07-07T08:16:41.742Z - success: protocol unpack registerred
+2017-07-07T08:16:41.743Z - success: protocol disable-commonjs registerred
+2017-07-07T08:16:42.130Z - normal: connected!
+2017-07-07T08:16:42.132Z - normal: Check project /Users/yzz/ANQI/CoT_AQ
+2017-07-07T08:16:42.134Z - normal: Initializing Cocos2d
+2017-07-07T08:16:42.251Z - normal: Initializing Asset Database
+2017-07-07T08:16:42.276Z - success: protocol uuid registerred
+2017-07-07T08:16:42.276Z - success: protocol db registerred
+2017-07-07T08:16:42.276Z - success: protocol thumbnail registerred
+2017-07-07T08:16:42.277Z - normal: Loading editor/builtin packages
+2017-07-07T08:16:42.291Z - success: anysdk loaded
+2017-07-07T08:16:42.392Z - success: assets loaded
+2017-07-07T08:16:42.396Z - success: builder loaded
+2017-07-07T08:16:42.399Z - success: hierarchy loaded
+2017-07-07T08:16:42.402Z - success: inspector loaded
+2017-07-07T08:16:42.403Z - success: keystore loaded
+2017-07-07T08:16:42.406Z - success: node-library loaded
+2017-07-07T08:16:42.408Z - success: package-asset loaded
+2017-07-07T08:16:42.409Z - success: preferences loaded
+2017-07-07T08:16:42.421Z - success: project-importer loaded
+2017-07-07T08:16:42.424Z - success: project-settings loaded
+2017-07-07T08:16:42.427Z - success: ui-kit loaded
+2017-07-07T08:16:42.430Z - success: ui-grid loaded
+2017-07-07T08:16:42.434Z - success: scene loaded
+2017-07-07T08:16:42.435Z - success: sprite-editor loaded
+2017-07-07T08:16:42.438Z - success: store loaded
+2017-07-07T08:16:42.443Z - success: timeline loaded
+2017-07-07T08:16:42.444Z - normal: Loading builtin packages
+2017-07-07T08:16:42.447Z - success: asset-db-debugger loaded
+2017-07-07T08:16:42.449Z - success: code-editor loaded
+2017-07-07T08:16:42.449Z - success: color-picker loaded
+2017-07-07T08:16:42.453Z - success: console loaded
+2017-07-07T08:16:42.456Z - success: package-manager loaded
+2017-07-07T08:16:42.466Z - success: sdkbox loaded
+2017-07-07T08:16:42.470Z - success: tester loaded
+2017-07-07T08:16:42.473Z - success: ui-kit-preview-extra loaded
+2017-07-07T08:16:42.476Z - success: ui-kit-preview loaded
+2017-07-07T08:16:42.479Z - success: ui-tree loaded
+2017-07-07T08:16:43.078Z - normal: Initializing project /Users/yzz/ANQI/CoT_AQ
+2017-07-07T08:16:43.081Z - normal: Loading packages
+2017-07-07T08:16:43.086Z - normal: Watching packages
+2017-07-07T08:16:43.096Z - normal: Run Application
+2017-07-07T08:16:43.408Z - success: preview server running at http://localhost:7456
+2017-07-07T08:16:47.184Z - normal: 1.5.1
+2017-07-07T08:16:47.353Z - warn: The 'type' attribute of '5511.chessList' is undefined when loading script
