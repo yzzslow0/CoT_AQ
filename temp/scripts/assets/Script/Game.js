@@ -73,13 +73,15 @@ cc.Class({
                 this.node.addChild(newNode);
                 newNode.setPosition(cc.p((x + 5) * 105 - 890, (y + 2) * 110 - 370)); //根据棋盘和棋子大小计算使每个棋子节点位于指定位置
 
+                newNode.zIndex = 1; //层级管理   
+
                 newNode.tag = i;
 
                 this.chessList.push(newNode);
 
                 //   newNode.on(cc.Node.EventType.TOUCH_END, this.newNode_onClick,this)
                 newNode.on(cc.Node.EventType.TOUCH_START, function (event) {
-
+                    this.zIndex = 100; //层级管理   
                     self.touchChess = this;
                     self.setChess();
 
@@ -91,18 +93,22 @@ cc.Class({
                     //   this.label.string = '123321'
                     //   newNode.addChild(label)
                     // this.chessList[i].getComponent(cc.Sprite).spriteFrame = this.blackSpriteFrame;
-                    console.log('TOUCH_START:' + isMove);
+                    cc.log('TOUCH_START:' + isMove);
                 });
 
                 newNode.on(cc.Node.EventType.TOUCH_END, function (event) {
+
+                    this.zIndex = 1; //层级管理       
+
                     self.the_last_touchChess = this;
                     self.the_last_touchChess.tag = self.touchChess.tag; // 赋值tag
                     isMove = false;
-                    console.log('TOUCH_END:' + isMove);
+                    cc.log('TOUCH_END:' + isMove);
+                    cc.log("Node zIndex: " + this.zIndex);
                 });
                 // newNode.on(cc.Node.EventType.TOUCH_END,this.newNode_onClick,this)
                 newNode.on(cc.Node.EventType.TOUCH_MOVE, function (event) {
-                    console.log('TOUCH_MOVE:' + isMove);
+                    cc.log('TOUCH_MOVE:' + isMove);
                     if (isMove) {
                         var delta = event.touch.getDelta();
                         this.x += delta.x;
@@ -137,7 +143,12 @@ cc.Class({
         console.log(this.touchChess.tag);
 
         var test_label = this.touchChess.getComponentInChildren(cc.Label);
-        test_label.string = '士';
+        if (test_label.string == '士') {
+            test_label.string = '卒';
+        } else {
+            test_label.string = '士';
+        }
+
         //  this.chessList[this.touchChess.tag].getComponent(cc.Sprite).spriteFrame = this.blackSpriteFrame;
 
     },

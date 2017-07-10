@@ -19,7 +19,7 @@ cc.Class({
 
     // use this for initialization
     onLoad: function onLoad() {
-        this.label.string = '123321';
+        this.label.string = 'AQ';
     },
 
     // called every frame
