@@ -25,8 +25,8 @@
     "relativePath": "Texture/singleColor.png"
   },
   "06dcba75-d4b8-423a-bdee-f3cc98b9fe4f": {
-    "asset": 1499755285000,
-    "meta": 1499755285000,
+    "asset": 1499764341000,
+    "meta": 1499764341000,
     "relativePath": "Scene/game.fire"
   },
   "bb9bfb9b-c93f-4377-ad55-664f4a33efd1": {
@@ -290,8 +290,13 @@
     "relativePath": "Script/PZ.js"
   },
   "10e84cdf-4fd5-4653-aab9-06d6d2e87d1f": {
-    "asset": 1499762714000,
-    "meta": 1499762715000,
+    "asset": 1499763056000,
+    "meta": 1499763095000,
     "relativePath": "Script/Game.js"
+  },
+  "b08bf61a-b2a6-4bdc-bc47-5671a0598880": {
+    "asset": 1499764169000,
+    "meta": 1499764169000,
+    "relativePath": "Texture/test.png"
   }
 }

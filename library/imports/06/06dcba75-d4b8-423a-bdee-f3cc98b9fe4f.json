@@ -307,7 +307,7 @@
       "width": 960,
       "height": 640
     },
-    "_fitWidth": false,
+    "_fitWidth": true,
     "_fitHeight": true
   },
   {
@@ -330,7 +330,8 @@
     "the_last_touchChess": null,
     "btn_test": {
       "__id__": 10
-    }
+    },
+    "isDestory": "Boolean"
   },
   {
     "__type__": "cc.Button",
@@ -439,8 +440,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 69,
-      "y": 600
+      "x": 88,
+      "y": 587
     },
     "_skewX": 0,
     "_skewY": 0,

@@ -173,6 +173,7 @@ cc.Class({
     destoryChess: function destoryChess(other, self) {
         this.isDestory = true;
         if (this.touchChess.tag == other.node.tag) {
+            //有时候 不能分辨 是否是点中的棋子 判断棋子
             this.pzChess = self.node;
         } else {
             this.pzChess = other.node;
@@ -187,7 +188,7 @@ cc.Class({
     isDestoryfunction: function isDestoryfunction() {
         if (this.isDestory) {
             cc.log('销毁');
-            this.pzChess.destroy();
+            this.pzChess.destroy(); //吃子
         } else {
             cc.log('不销毁');
         }
