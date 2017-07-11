@@ -34,12 +34,13 @@ cc.Class({
             visible: false//属性窗口不显示
         },
         btn_test: cc.Button,
+        isDestory: cc.Boolean
 
     },
 
     // use this for initialization
     onLoad: function () {
-
+        // isDestory =false;
         // var key1 = '动态key1';
         // var key2 = '动态key2';
         // var map = {};
@@ -56,7 +57,11 @@ cc.Class({
         //     }
         // }
 
+        
 
+        /**
+         * 创建棋子
+         */
         var i = 0;
         var self = this;
         var isMove = false;
@@ -68,16 +73,18 @@ cc.Class({
                 newNode.setPosition(cc.p((x + 5) * 105 - 890, (y + 2) * 110 - 370));//根据棋盘和棋子大小计算使每个棋子节点位于指定位置
 
                 newNode.zIndex = 1;//层级管理   
-
+                // newNode.group = "default"
                 newNode.tag = i;
 
                 this.chessList.push(newNode);
-
+                newNode.getComponent('PZ').game = this;
                 //   newNode.on(cc.Node.EventType.TOUCH_END, this.newNode_onClick,this)
                 newNode.on(cc.Node.EventType.TOUCH_START, function (event) {
                     this.zIndex = 100;//层级管理   
                     self.touchChess = this;
+                    self.isDestory = false;
                     self.setChess();
+
 
                     //判断如果第一次点击与想要拖动的棋子为同一个 则允许拖动
                     if (self.the_last_touchChess != null && self.touchChess.tag == self.the_last_touchChess.tag) {
@@ -87,7 +94,7 @@ cc.Class({
                     //   this.label.string = '123321'
                     //   newNode.addChild(label)
                     // this.chessList[i].getComponent(cc.Sprite).spriteFrame = this.blackSpriteFrame;
-                    cc.log('TOUCH_START:' + isMove)
+                    // cc.log('TOUCH_START:' + isMove)
                 });
 
                 newNode.on(cc.Node.EventType.TOUCH_END, function (event) {
@@ -97,12 +104,22 @@ cc.Class({
                     self.the_last_touchChess = this;
                     self.the_last_touchChess.tag = self.touchChess.tag;// 赋值tag
                     isMove = false;
-                    cc.log('TOUCH_END:' + isMove)
-                    cc.log("Node zIndex: " + this.zIndex);
+
+                    self.isDestoryfunction();
+
+
+                    // if(this.isDestory){
+                    //     cc.log('销毁');
+                    // }
+
+
+                    // cc.log('TOUCH_END:' + isMove)
+                    // cc.log("Node zIndex: " + this.zIndex);
                 });
+
                 // newNode.on(cc.Node.EventType.TOUCH_END,this.newNode_onClick,this)
                 newNode.on(cc.Node.EventType.TOUCH_MOVE, function (event) {
-                    cc.log('TOUCH_MOVE:' + isMove)
+                    // cc.log('TOUCH_MOVE:' + isMove)
                     if (isMove) {
                         var delta = event.touch.getDelta();
                         this.x += delta.x;
@@ -144,6 +161,7 @@ cc.Class({
         console.log(this.touchChess.tag)
 
 
+
         var test_label = this.touchChess.getComponentInChildren(cc.Label);
         if (test_label.string == '士') {
             test_label.string = '卒'
@@ -154,17 +172,34 @@ cc.Class({
         //  this.chessList[this.touchChess.tag].getComponent(cc.Sprite).spriteFrame = this.blackSpriteFrame;
 
 
-
-
-
     },
     btn_test_func: function (event) {
         this.getComponent(cc.Label).string = '123'
     },
-    getName: function () {
-        return 'test'
-    }
 
+    destoryChess: function (other,self) {
+        this.isDestory = true;
+        if(this.touchChess.tag == other.node.tag){ //有时候 不能分辨 是否是点中的棋子 判断棋子
+            this.pzChess = self.node;
+        }else{
+            this.pzChess = other.node;
+        }
+        // this.pzChess = other;
+    },
+
+    notdestoryChess: function (other,self) {
+        this.isDestory = false;
+    },
+    
+    isDestoryfunction: function () {
+        if (this.isDestory) {
+            cc.log('销毁')
+          this.pzChess.destroy();   //吃子
+        } else {
+            cc.log('不销毁')
+         
+        }
+    }
     // called every frame, uncomment this function to activate update callback
     // update: function (dt) {
 
