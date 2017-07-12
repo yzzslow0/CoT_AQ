@@ -330,7 +330,14 @@
     "btn_test": {
       "__id__": 10
     },
-    "isDestory": "Boolean"
+    "isDestory": "Boolean",
+    "pzChess": null,
+    "names": [],
+    "positionX": [],
+    "positionY": [],
+    "Red_names": [],
+    "Black_names": [],
+    "flag": []
   },
   {
     "__type__": "cc.Button",

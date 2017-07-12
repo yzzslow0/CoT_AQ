@@ -34,13 +34,20 @@ cc.Class({
             visible: false//属性窗口不显示
         },
         btn_test: cc.Button,
-        isDistory:cc.Boolean
+        isDestory: cc.Boolean,
+        ChessModel:{
+            positionX:0,
+            positionY:0,
+            tag:0,
+            name:'',
+            flag:0
+        }
 
     },
 
     // use this for initialization
     onLoad: function () {
-// isDistory =false;
+        // isDestory =false;
         // var key1 = '动态key1';
         // var key2 = '动态key2';
         // var map = {};
@@ -57,7 +64,7 @@ cc.Class({
         //     }
         // }
 
-        this.isDistory = false;
+        
 
         /**
          * 创建棋子
@@ -82,9 +89,10 @@ cc.Class({
                 newNode.on(cc.Node.EventType.TOUCH_START, function (event) {
                     this.zIndex = 100;//层级管理   
                     self.touchChess = this;
+                    self.isDestory = false;
                     self.setChess();
 
-                    
+
                     //判断如果第一次点击与想要拖动的棋子为同一个 则允许拖动
                     if (self.the_last_touchChess != null && self.touchChess.tag == self.the_last_touchChess.tag) {
                         isMove = true;
@@ -103,16 +111,19 @@ cc.Class({
                     self.the_last_touchChess = this;
                     self.the_last_touchChess.tag = self.touchChess.tag;// 赋值tag
                     isMove = false;
-                    this.isDistoryfunction();
-                    // if(this.isDistory){
+
+                    self.isDestoryfunction();
+
+
+                    // if(this.isDestory){
                     //     cc.log('销毁');
                     // }
 
-                   
+
                     // cc.log('TOUCH_END:' + isMove)
                     // cc.log("Node zIndex: " + this.zIndex);
                 });
-                
+
                 // newNode.on(cc.Node.EventType.TOUCH_END,this.newNode_onClick,this)
                 newNode.on(cc.Node.EventType.TOUCH_MOVE, function (event) {
                     // cc.log('TOUCH_MOVE:' + isMove)
@@ -156,7 +167,7 @@ cc.Class({
     setChess: function () {
         console.log(this.touchChess.tag)
 
-        
+
 
         var test_label = this.touchChess.getComponentInChildren(cc.Label);
         if (test_label.string == '士') {
@@ -172,17 +183,28 @@ cc.Class({
     btn_test_func: function (event) {
         this.getComponent(cc.Label).string = '123'
     },
-    distoryChess:function(){
-    this.isDistory = true;
-},
-    notdestoryChess:function(){
-        this.isDistory = false;
-    },
-    isDistoryfunction:function(){
-        if(this.isDistory){
-            this.distoryChess();
+
+    destoryChess: function (other,self) {
+        this.isDestory = true;
+        if(this.touchChess.tag == other.node.tag){ //有时候 不能分辨 是否是点中的棋子 判断棋子
+            this.pzChess = self.node;
         }else{
-            this.notdestoryChess();
+            this.pzChess = other.node;
+        }
+        // this.pzChess = other;
+    },
+
+    notdestoryChess: function (other,self) {
+        this.isDestory = false;
+    },
+    
+    isDestoryfunction: function () {
+        if (this.isDestory) {
+            cc.log('销毁')
+          this.pzChess.destroy();   //吃子
+        } else {
+            cc.log('不销毁')
+         
         }
     }
     // called every frame, uncomment this function to activate update callback
