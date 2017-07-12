@@ -1,4 +1,3 @@
-
 var Black = [5, 5, 5, 5, 5, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 15];
 var Red = [5, 5, 5, 5, 5, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 15];
 cc.Class({
@@ -300,21 +299,18 @@ cc.Class({
                 } else {
                     return '象';
                 }
-                break;
             case 14:
                 if (flag == 0) {
                     return '仕';
                 } else {
                     return '士';
                 }
-                break;
             case 15:
                 if (flag == 0) {
                     return '帅';
                 } else {
                     return '将';
                 }
-                break;
         }
 
     },
@@ -328,10 +324,26 @@ cc.Class({
             if (this.flag[this.touchChess.tag] == 0 && this.flag[this.pzChess.tag] == 1) {
                 //红吃黑
                 if (this.Red_names[this.touchChess.tag] > this.Black_names[this.pzChess.tag]) {
-                    this.pzChess.destroy();   //吃子
+                    /**
+                     * 尝试 替换 prefab 以空节点来做
+                     */
+
+                    // this.pzChess.opacity = 0;
+                    // // this.pzChess.destroy();   //吃子
+                    // this.Black_names[this.pzChess.tag] = this.pzChess.x*10;
+
+
+
                 } else if (this.Red_names[this.touchChess.tag] == this.Black_names[this.pzChess.tag]) {
                     cc.log('不同色同样的棋子--销毁')
-                    this.pzChess.destroy();   //吃子
+
+
+                    this.pzChess.opacity = 0;
+                    // this.pzChess.destroy();   //吃子
+
+
+
+                    this.Black_names[this.pzChess.tag] = this.pzChess.x*10;
                 } else {
                     cc.log('红吃黑--不销毁')
                     this.touchChess.x = X;
@@ -340,12 +352,25 @@ cc.Class({
             } else if (this.flag[this.touchChess.tag] == 1 && this.flag[this.pzChess.tag] == 0) {
                 //黑吃红
                 if (this.Black_names[this.touchChess.tag] > this.Red_names[this.pzChess.tag]) {
-                    this.pzChess.destroy();   //吃子
+                    this.pzChess.opacity = 0;
+
+
+                    // this.pzChess.destroy();   //吃子
+                    this.Red_names[this.pzChess.tag] = this.pzChess.x*10;
+
+
 
                 } else if (this.Black_names[this.touchChess.tag] == this.Red_names[this.pzChess.tag]) {
 
                     cc.log('不同色同样的棋子--销毁')
-                    this.pzChess.destroy();   //吃子
+
+
+                    this.pzChess.opacity = 0;
+                    // this.pzChess.destroy();   //吃子
+
+
+
+                    this.Red_names[this.pzChess.tag] = this.pzChess.x*10;
                 } else {
                     cc.log('黑吃红--不销毁')
                     this.touchChess.x = X;
