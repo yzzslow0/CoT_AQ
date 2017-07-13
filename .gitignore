@@ -1,4 +1,5 @@
 build/
-Library/
+library/
 temp/
 local/
+
