@@ -320,6 +320,9 @@
     "chessPrefab": {
       "__uuid__": "27970402-800f-417d-a966-df40f811de67"
     },
+    "chessnullPrefab": {
+      "__uuid__": "41351763-e318-4b91-81b5-0009e51b32e3"
+    },
     "chessList": [],
     "whiteSpriteFrame": {
       "__uuid__": "1f784cf1-b1c1-471b-9d9f-458a72158c71"

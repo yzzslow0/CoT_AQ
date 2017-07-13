@@ -9,6 +9,10 @@ cc.Class({
             default: null,
             type: cc.Prefab
         },
+        chessnullPrefab: {//空棋子的预制资源
+            default: null,
+            type: cc.Prefab
+        },
 
         chessList: {//棋子节点的集合，用一维数组表示二维位置
             default: [],
@@ -219,7 +223,7 @@ cc.Class({
                     }
 
                 })
-                this.chessList[i].getComponent(cc.Sprite).spriteFrame = this.whiteSpriteFrame;
+                // this.chessList[i].getComponent(cc.Sprite).spriteFrame = this.whiteSpriteFrame;
                 i++;
             }
 
@@ -330,17 +334,17 @@ cc.Class({
 
                     // this.pzChess.opacity = 0;
                     // // this.pzChess.destroy();   //吃子
-                    // this.Black_names[this.pzChess.tag] = this.pzChess.x*10;
+                     this.Black_names[this.pzChess.tag] = this.pzChess.x*10;
 
-
+                    this.pzChess = cc.instantiate(this.chessnullPrefab);//复制Chess预制资源
 
                 } else if (this.Red_names[this.touchChess.tag] == this.Black_names[this.pzChess.tag]) {
                     cc.log('不同色同样的棋子--销毁')
 
 
-                    this.pzChess.opacity = 0;
+                    // this.pzChess.opacity = 0;
                     // this.pzChess.destroy();   //吃子
-
+                    this.pzChess = cc.instantiate(this.chessnullPrefab);//复制Chess预制资源
 
 
                     this.Black_names[this.pzChess.tag] = this.pzChess.x*10;
@@ -356,6 +360,7 @@ cc.Class({
 
 
                     // this.pzChess.destroy();   //吃子
+                    this.pzChess = cc.instantiate(this.chessnullPrefab);//复制Chess预制资源
                     this.Red_names[this.pzChess.tag] = this.pzChess.x*10;
 
 
