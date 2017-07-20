@@ -18,7 +18,7 @@
         "__id__": 2
       },
       {
-        "__id__": 11
+        "__id__": 9
       }
     ],
     "_tag": -1,
@@ -61,19 +61,16 @@
     "_children": [
       {
         "__id__": 3
-      },
-      {
-        "__id__": 5
       }
     ],
     "_tag": -1,
     "_active": true,
     "_components": [
       {
-        "__id__": 8
+        "__id__": 6
       },
       {
-        "__id__": 9
+        "__id__": 7
       }
     ],
     "_prefab": null,
@@ -115,80 +112,6 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "label",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 2
-    },
-    "_children": [],
-    "_tag": -1,
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 4
-      }
-    ],
-    "_prefab": null,
-    "_id": "135901JyZhOeqSQ/e2wBzGO",
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_cascadeOpacityEnabled": true,
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 97.87,
-      "height": 40
-    },
-    "_rotationX": 0,
-    "_rotationY": 0,
-    "_scaleX": 1,
-    "_scaleY": 1,
-    "_position": {
-      "__type__": "cc.Vec2",
-      "x": -388,
-      "y": -267
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_localZOrder": 0,
-    "_globalZOrder": 0,
-    "_opacityModifyRGB": false,
-    "groupIndex": 0
-  },
-  {
-    "__type__": "cc.Label",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 3
-    },
-    "_enabled": true,
-    "_useOriginalSize": false,
-    "_actualFontSize": 40,
-    "_fontSize": 40,
-    "_lineHeight": 40,
-    "_enableWrapText": true,
-    "_N$file": null,
-    "_isSystemFontUsed": true,
-    "_spacingX": 0,
-    "_N$string": "Label",
-    "_N$horizontalAlign": 1,
-    "_N$verticalAlign": 1,
-    "_N$fontFamily": "Arial",
-    "_N$overflow": 0
-  },
-  {
-    "__type__": "cc.Node",
     "_name": "background",
     "_objFlags": 0,
     "_parent": {
@@ -199,10 +122,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 6
+        "__id__": 4
       },
       {
-        "__id__": 7
+        "__id__": 5
       }
     ],
     "_prefab": null,
@@ -247,7 +170,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 5
+      "__id__": 3
     },
     "_enabled": true,
     "isAlignOnce": true,
@@ -273,7 +196,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 5
+      "__id__": 3
     },
     "_enabled": true,
     "_spriteFrame": {
@@ -323,13 +246,15 @@
     },
     "chessList": [],
     "whiteSpriteFrame": {
-      "__uuid__": "1f784cf1-b1c1-471b-9d9f-458a72158c71"
+      "__uuid__": "410fb916-8721-4663-bab8-34397391ace7"
     },
-    "blackSpriteFrame": null,
+    "blackSpriteFrame": {
+      "__uuid__": "4c1df6b3-1dfd-4b5b-8725-d7c70da6cb3f"
+    },
     "touchChess": null,
     "the_last_touchChess": null,
     "btn_test": {
-      "__id__": 10
+      "__id__": 8
     },
     "isDestory": "Boolean",
     "pzChess": null,
@@ -338,14 +263,15 @@
     "positionY": [],
     "Red_names": [],
     "Black_names": [],
-    "flag": []
+    "flag": [],
+    "eatChess": null
   },
   {
     "__type__": "cc.Button",
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 11
+      "__id__": 9
     },
     "_enabled": true,
     "transition": 2,
@@ -395,7 +321,7 @@
       "__uuid__": "29158224-f8dd-4661-a796-1ffab537140e"
     },
     "_N$target": {
-      "__id__": 11
+      "__id__": 9
     }
   },
   {
@@ -407,17 +333,17 @@
     },
     "_children": [
       {
-        "__id__": 12
+        "__id__": 10
       }
     ],
     "_tag": -1,
     "_active": true,
     "_components": [
       {
-        "__id__": 14
+        "__id__": 12
       },
       {
-        "__id__": 10
+        "__id__": 8
       }
     ],
     "_prefab": null,
@@ -462,14 +388,14 @@
     "_name": "Label",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 11
+      "__id__": 9
     },
     "_children": [],
     "_tag": -1,
     "_active": true,
     "_components": [
       {
-        "__id__": 13
+        "__id__": 11
       }
     ],
     "_prefab": null,
@@ -514,7 +440,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 12
+      "__id__": 10
     },
     "_enabled": true,
     "_useOriginalSize": false,
@@ -536,7 +462,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 11
+      "__id__": 9
     },
     "_enabled": true,
     "_spriteFrame": {

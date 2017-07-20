@@ -220,13 +220,13 @@
     "relativePath": "prefab/webview.prefab"
   },
   "bb9bfb9b-c93f-4377-ad55-664f4a33efd1": {
-    "asset": 1499908598000,
-    "meta": 1499908625000,
+    "asset": 1499909313000,
+    "meta": 1499925672000,
     "relativePath": "Prefab"
   },
   "27970402-800f-417d-a966-df40f811de67": {
-    "asset": 1499908598000,
-    "meta": 1499908625000,
+    "asset": 1499909273000,
+    "meta": 1499909273000,
     "relativePath": "Prefab/Chess_prefab.prefab"
   },
   "25f9fc3c-e855-42d2-bf8a-e55f5838257b": {
@@ -250,8 +250,8 @@
     "relativePath": "Scene"
   },
   "06dcba75-d4b8-423a-bdee-f3cc98b9fe4f": {
-    "asset": 1499908598000,
-    "meta": 1499908625000,
+    "asset": 1500538522000,
+    "meta": 1500538522000,
     "relativePath": "Scene/game.fire"
   },
   "2d2f792f-a40c-49bb-a189-ed176a246e49": {
@@ -289,14 +289,19 @@
     "meta": 1499908625000,
     "relativePath": "Texture/test.png"
   },
+  "41351763-e318-4b91-81b5-0009e51b32e3": {
+    "asset": 1499910622000,
+    "meta": 1499910622000,
+    "relativePath": "Prefab/Chess_null_prefab.prefab"
+  },
   "3471a021-e4cc-4537-98de-605e76dd28d1": {
-    "asset": 1499908598000,
-    "meta": 1499908625000,
+    "asset": 1499929279000,
+    "meta": 1499929283000,
     "relativePath": "Script/PZ.js"
   },
   "10e84cdf-4fd5-4653-aab9-06d6d2e87d1f": {
-    "asset": 1499908598000,
-    "meta": 1499908625000,
+    "asset": 1500538339000,
+    "meta": 1500538340000,
     "relativePath": "Script/Game.js"
   }
 }

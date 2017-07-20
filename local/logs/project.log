@@ -1,160 +1,2290 @@
-2017-07-13T01:17:20.773Z - normal: Load ~/.CocosCreator/settings.json
-2017-07-13T01:17:20.776Z - normal: checking language setting...
-2017-07-13T01:17:20.776Z - normal: Language: zh
-2017-07-13T01:17:21.051Z - success: protocol editor-framework registered
-2017-07-13T01:17:21.051Z - success: protocol app registered
-2017-07-13T01:17:21.051Z - success: protocol theme registered
-2017-07-13T01:17:21.051Z - success: protocol profile registered
-2017-07-13T01:17:21.051Z - success: protocol packages registered
-2017-07-13T01:17:21.054Z - success: protocol unpack registerred
-2017-07-13T01:17:21.054Z - success: protocol disable-commonjs registerred
-2017-07-13T01:17:21.419Z - normal: connected!
-2017-07-13T01:17:21.422Z - normal: Check project /Users/yzz/ANQI/CoT_AQ
-2017-07-13T01:17:21.423Z - normal: Initializing Cocos2d
-2017-07-13T01:17:21.541Z - normal: Initializing Asset Database
-2017-07-13T01:17:21.564Z - success: protocol uuid registerred
-2017-07-13T01:17:21.564Z - success: protocol db registerred
-2017-07-13T01:17:21.564Z - success: protocol thumbnail registerred
-2017-07-13T01:17:21.564Z - normal: Loading editor/builtin packages
-2017-07-13T01:17:21.579Z - success: anysdk loaded
-2017-07-13T01:17:21.678Z - success: assets loaded
-2017-07-13T01:17:21.681Z - success: builder loaded
-2017-07-13T01:17:21.685Z - success: hierarchy loaded
-2017-07-13T01:17:21.689Z - success: inspector loaded
-2017-07-13T01:17:21.690Z - success: keystore loaded
-2017-07-13T01:17:21.693Z - success: node-library loaded
-2017-07-13T01:17:21.695Z - success: package-asset loaded
-2017-07-13T01:17:21.696Z - success: preferences loaded
-2017-07-13T01:17:21.708Z - success: project-importer loaded
-2017-07-13T01:17:21.710Z - success: project-settings loaded
-2017-07-13T01:17:21.713Z - success: ui-kit loaded
-2017-07-13T01:17:21.716Z - success: ui-grid loaded
-2017-07-13T01:17:21.720Z - success: scene loaded
-2017-07-13T01:17:21.721Z - success: sprite-editor loaded
-2017-07-13T01:17:21.724Z - success: store loaded
-2017-07-13T01:17:21.728Z - success: timeline loaded
-2017-07-13T01:17:21.728Z - normal: Loading builtin packages
-2017-07-13T01:17:21.732Z - success: asset-db-debugger loaded
-2017-07-13T01:17:21.733Z - success: code-editor loaded
-2017-07-13T01:17:21.734Z - success: color-picker loaded
-2017-07-13T01:17:21.738Z - success: console loaded
-2017-07-13T01:17:21.741Z - success: package-manager loaded
-2017-07-13T01:17:21.751Z - success: sdkbox loaded
-2017-07-13T01:17:21.755Z - success: tester loaded
-2017-07-13T01:17:21.759Z - success: ui-kit-preview-extra loaded
-2017-07-13T01:17:21.762Z - success: ui-kit-preview loaded
-2017-07-13T01:17:21.764Z - success: ui-tree loaded
-2017-07-13T01:17:22.367Z - normal: Initializing project /Users/yzz/ANQI/CoT_AQ
-2017-07-13T01:17:22.369Z - normal: Loading packages
-2017-07-13T01:17:22.374Z - normal: Watching packages
-2017-07-13T01:17:22.384Z - normal: Run Application
-2017-07-13T01:17:22.622Z - success: preview server running at http://localhost:7456
-2017-07-13T01:17:25.898Z - normal: 1.5.1
-2017-07-13T01:17:26.070Z - warn: The 'type' attribute of '5511.chessList' is undefined when loading script
-2017-07-13T01:18:14.889Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 981.00
-2017-07-13T01:18:14.889Z - normal: Simulator: FRAME SCALE = 1.00
-2017-07-13T01:18:14.896Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
-2017-07-13T01:18:14.968Z - normal: Simulator: 
-2017-07-13T01:18:14.968Z - normal: Simulator: {
-2017-07-13T01:18:14.969Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
-2017-07-13T01:18:14.969Z - normal: Simulator: 	gl.supports_vertex_array_object: true
-2017-07-13T01:18:14.969Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
-2017-07-13T01:18:14.969Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
-2017-07-13T01:18:14.969Z - normal: Simulator: 	gl.supports_PVRTC: false
-2017-07-13T01:18:14.969Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
-2017-07-13T01:18:14.969Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
-2017-07-13T01:18:14.970Z - normal: Simulator: 	gl.max_texture_size: 16384
-2017-07-13T01:18:14.983Z - normal: Simulator: 	gl.supports_ETC1: false
-2017-07-13T01:18:14.983Z - normal: Simulator: 	gl.supports_BGRA8888: false
-2017-07-13T01:18:14.983Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
-2017-07-13T01:18:14.984Z - normal: Simulator: 	gl.max_texture_units: 16
-2017-07-13T01:18:14.984Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
-2017-07-13T01:18:14.984Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
-2017-07-13T01:18:14.984Z - normal: Simulator: 	gl.supports_NPOT: true
-2017-07-13T01:18:14.984Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.18.5 378.05.05.15f01
-2017-07-13T01:18:14.984Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
-2017-07-13T01:18:14.985Z - normal: Simulator: 	gl.supports_OES_depth24: false
-2017-07-13T01:18:14.985Z - normal: Simulator: }
-2017-07-13T01:18:14.985Z - normal: Simulator: 
-2017-07-13T01:18:14.985Z - normal: Simulator: 
-2017-07-13T01:18:14.985Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
-2017-07-13T01:18:14.985Z - normal: Simulator: Project Config:
-2017-07-13T01:18:14.985Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
-2017-07-13T01:18:14.985Z - normal: Simulator:     writable path: $(PROJDIR)/
-2017-07-13T01:18:14.986Z - normal: Simulator:     script file: $(PROJDIR)/main.js
-2017-07-13T01:18:14.986Z - normal: Simulator:     frame size: 960 x 640
-2017-07-13T01:18:14.986Z - normal: Simulator:     frame scale: 1.00
-2017-07-13T01:18:14.986Z - normal: Simulator:     show console: NO
-2017-07-13T01:18:14.986Z - normal: Simulator:     write debug log: NO ()
-2017-07-13T01:18:14.986Z - normal: Simulator:     listen: 
-2017-07-13T01:18:14.986Z - normal: Simulator:     debugger: none
-2017-07-13T01:18:14.987Z - normal: Simulator:     add searching path:
-2017-07-13T01:18:14.987Z - normal: Simulator: ------------------------------------------------
-2017-07-13T01:18:14.987Z - normal: Simulator: LOAD Js FILE: main.js
-2017-07-13T01:18:14.987Z - normal: Simulator: ------------------------------------------------
-2017-07-13T01:18:15.149Z - normal: Simulator: Cocos2d-JS v3.14
-2017-07-13T01:18:15.323Z - normal: Simulator: iShow!
-2017-07-13T01:18:15.968Z - normal: Simulator: btn_statr_onClick
-2017-07-13T01:18:16.018Z - normal: Simulator: 随机14
-2017-07-13T01:18:16.019Z - normal: Simulator: 随机6
-2017-07-13T01:18:16.024Z - normal: Simulator: 随机5
-2017-07-13T01:18:16.025Z - normal: Simulator: 随机12
-2017-07-13T01:18:16.025Z - normal: Simulator: 随机5
-2017-07-13T01:18:16.027Z - normal: Simulator: 随机5
-2017-07-13T01:18:16.029Z - normal: Simulator: 随机10
-2017-07-13T01:18:16.032Z - normal: Simulator: 随机14
-2017-07-13T01:18:16.033Z - normal: Simulator: 随机6
-2017-07-13T01:18:16.034Z - normal: Simulator: 随机14
-2017-07-13T01:18:16.036Z - normal: Simulator: 随机5
-2017-07-13T01:18:16.049Z - normal: Simulator: 随机10
-2017-07-13T01:18:16.050Z - normal: Simulator: 随机8
-2017-07-13T01:18:16.050Z - normal: Simulator: 随机8
-2017-07-13T01:18:16.050Z - normal: Simulator: 随机14
-2017-07-13T01:18:16.051Z - normal: Simulator: 随机5
-2017-07-13T01:18:16.051Z - normal: Simulator: 随机12
-2017-07-13T01:18:16.051Z - normal: Simulator: 随机5
-2017-07-13T01:18:16.051Z - normal: Simulator: 随机5
-2017-07-13T01:18:16.052Z - normal: Simulator: 随机5
-2017-07-13T01:18:16.052Z - normal: Simulator: 随机15
-2017-07-13T01:18:16.052Z - normal: Simulator: 随机10
-2017-07-13T01:18:16.052Z - normal: Simulator: 随机6
-2017-07-13T01:18:16.053Z - normal: Simulator: 随机12
-2017-07-13T01:18:16.053Z - normal: Simulator: 随机8
-2017-07-13T01:18:16.059Z - normal: Simulator: 随机5
-2017-07-13T01:18:16.059Z - normal: Simulator: 随机8
-2017-07-13T01:18:16.060Z - normal: Simulator: 随机6
-2017-07-13T01:18:16.061Z - normal: Simulator: 随机5
-2017-07-13T01:18:16.061Z - normal: Simulator: 随机12
-2017-07-13T01:18:16.062Z - normal: Simulator: 随机10
-2017-07-13T01:18:16.062Z - normal: Simulator: 随机15
-2017-07-13T01:18:16.617Z - normal: Simulator: 19
-2017-07-13T01:18:16.717Z - normal: Simulator: 不销毁
-2017-07-13T01:18:16.918Z - normal: Simulator: 18
-2017-07-13T01:18:17.033Z - normal: Simulator: 不销毁
-2017-07-13T01:18:17.519Z - normal: Simulator: 18
-2017-07-13T01:18:17.619Z - normal: Simulator: 不销毁
-2017-07-13T01:18:17.916Z - normal: Simulator: 10
-2017-07-13T01:18:18.045Z - normal: Simulator: 不销毁
-2017-07-13T01:18:18.306Z - normal: Simulator: 11
-2017-07-13T01:18:18.421Z - normal: Simulator: 不销毁
-2017-07-13T01:18:18.797Z - normal: Simulator: 12
-2017-07-13T01:18:18.913Z - normal: Simulator: 不销毁
-2017-07-13T01:18:19.113Z - normal: Simulator: 20
-2017-07-13T01:18:19.228Z - normal: Simulator: 不销毁
-2017-07-13T01:18:19.413Z - normal: Simulator: 21
-2017-07-13T01:18:19.512Z - normal: Simulator: 不销毁
-2017-07-13T01:18:19.680Z - normal: Simulator: 13
-2017-07-13T01:18:19.796Z - normal: Simulator: 不销毁
-2017-07-13T01:18:19.996Z - normal: Simulator: 22
-2017-07-13T01:18:20.097Z - normal: Simulator: 不销毁
-2017-07-13T01:18:20.213Z - normal: Simulator: 14
-2017-07-13T01:18:20.329Z - normal: Simulator: 不销毁
-2017-07-13T01:18:20.480Z - normal: Simulator: 23
-2017-07-13T01:18:20.596Z - normal: Simulator: 不销毁
-2017-07-13T01:18:20.679Z - normal: Simulator: 15
-2017-07-13T01:18:20.830Z - normal: Simulator: 不销毁
-2017-07-13T01:18:22.233Z - normal: Simulator: basic_object_finalize 0x15d42af0 ...
-2017-07-13T01:18:22.234Z - normal: Simulator: jsbindings: finalizing JS object 0x15d42b20 (WebSocket)
-2017-07-13T01:18:22.234Z - normal: Simulator: jsbindings: finalizing JS object 0x15d42b50 (SocketIO)
-2017-07-13T01:18:22.234Z - normal: Simulator: basic_object_finalize 0x15d42be0 ...
-2017-07-13T01:18:22.234Z - normal: Simulator: basic_object_finalize 0x15d42e80 ...
+2017-07-20T06:03:26.291Z - normal: Load ~/.CocosCreator/settings.json
+2017-07-20T06:03:26.294Z - normal: checking language setting...
+2017-07-20T06:03:26.294Z - normal: Language: zh
+2017-07-20T06:03:26.614Z - success: protocol editor-framework registered
+2017-07-20T06:03:26.614Z - success: protocol app registered
+2017-07-20T06:03:26.614Z - success: protocol theme registered
+2017-07-20T06:03:26.614Z - success: protocol profile registered
+2017-07-20T06:03:26.614Z - success: protocol packages registered
+2017-07-20T06:03:26.617Z - success: protocol unpack registerred
+2017-07-20T06:03:26.617Z - success: protocol disable-commonjs registerred
+2017-07-20T06:03:26.958Z - normal: connected!
+2017-07-20T06:03:26.961Z - normal: Check project /Users/yzz/ANQI/CoT_AQ
+2017-07-20T06:03:26.962Z - normal: Initializing Cocos2d
+2017-07-20T06:03:27.131Z - normal: Initializing Asset Database
+2017-07-20T06:03:27.159Z - success: protocol uuid registerred
+2017-07-20T06:03:27.159Z - success: protocol db registerred
+2017-07-20T06:03:27.160Z - success: protocol thumbnail registerred
+2017-07-20T06:03:27.160Z - normal: Loading editor/builtin packages
+2017-07-20T06:03:27.182Z - success: anysdk loaded
+2017-07-20T06:03:27.293Z - success: assets loaded
+2017-07-20T06:03:27.296Z - success: builder loaded
+2017-07-20T06:03:27.300Z - success: hierarchy loaded
+2017-07-20T06:03:27.304Z - success: inspector loaded
+2017-07-20T06:03:27.305Z - success: keystore loaded
+2017-07-20T06:03:27.308Z - success: node-library loaded
+2017-07-20T06:03:27.310Z - success: package-asset loaded
+2017-07-20T06:03:27.311Z - success: preferences loaded
+2017-07-20T06:03:27.323Z - success: project-importer loaded
+2017-07-20T06:03:27.326Z - success: project-settings loaded
+2017-07-20T06:03:27.329Z - success: ui-kit loaded
+2017-07-20T06:03:27.333Z - success: ui-grid loaded
+2017-07-20T06:03:27.336Z - success: scene loaded
+2017-07-20T06:03:27.338Z - success: sprite-editor loaded
+2017-07-20T06:03:27.341Z - success: store loaded
+2017-07-20T06:03:27.345Z - success: timeline loaded
+2017-07-20T06:03:27.346Z - normal: Loading builtin packages
+2017-07-20T06:03:27.349Z - success: asset-db-debugger loaded
+2017-07-20T06:03:27.350Z - success: code-editor loaded
+2017-07-20T06:03:27.351Z - success: color-picker loaded
+2017-07-20T06:03:27.355Z - success: console loaded
+2017-07-20T06:03:27.358Z - success: package-manager loaded
+2017-07-20T06:03:27.368Z - success: sdkbox loaded
+2017-07-20T06:03:27.372Z - success: tester loaded
+2017-07-20T06:03:27.375Z - success: ui-kit-preview-extra loaded
+2017-07-20T06:03:27.379Z - success: ui-kit-preview loaded
+2017-07-20T06:03:27.382Z - success: ui-tree loaded
+2017-07-20T06:03:28.140Z - normal: Initializing project /Users/yzz/ANQI/CoT_AQ
+2017-07-20T06:03:28.148Z - normal: Loading packages
+2017-07-20T06:03:28.154Z - normal: Watching packages
+2017-07-20T06:03:28.166Z - normal: Run Application
+2017-07-20T06:03:28.510Z - success: preview server running at http://localhost:7456
+2017-07-20T06:03:32.080Z - normal: 1.5.1
+2017-07-20T06:03:32.221Z - warn: The 'type' attribute of '5511.chessList' is undefined when loading script
+2017-07-20T06:07:37.680Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 981.00
+2017-07-20T06:07:37.682Z - normal: Simulator: FRAME SCALE = 1.00
+2017-07-20T06:07:37.689Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-07-20T06:07:38.354Z - normal: Simulator: 
+2017-07-20T06:07:38.365Z - normal: Simulator: {
+2017-07-20T06:07:38.368Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-07-20T06:07:38.368Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-07-20T06:07:38.369Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
+2017-07-20T06:07:38.369Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2017-07-20T06:07:38.369Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-07-20T06:07:38.369Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2017-07-20T06:07:38.369Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-07-20T06:07:38.369Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-07-20T06:07:38.369Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-07-20T06:07:38.370Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-07-20T06:07:38.370Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-07-20T06:07:38.370Z - normal: Simulator: 	gl.max_texture_units: 16
+2017-07-20T06:07:38.370Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-07-20T06:07:38.370Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-07-20T06:07:38.370Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-07-20T06:07:38.370Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.18.5 378.05.05.15f01
+2017-07-20T06:07:38.370Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-07-20T06:07:38.371Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-07-20T06:07:38.371Z - normal: Simulator: }
+2017-07-20T06:07:38.371Z - normal: Simulator: 
+2017-07-20T06:07:38.371Z - normal: Simulator: 
+2017-07-20T06:07:38.372Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-07-20T06:07:38.376Z - normal: Simulator: Project Config:
+2017-07-20T06:07:38.376Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2017-07-20T06:07:38.376Z - normal: Simulator:     writable path: $(PROJDIR)/
+2017-07-20T06:07:38.376Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2017-07-20T06:07:38.376Z - normal: Simulator:     frame size: 960 x 640
+2017-07-20T06:07:38.376Z - normal: Simulator:     frame scale: 1.00
+2017-07-20T06:07:38.377Z - normal: Simulator:     show console: NO
+2017-07-20T06:07:38.377Z - normal: Simulator:     write debug log: NO ()
+2017-07-20T06:07:38.377Z - normal: Simulator:     listen: 
+2017-07-20T06:07:38.377Z - normal: Simulator:     debugger: none
+2017-07-20T06:07:38.377Z - normal: Simulator:     add searching path:
+2017-07-20T06:07:38.377Z - normal: Simulator: 
+2017-07-20T06:07:38.378Z - normal: Simulator: 
+2017-07-20T06:07:38.378Z - normal: Simulator: 
+2017-07-20T06:07:38.378Z - normal: Simulator: ------------------------------------------------
+2017-07-20T06:07:38.378Z - normal: Simulator: LOAD Js FILE: main.js
+2017-07-20T06:07:38.378Z - normal: Simulator: ------------------------------------------------
+2017-07-20T06:07:38.540Z - normal: Simulator: Cocos2d-JS v3.14
+2017-07-20T06:07:38.701Z - normal: Simulator: iShow!
+2017-07-20T06:07:38.925Z - normal: Simulator: 随机15
+2017-07-20T06:07:38.927Z - normal: Simulator: 随机5
+2017-07-20T06:07:38.929Z - normal: Simulator: 随机12
+2017-07-20T06:07:38.930Z - normal: Simulator: 随机6
+2017-07-20T06:07:38.931Z - normal: Simulator: 随机8
+2017-07-20T06:07:38.932Z - normal: Simulator: 随机6
+2017-07-20T06:07:38.934Z - normal: Simulator: 随机12
+2017-07-20T06:07:38.935Z - normal: Simulator: 随机6
+2017-07-20T06:07:38.937Z - normal: Simulator: 随机5
+2017-07-20T06:07:38.942Z - normal: Simulator: 随机5
+2017-07-20T06:07:38.942Z - normal: Simulator: 随机8
+2017-07-20T06:07:38.942Z - normal: Simulator: 随机5
+2017-07-20T06:07:38.943Z - normal: Simulator: 随机12
+2017-07-20T06:07:38.944Z - normal: Simulator: 随机14
+2017-07-20T06:07:38.947Z - normal: Simulator: 随机5
+2017-07-20T06:07:38.947Z - normal: Simulator: 随机14
+2017-07-20T06:07:38.947Z - normal: Simulator: 随机5
+2017-07-20T06:07:38.950Z - normal: Simulator: 随机10
+2017-07-20T06:07:38.950Z - normal: Simulator: 随机5
+2017-07-20T06:07:38.952Z - normal: Simulator: 随机5
+2017-07-20T06:07:38.953Z - normal: Simulator: 随机14
+2017-07-20T06:07:38.964Z - normal: Simulator: 随机5
+2017-07-20T06:07:38.964Z - normal: Simulator: 随机10
+2017-07-20T06:07:38.964Z - normal: Simulator: 随机5
+2017-07-20T06:07:38.964Z - normal: Simulator: 随机15
+2017-07-20T06:07:38.965Z - normal: Simulator: 随机6
+2017-07-20T06:07:38.965Z - normal: Simulator: 随机14
+2017-07-20T06:07:38.965Z - normal: Simulator: 随机10
+2017-07-20T06:07:38.965Z - normal: Simulator: 随机8
+2017-07-20T06:07:38.966Z - normal: Simulator: 随机8
+2017-07-20T06:07:38.966Z - normal: Simulator: 随机12
+2017-07-20T06:07:38.966Z - normal: Simulator: 随机10
+2017-07-20T06:07:39.467Z - normal: Simulator: 19
+2017-07-20T06:07:39.548Z - normal: Simulator: 不销毁
+2017-07-20T06:07:39.766Z - normal: Simulator: 11
+2017-07-20T06:07:39.849Z - normal: Simulator: 不销毁
+2017-07-20T06:07:40.266Z - normal: Simulator: 18
+2017-07-20T06:07:40.351Z - normal: Simulator: 不销毁
+2017-07-20T06:07:40.616Z - normal: Simulator: 10
+2017-07-20T06:07:40.731Z - normal: Simulator: 不销毁
+2017-07-20T06:07:41.082Z - normal: Simulator: 17
+2017-07-20T06:07:41.182Z - normal: Simulator: 不销毁
+2017-07-20T06:07:41.415Z - normal: Simulator: 9
+2017-07-20T06:07:41.531Z - normal: Simulator: 不销毁
+2017-07-20T06:07:41.866Z - normal: Simulator: 16
+2017-07-20T06:07:41.948Z - normal: Simulator: 不销毁
+2017-07-20T06:07:42.216Z - normal: Simulator: 8
+2017-07-20T06:07:42.332Z - normal: Simulator: 不销毁
+2017-07-20T06:07:43.449Z - normal: Simulator: 8
+2017-07-20T06:07:43.549Z - normal: Simulator: 不销毁
+2017-07-20T06:07:43.798Z - normal: Simulator: 8
+2017-07-20T06:07:44.216Z - normal: Simulator: 销毁
+2017-07-20T06:07:44.216Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T06:07:45.017Z - normal: Simulator: 8
+2017-07-20T06:07:45.098Z - normal: Simulator: 不销毁
+2017-07-20T06:07:45.332Z - normal: Simulator: 8
+2017-07-20T06:07:45.898Z - normal: Simulator: 销毁
+2017-07-20T06:07:45.898Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T06:07:46.533Z - normal: Simulator: 8
+2017-07-20T06:07:47.121Z - normal: Simulator: 销毁
+2017-07-20T06:07:47.121Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T06:07:47.533Z - normal: Simulator: 8
+2017-07-20T06:07:48.000Z - normal: Simulator: 销毁
+2017-07-20T06:07:48.000Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T06:07:48.382Z - normal: Simulator: 8
+2017-07-20T06:07:48.771Z - normal: Simulator: 销毁
+2017-07-20T06:07:48.771Z - normal: Simulator: 同色不销毁
+2017-07-20T06:07:49.217Z - normal: Simulator: 11
+2017-07-20T06:07:49.865Z - normal: Simulator: 8
+2017-07-20T06:07:50.282Z - normal: Simulator: 销毁
+2017-07-20T06:07:50.282Z - normal: Simulator: 同色不销毁
+2017-07-20T06:07:51.100Z - normal: Simulator: 20
+2017-07-20T06:07:51.215Z - normal: Simulator: 不销毁
+2017-07-20T06:07:51.368Z - normal: Simulator: 12
+2017-07-20T06:07:51.498Z - normal: Simulator: 不销毁
+2017-07-20T06:07:51.802Z - normal: Simulator: 21
+2017-07-20T06:07:51.916Z - normal: Simulator: 不销毁
+2017-07-20T06:07:52.100Z - normal: Simulator: 13
+2017-07-20T06:07:52.198Z - normal: Simulator: 不销毁
+2017-07-20T06:07:52.851Z - normal: Simulator: 20
+2017-07-20T06:07:53.491Z - normal: Simulator: 20
+2017-07-20T06:07:54.122Z - normal: Simulator: 20
+2017-07-20T06:07:54.215Z - normal: Simulator: 不销毁
+2017-07-20T06:07:54.398Z - normal: Simulator: 20
+2017-07-20T06:07:54.698Z - normal: Simulator: 销毁
+2017-07-20T06:07:55.350Z - normal: Simulator: 13
+2017-07-20T06:07:55.507Z - normal: Simulator: 不销毁
+2017-07-20T06:07:55.765Z - normal: Simulator: 13
+2017-07-20T06:07:56.198Z - normal: Simulator: 销毁
+2017-07-20T06:07:56.198Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T06:07:56.715Z - normal: Simulator: 13
+2017-07-20T06:07:57.114Z - normal: Simulator: 不销毁
+2017-07-20T06:07:57.632Z - normal: Simulator: 13
+2017-07-20T06:07:57.949Z - normal: Simulator: 销毁
+2017-07-20T06:07:58.248Z - normal: Simulator: 11
+2017-07-20T06:07:58.998Z - normal: Simulator: 11
+2017-07-20T06:07:59.365Z - normal: Simulator: 不销毁
+2017-07-20T06:07:59.615Z - normal: Simulator: 11
+2017-07-20T06:07:59.748Z - normal: Simulator: 不销毁
+2017-07-20T06:07:59.990Z - normal: Simulator: 11
+2017-07-20T06:08:00.582Z - normal: Simulator: 销毁
+2017-07-20T06:08:00.582Z - normal: Simulator: 同色不销毁
+2017-07-20T06:08:01.315Z - normal: Simulator: 11
+2017-07-20T06:08:01.399Z - normal: Simulator: 不销毁
+2017-07-20T06:08:01.882Z - normal: Simulator: 11
+2017-07-20T06:08:02.615Z - normal: Simulator: 不销毁
+2017-07-20T06:08:03.049Z - normal: Simulator: 11
+2017-07-20T06:08:03.648Z - normal: Simulator: 销毁
+2017-07-20T06:08:03.648Z - normal: Simulator: 同色不销毁
+2017-07-20T06:08:04.099Z - normal: Simulator: 10
+2017-07-20T06:08:05.115Z - normal: Simulator: 10
+2017-07-20T06:08:05.215Z - normal: Simulator: 不销毁
+2017-07-20T06:08:05.465Z - normal: Simulator: 10
+2017-07-20T06:08:06.065Z - normal: Simulator: 销毁
+2017-07-20T06:08:06.504Z - normal: Simulator: 10
+2017-07-20T06:08:06.615Z - normal: Simulator: 不销毁
+2017-07-20T06:08:06.798Z - normal: Simulator: 10
+2017-07-20T06:08:07.205Z - normal: Simulator: 销毁
+2017-07-20T06:08:07.206Z - normal: Simulator: 同色不销毁
+2017-07-20T06:08:07.998Z - normal: Simulator: 11
+2017-07-20T06:08:08.098Z - normal: Simulator: 不销毁
+2017-07-20T06:08:08.288Z - normal: Simulator: 11
+2017-07-20T06:08:08.848Z - normal: Simulator: 销毁
+2017-07-20T06:08:08.848Z - normal: Simulator: 同色不销毁
+2017-07-20T06:08:49.615Z - normal: Simulator: basic_object_finalize 0x15c42af0 ...
+2017-07-20T06:08:49.615Z - normal: Simulator: jsbindings: finalizing JS object 0x15c42b20 (WebSocket)
+2017-07-20T06:08:49.615Z - normal: Simulator: jsbindings: finalizing JS object 0x15c42b50 (SocketIO)
+2017-07-20T06:08:49.615Z - normal: Simulator: basic_object_finalize 0x15c42be0 ...
+2017-07-20T06:08:49.615Z - normal: Simulator: basic_object_finalize 0x15c42e80 ...
+2017-07-20T06:45:50.182Z - normal: Compiled project javascript file successfully
+2017-07-20T06:45:50.230Z - warn: The 'type' attribute of '5511.chessList' is undefined when loading script
+2017-07-20T06:46:04.217Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 981.00
+2017-07-20T06:46:04.217Z - normal: Simulator: FRAME SCALE = 1.00
+2017-07-20T06:46:04.219Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-07-20T06:46:04.908Z - normal: Simulator: 
+2017-07-20T06:46:04.908Z - normal: Simulator: {
+2017-07-20T06:46:04.908Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-07-20T06:46:04.909Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-07-20T06:46:04.909Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
+2017-07-20T06:46:04.909Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2017-07-20T06:46:04.928Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-07-20T06:46:04.928Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2017-07-20T06:46:04.929Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-07-20T06:46:04.929Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-07-20T06:46:04.929Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-07-20T06:46:04.929Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-07-20T06:46:04.929Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-07-20T06:46:04.929Z - normal: Simulator: 	gl.max_texture_units: 16
+2017-07-20T06:46:04.929Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-07-20T06:46:04.929Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-07-20T06:46:04.929Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-07-20T06:46:04.930Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.18.5 378.05.05.15f01
+2017-07-20T06:46:04.930Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-07-20T06:46:04.930Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-07-20T06:46:04.930Z - normal: Simulator: }
+2017-07-20T06:46:04.930Z - normal: Simulator: 
+2017-07-20T06:46:04.930Z - normal: Simulator: 
+2017-07-20T06:46:04.930Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-07-20T06:46:04.931Z - normal: Simulator: Project Config:
+2017-07-20T06:46:04.931Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2017-07-20T06:46:04.932Z - normal: Simulator:     writable path: $(PROJDIR)/
+2017-07-20T06:46:04.932Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2017-07-20T06:46:04.932Z - normal: Simulator:     frame size: 960 x 640
+2017-07-20T06:46:04.932Z - normal: Simulator:     frame scale: 1.00
+2017-07-20T06:46:04.933Z - normal: Simulator:     show console: NO
+2017-07-20T06:46:04.933Z - normal: Simulator:     write debug log: NO ()
+2017-07-20T06:46:04.933Z - normal: Simulator:     listen: 
+2017-07-20T06:46:04.933Z - normal: Simulator:     debugger: none
+2017-07-20T06:46:04.933Z - normal: Simulator:     add searching path:
+2017-07-20T06:46:04.934Z - normal: Simulator: 
+2017-07-20T06:46:04.934Z - normal: Simulator: 
+2017-07-20T06:46:04.934Z - normal: Simulator: 
+2017-07-20T06:46:04.934Z - normal: Simulator: ------------------------------------------------
+2017-07-20T06:46:04.935Z - normal: Simulator: LOAD Js FILE: main.js
+2017-07-20T06:46:04.935Z - normal: Simulator: ------------------------------------------------
+2017-07-20T06:46:04.975Z - normal: Simulator: Cocos2d-JS v3.14
+2017-07-20T06:46:05.129Z - normal: Simulator: iShow!
+2017-07-20T06:46:05.963Z - normal: Simulator: 18
+2017-07-20T06:46:06.069Z - normal: Simulator: 不销毁
+2017-07-20T06:46:06.404Z - normal: Simulator: 19
+2017-07-20T06:46:06.520Z - normal: Simulator: 不销毁
+2017-07-20T06:46:06.920Z - normal: Simulator: 11
+2017-07-20T06:46:07.019Z - normal: Simulator: 不销毁
+2017-07-20T06:46:07.287Z - normal: Simulator: 10
+2017-07-20T06:46:07.402Z - normal: Simulator: 不销毁
+2017-07-20T06:46:07.820Z - normal: Simulator: 9
+2017-07-20T06:46:07.920Z - normal: Simulator: 不销毁
+2017-07-20T06:46:08.420Z - normal: Simulator: 18
+2017-07-20T06:46:08.536Z - normal: Simulator: 不销毁
+2017-07-20T06:46:08.886Z - normal: Simulator: 18
+2017-07-20T06:46:09.637Z - normal: Simulator: 销毁
+2017-07-20T06:46:09.637Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T06:46:10.453Z - normal: Simulator: 18
+2017-07-20T06:46:11.270Z - normal: Simulator: 不销毁
+2017-07-20T06:46:11.936Z - normal: Simulator: 18
+2017-07-20T06:46:12.403Z - normal: Simulator: 不销毁
+2017-07-20T06:46:14.759Z - normal: Simulator: basic_object_finalize 0x13042af0 ...
+2017-07-20T06:46:14.760Z - normal: Simulator: jsbindings: finalizing JS object 0x13042b20 (WebSocket)
+2017-07-20T06:46:14.760Z - normal: Simulator: jsbindings: finalizing JS object 0x13042b50 (SocketIO)
+2017-07-20T06:46:14.760Z - normal: Simulator: basic_object_finalize 0x13042be0 ...
+2017-07-20T06:46:14.760Z - normal: Simulator: basic_object_finalize 0x13042e80 ...
+2017-07-20T06:48:48.499Z - normal: Compiled project javascript file successfully
+2017-07-20T06:48:48.541Z - warn: The 'type' attribute of '5511.chessList' is undefined when loading script
+2017-07-20T06:48:49.295Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 981.00
+2017-07-20T06:48:49.296Z - normal: Simulator: FRAME SCALE = 1.00
+2017-07-20T06:48:49.297Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-07-20T06:48:49.974Z - normal: Simulator: 
+2017-07-20T06:48:49.974Z - normal: Simulator: {
+2017-07-20T06:48:49.975Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-07-20T06:48:49.975Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-07-20T06:48:50.002Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
+2017-07-20T06:48:50.003Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2017-07-20T06:48:50.003Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-07-20T06:48:50.003Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2017-07-20T06:48:50.003Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-07-20T06:48:50.004Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-07-20T06:48:50.004Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-07-20T06:48:50.004Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-07-20T06:48:50.004Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-07-20T06:48:50.005Z - normal: Simulator: 	gl.max_texture_units: 16
+2017-07-20T06:48:50.005Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-07-20T06:48:50.006Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-07-20T06:48:50.006Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-07-20T06:48:50.006Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.18.5 378.05.05.15f01
+2017-07-20T06:48:50.006Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-07-20T06:48:50.006Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-07-20T06:48:50.007Z - normal: Simulator: }
+2017-07-20T06:48:50.007Z - normal: Simulator: 
+2017-07-20T06:48:50.007Z - normal: Simulator: 
+2017-07-20T06:48:50.007Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-07-20T06:48:50.009Z - normal: Simulator: Project Config:
+2017-07-20T06:48:50.009Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2017-07-20T06:48:50.009Z - normal: Simulator:     writable path: $(PROJDIR)/
+2017-07-20T06:48:50.010Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2017-07-20T06:48:50.010Z - normal: Simulator:     frame size: 960 x 640
+2017-07-20T06:48:50.010Z - normal: Simulator:     frame scale: 1.00
+2017-07-20T06:48:50.010Z - normal: Simulator:     show console: NO
+2017-07-20T06:48:50.010Z - normal: Simulator:     write debug log: NO ()
+2017-07-20T06:48:50.010Z - normal: Simulator:     listen: 
+2017-07-20T06:48:50.011Z - normal: Simulator:     debugger: none
+2017-07-20T06:48:50.011Z - normal: Simulator:     add searching path:
+2017-07-20T06:48:50.011Z - normal: Simulator: 
+2017-07-20T06:48:50.011Z - normal: Simulator: 
+2017-07-20T06:48:50.011Z - normal: Simulator: 
+2017-07-20T06:48:50.012Z - normal: Simulator: ------------------------------------------------
+2017-07-20T06:48:50.013Z - normal: Simulator: LOAD Js FILE: main.js
+2017-07-20T06:48:50.013Z - normal: Simulator: ------------------------------------------------
+2017-07-20T06:48:50.048Z - normal: Simulator: Cocos2d-JS v3.14
+2017-07-20T06:48:50.191Z - normal: Simulator: iShow!
+2017-07-20T06:48:51.001Z - normal: Simulator: 19
+2017-07-20T06:48:51.100Z - normal: Simulator: 不销毁
+2017-07-20T06:48:51.634Z - normal: Simulator: 18
+2017-07-20T06:48:51.767Z - normal: Simulator: 不销毁
+2017-07-20T06:48:52.034Z - normal: Simulator: 10
+2017-07-20T06:48:52.136Z - normal: Simulator: 不销毁
+2017-07-20T06:48:52.400Z - normal: Simulator: 12
+2017-07-20T06:48:52.533Z - normal: Simulator: 不销毁
+2017-07-20T06:48:53.000Z - normal: Simulator: 11
+2017-07-20T06:48:53.133Z - normal: Simulator: 不销毁
+2017-07-20T06:48:53.533Z - normal: Simulator: 4
+2017-07-20T06:48:53.666Z - normal: Simulator: 不销毁
+2017-07-20T06:48:53.900Z - normal: Simulator: 3
+2017-07-20T06:48:54.000Z - normal: Simulator: 不销毁
+2017-07-20T06:48:54.201Z - normal: Simulator: 2
+2017-07-20T06:48:54.316Z - normal: Simulator: 不销毁
+2017-07-20T06:48:54.800Z - normal: Simulator: 10
+2017-07-20T06:48:54.900Z - normal: Simulator: 不销毁
+2017-07-20T06:48:55.317Z - normal: Simulator: 10
+2017-07-20T06:48:56.166Z - normal: Simulator: 销毁
+2017-07-20T06:48:57.433Z - normal: Simulator: 10
+2017-07-20T06:48:58.600Z - normal: Simulator: 销毁
+2017-07-20T06:49:00.700Z - normal: Simulator: 10
+2017-07-20T06:49:01.200Z - normal: Simulator: 不销毁
+2017-07-20T06:49:02.915Z - normal: Simulator: basic_object_finalize 0x1b042af0 ...
+2017-07-20T06:49:02.915Z - normal: Simulator: jsbindings: finalizing JS object 0x1b042b20 (WebSocket)
+2017-07-20T06:49:02.915Z - normal: Simulator: jsbindings: finalizing JS object 0x1b042b50 (SocketIO)
+2017-07-20T06:49:02.915Z - normal: Simulator: basic_object_finalize 0x1b042be0 ...
+2017-07-20T06:49:02.915Z - normal: Simulator: basic_object_finalize 0x1b042e80 ...
+2017-07-20T06:51:40.188Z - normal: Compiled project javascript file successfully
+2017-07-20T06:51:40.219Z - warn: The 'type' attribute of '5511.chessList' is undefined when loading script
+2017-07-20T06:51:41.159Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 981.00
+2017-07-20T06:51:41.159Z - normal: Simulator: FRAME SCALE = 1.00
+2017-07-20T06:51:41.161Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-07-20T06:51:41.226Z - normal: Simulator: 
+2017-07-20T06:51:41.227Z - normal: Simulator: {
+2017-07-20T06:51:41.227Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-07-20T06:51:41.227Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-07-20T06:51:41.227Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
+2017-07-20T06:51:41.227Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2017-07-20T06:51:41.247Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-07-20T06:51:41.247Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2017-07-20T06:51:41.247Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-07-20T06:51:41.247Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-07-20T06:51:41.248Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-07-20T06:51:41.248Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-07-20T06:51:41.248Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-07-20T06:51:41.248Z - normal: Simulator: 	gl.max_texture_units: 16
+2017-07-20T06:51:41.248Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-07-20T06:51:41.249Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-07-20T06:51:41.249Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-07-20T06:51:41.249Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.18.5 378.05.05.15f01
+2017-07-20T06:51:41.249Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-07-20T06:51:41.249Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-07-20T06:51:41.249Z - normal: Simulator: }
+2017-07-20T06:51:41.250Z - normal: Simulator: 
+2017-07-20T06:51:41.250Z - normal: Simulator: 
+2017-07-20T06:51:41.250Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-07-20T06:51:41.250Z - normal: Simulator: Project Config:
+2017-07-20T06:51:41.250Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2017-07-20T06:51:41.251Z - normal: Simulator:     writable path: $(PROJDIR)/
+2017-07-20T06:51:41.251Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2017-07-20T06:51:41.251Z - normal: Simulator:     frame size: 960 x 640
+2017-07-20T06:51:41.251Z - normal: Simulator:     frame scale: 1.00
+2017-07-20T06:51:41.251Z - normal: Simulator:     show console: NO
+2017-07-20T06:51:41.251Z - normal: Simulator:     write debug log: NO ()
+2017-07-20T06:51:41.252Z - normal: Simulator:     listen: 
+2017-07-20T06:51:41.252Z - normal: Simulator:     debugger: none
+2017-07-20T06:51:41.252Z - normal: Simulator:     add searching path:
+2017-07-20T06:51:41.253Z - normal: Simulator: ------------------------------------------------
+2017-07-20T06:51:41.254Z - normal: Simulator: LOAD Js FILE: main.js
+2017-07-20T06:51:41.254Z - normal: Simulator: ------------------------------------------------
+2017-07-20T06:51:41.278Z - normal: Simulator: Cocos2d-JS v3.14
+2017-07-20T06:51:41.406Z - normal: Simulator: iShow!
+2017-07-20T06:51:41.980Z - normal: Simulator: 10
+2017-07-20T06:51:42.080Z - normal: Simulator: 不销毁
+2017-07-20T06:51:42.280Z - normal: Simulator: 18
+2017-07-20T06:51:42.396Z - normal: Simulator: 不销毁
+2017-07-20T06:51:42.647Z - normal: Simulator: 17
+2017-07-20T06:51:42.729Z - normal: Simulator: 不销毁
+2017-07-20T06:51:42.931Z - normal: Simulator: 9
+2017-07-20T06:51:43.029Z - normal: Simulator: 不销毁
+2017-07-20T06:51:43.364Z - normal: Simulator: 8
+2017-07-20T06:51:43.479Z - normal: Simulator: 不销毁
+2017-07-20T06:51:43.647Z - normal: Simulator: 16
+2017-07-20T06:51:43.763Z - normal: Simulator: 不销毁
+2017-07-20T06:51:44.147Z - normal: Simulator: 19
+2017-07-20T06:51:44.263Z - normal: Simulator: 不销毁
+2017-07-20T06:51:44.421Z - normal: Simulator: 11
+2017-07-20T06:51:44.529Z - normal: Simulator: 不销毁
+2017-07-20T06:51:44.748Z - normal: Simulator: 20
+2017-07-20T06:51:44.829Z - normal: Simulator: 不销毁
+2017-07-20T06:51:45.047Z - normal: Simulator: 12
+2017-07-20T06:51:45.147Z - normal: Simulator: 不销毁
+2017-07-20T06:51:45.413Z - normal: Simulator: 22
+2017-07-20T06:51:45.513Z - normal: Simulator: 不销毁
+2017-07-20T06:51:45.914Z - normal: Simulator: 21
+2017-07-20T06:51:46.497Z - normal: Simulator: 13
+2017-07-20T06:51:46.630Z - normal: Simulator: 不销毁
+2017-07-20T06:51:46.814Z - normal: Simulator: 14
+2017-07-20T06:51:46.929Z - normal: Simulator: 不销毁
+2017-07-20T06:51:47.297Z - normal: Simulator: 23
+2017-07-20T06:51:47.380Z - normal: Simulator: 不销毁
+2017-07-20T06:51:47.647Z - normal: Simulator: 15
+2017-07-20T06:51:47.796Z - normal: Simulator: 不销毁
+2017-07-20T06:51:50.797Z - normal: Simulator: 17
+2017-07-20T06:51:51.012Z - normal: Simulator: 不销毁
+2017-07-20T06:51:51.446Z - normal: Simulator: 17
+2017-07-20T06:51:52.446Z - normal: Simulator: 销毁
+2017-07-20T06:51:53.563Z - normal: Simulator: 17
+2017-07-20T06:51:54.562Z - normal: Simulator: 不销毁
+2017-07-20T06:51:57.064Z - normal: Simulator: 16
+2017-07-20T06:51:57.396Z - normal: Simulator: 不销毁
+2017-07-20T06:51:57.762Z - normal: Simulator: 16
+2017-07-20T06:51:57.862Z - normal: Simulator: 不销毁
+2017-07-20T06:51:57.946Z - normal: Simulator: 16
+2017-07-20T06:51:58.063Z - normal: Simulator: 不销毁
+2017-07-20T06:51:58.130Z - normal: Simulator: 16
+2017-07-20T06:51:58.263Z - normal: Simulator: 不销毁
+2017-07-20T06:51:59.279Z - normal: Simulator: 17
+2017-07-20T06:52:00.145Z - normal: Simulator: 17
+2017-07-20T06:52:00.262Z - normal: Simulator: 不销毁
+2017-07-20T06:52:00.496Z - normal: Simulator: 17
+2017-07-20T06:52:01.212Z - normal: Simulator: 销毁
+2017-07-20T06:52:02.031Z - normal: Simulator: 17
+2017-07-20T06:52:02.195Z - normal: Simulator: 不销毁
+2017-07-20T06:52:02.380Z - normal: Simulator: 17
+2017-07-20T06:52:02.912Z - normal: Simulator: 销毁
+2017-07-20T06:52:02.912Z - normal: Simulator: 红吃黑--不销毁
+2017-07-20T06:52:04.280Z - normal: Simulator: 10
+2017-07-20T06:52:04.412Z - normal: Simulator: 不销毁
+2017-07-20T06:52:04.679Z - normal: Simulator: 10
+2017-07-20T06:52:05.246Z - normal: Simulator: 销毁
+2017-07-20T06:52:06.180Z - normal: Simulator: 10
+2017-07-20T06:52:06.812Z - normal: Simulator: 不销毁
+2017-07-20T06:52:08.128Z - normal: Simulator: basic_object_finalize 0x16b42af0 ...
+2017-07-20T06:52:08.129Z - normal: Simulator: jsbindings: finalizing JS object 0x16b42b20 (WebSocket)
+2017-07-20T06:52:08.129Z - normal: Simulator: jsbindings: finalizing JS object 0x16b42b50 (SocketIO)
+2017-07-20T06:52:08.129Z - normal: Simulator: basic_object_finalize 0x16b42be0 ...
+2017-07-20T06:52:08.129Z - normal: Simulator: basic_object_finalize 0x16b42e80 ...
+2017-07-20T06:57:51.996Z - normal: Compiled project javascript file successfully
+2017-07-20T06:57:52.027Z - warn: The 'type' attribute of '5511.chessList' is undefined when loading script
+2017-07-20T06:57:52.782Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 981.00
+2017-07-20T06:57:52.783Z - normal: Simulator: FRAME SCALE = 1.00
+2017-07-20T06:57:52.785Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-07-20T06:57:53.476Z - normal: Simulator: 
+2017-07-20T06:57:53.476Z - normal: Simulator: {
+2017-07-20T06:57:53.476Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-07-20T06:57:53.476Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-07-20T06:57:53.477Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
+2017-07-20T06:57:53.477Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2017-07-20T06:57:53.497Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-07-20T06:57:53.498Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2017-07-20T06:57:53.498Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-07-20T06:57:53.498Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-07-20T06:57:53.498Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-07-20T06:57:53.499Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-07-20T06:57:53.499Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-07-20T06:57:53.499Z - normal: Simulator: 	gl.max_texture_units: 16
+2017-07-20T06:57:53.499Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-07-20T06:57:53.499Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-07-20T06:57:53.499Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-07-20T06:57:53.500Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.18.5 378.05.05.15f01
+2017-07-20T06:57:53.500Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-07-20T06:57:53.500Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-07-20T06:57:53.500Z - normal: Simulator: }
+2017-07-20T06:57:53.500Z - normal: Simulator: 
+2017-07-20T06:57:53.501Z - normal: Simulator: 
+2017-07-20T06:57:53.501Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-07-20T06:57:53.501Z - normal: Simulator: Project Config:
+2017-07-20T06:57:53.502Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2017-07-20T06:57:53.502Z - normal: Simulator:     writable path: $(PROJDIR)/
+2017-07-20T06:57:53.502Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2017-07-20T06:57:53.502Z - normal: Simulator:     frame size: 960 x 640
+2017-07-20T06:57:53.502Z - normal: Simulator:     frame scale: 1.00
+2017-07-20T06:57:53.502Z - normal: Simulator:     show console: NO
+2017-07-20T06:57:53.502Z - normal: Simulator:     write debug log: NO ()
+2017-07-20T06:57:53.503Z - normal: Simulator:     listen: 
+2017-07-20T06:57:53.503Z - normal: Simulator:     debugger: none
+2017-07-20T06:57:53.503Z - normal: Simulator:     add searching path:
+2017-07-20T06:57:53.503Z - normal: Simulator: 
+2017-07-20T06:57:53.503Z - normal: Simulator: 
+2017-07-20T06:57:53.503Z - normal: Simulator: 
+2017-07-20T06:57:53.504Z - normal: Simulator: ------------------------------------------------
+2017-07-20T06:57:53.504Z - normal: Simulator: LOAD Js FILE: main.js
+2017-07-20T06:57:53.504Z - normal: Simulator: ------------------------------------------------
+2017-07-20T06:57:53.533Z - normal: Simulator: Cocos2d-JS v3.14
+2017-07-20T06:57:53.683Z - normal: Simulator: iShow!
+2017-07-20T06:57:54.573Z - normal: Simulator: 19
+2017-07-20T06:57:54.656Z - normal: Simulator: 不销毁
+2017-07-20T06:57:55.005Z - normal: Simulator: 18
+2017-07-20T06:57:55.106Z - normal: Simulator: 不销毁
+2017-07-20T06:57:55.389Z - normal: Simulator: 10
+2017-07-20T06:57:55.488Z - normal: Simulator: 不销毁
+2017-07-20T06:57:55.822Z - normal: Simulator: 11
+2017-07-20T06:57:55.922Z - normal: Simulator: 不销毁
+2017-07-20T06:57:56.206Z - normal: Simulator: 12
+2017-07-20T06:57:56.305Z - normal: Simulator: 不销毁
+2017-07-20T06:57:56.589Z - normal: Simulator: 20
+2017-07-20T06:57:56.689Z - normal: Simulator: 不销毁
+2017-07-20T06:57:56.889Z - normal: Simulator: 21
+2017-07-20T06:57:56.988Z - normal: Simulator: 不销毁
+2017-07-20T06:57:57.239Z - normal: Simulator: 13
+2017-07-20T06:57:57.322Z - normal: Simulator: 不销毁
+2017-07-20T06:57:57.589Z - normal: Simulator: 14
+2017-07-20T06:57:57.689Z - normal: Simulator: 不销毁
+2017-07-20T06:57:57.906Z - normal: Simulator: 22
+2017-07-20T06:57:58.022Z - normal: Simulator: 不销毁
+2017-07-20T06:57:58.355Z - normal: Simulator: 23
+2017-07-20T06:57:58.472Z - normal: Simulator: 不销毁
+2017-07-20T06:57:58.672Z - normal: Simulator: 15
+2017-07-20T06:57:58.772Z - normal: Simulator: 不销毁
+2017-07-20T06:57:59.306Z - normal: Simulator: 7
+2017-07-20T06:57:59.405Z - normal: Simulator: 不销毁
+2017-07-20T06:57:59.555Z - normal: Simulator: 6
+2017-07-20T06:57:59.890Z - normal: Simulator: 5
+2017-07-20T06:58:00.005Z - normal: Simulator: 不销毁
+2017-07-20T06:58:00.240Z - normal: Simulator: 4
+2017-07-20T06:58:00.371Z - normal: Simulator: 不销毁
+2017-07-20T06:58:00.640Z - normal: Simulator: 3
+2017-07-20T06:58:00.772Z - normal: Simulator: 不销毁
+2017-07-20T06:58:01.189Z - normal: Simulator: 2
+2017-07-20T06:58:01.272Z - normal: Simulator: 不销毁
+2017-07-20T06:58:01.623Z - normal: Simulator: 1
+2017-07-20T06:58:01.755Z - normal: Simulator: 不销毁
+2017-07-20T06:58:03.306Z - normal: Simulator: 10
+2017-07-20T06:58:03.406Z - normal: Simulator: 不销毁
+2017-07-20T06:58:03.855Z - normal: Simulator: 10
+2017-07-20T06:58:04.523Z - normal: Simulator: 销毁
+2017-07-20T06:58:06.055Z - normal: Simulator: 2
+2017-07-20T06:58:06.455Z - normal: Simulator: 不销毁
+2017-07-20T06:58:06.705Z - normal: Simulator: 2
+2017-07-20T06:58:07.005Z - normal: Simulator: 不销毁
+2017-07-20T06:58:07.555Z - normal: Simulator: 2
+2017-07-20T06:58:08.156Z - normal: Simulator: 销毁
+2017-07-20T06:58:08.156Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T06:58:08.772Z - normal: Simulator: 2
+2017-07-20T06:58:09.605Z - normal: Simulator: 不销毁
+2017-07-20T06:58:11.041Z - normal: Simulator: 9
+2017-07-20T06:58:11.139Z - normal: Simulator: 不销毁
+2017-07-20T06:58:11.539Z - normal: Simulator: 8
+2017-07-20T06:58:11.671Z - normal: Simulator: 不销毁
+2017-07-20T06:58:11.906Z - normal: Simulator: 0
+2017-07-20T06:58:12.038Z - normal: Simulator: 不销毁
+2017-07-20T06:58:12.955Z - normal: Simulator: 0
+2017-07-20T06:58:13.055Z - normal: Simulator: 不销毁
+2017-07-20T06:58:13.271Z - normal: Simulator: 0
+2017-07-20T06:58:13.688Z - normal: Simulator: 销毁
+2017-07-20T06:58:32.996Z - normal: Compiled project javascript file successfully
+2017-07-20T06:58:33.026Z - warn: The 'type' attribute of '5511.chessList' is undefined when loading script
+2017-07-20T06:58:33.564Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 981.00
+2017-07-20T06:58:33.565Z - normal: Simulator: FRAME SCALE = 1.00
+2017-07-20T06:58:33.567Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-07-20T06:58:33.635Z - normal: Simulator: 
+2017-07-20T06:58:33.635Z - normal: Simulator: {
+2017-07-20T06:58:33.635Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-07-20T06:58:33.649Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-07-20T06:58:33.649Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
+2017-07-20T06:58:33.650Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2017-07-20T06:58:33.650Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-07-20T06:58:33.650Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2017-07-20T06:58:33.650Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-07-20T06:58:33.650Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-07-20T06:58:33.650Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-07-20T06:58:33.650Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-07-20T06:58:33.650Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-07-20T06:58:33.651Z - normal: Simulator: 	gl.max_texture_units: 16
+2017-07-20T06:58:33.651Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-07-20T06:58:33.651Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-07-20T06:58:33.651Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-07-20T06:58:33.651Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.18.5 378.05.05.15f01
+2017-07-20T06:58:33.652Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-07-20T06:58:33.652Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-07-20T06:58:33.652Z - normal: Simulator: }
+2017-07-20T06:58:33.652Z - normal: Simulator: 
+2017-07-20T06:58:33.653Z - normal: Simulator: 
+2017-07-20T06:58:33.653Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-07-20T06:58:33.654Z - normal: Simulator: Project Config:
+2017-07-20T06:58:33.654Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2017-07-20T06:58:33.654Z - normal: Simulator:     writable path: $(PROJDIR)/
+2017-07-20T06:58:33.655Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2017-07-20T06:58:33.655Z - normal: Simulator:     frame size: 960 x 640
+2017-07-20T06:58:33.655Z - normal: Simulator:     frame scale: 1.00
+2017-07-20T06:58:33.655Z - normal: Simulator:     show console: NO
+2017-07-20T06:58:33.656Z - normal: Simulator:     write debug log: NO ()
+2017-07-20T06:58:33.656Z - normal: Simulator:     listen: 
+2017-07-20T06:58:33.656Z - normal: Simulator:     debugger: none
+2017-07-20T06:58:33.656Z - normal: Simulator:     add searching path:
+2017-07-20T06:58:33.656Z - normal: Simulator: 
+2017-07-20T06:58:33.656Z - normal: Simulator: 
+2017-07-20T06:58:33.657Z - normal: Simulator: 
+2017-07-20T06:58:33.657Z - normal: Simulator: ------------------------------------------------
+2017-07-20T06:58:33.657Z - normal: Simulator: LOAD Js FILE: main.js
+2017-07-20T06:58:33.657Z - normal: Simulator: ------------------------------------------------
+2017-07-20T06:58:33.690Z - normal: Simulator: Cocos2d-JS v3.14
+2017-07-20T06:58:33.820Z - normal: Simulator: iShow!
+2017-07-20T06:58:34.440Z - normal: Simulator: 18
+2017-07-20T06:58:34.521Z - normal: Simulator: 不销毁
+2017-07-20T06:58:34.723Z - normal: Simulator: 10
+2017-07-20T06:58:34.820Z - normal: Simulator: 不销毁
+2017-07-20T06:58:35.164Z - normal: Simulator: 17
+2017-07-20T06:58:35.254Z - normal: Simulator: 不销毁
+2017-07-20T06:58:35.439Z - normal: Simulator: 9
+2017-07-20T06:58:35.539Z - normal: Simulator: 不销毁
+2017-07-20T06:58:35.854Z - normal: Simulator: 18
+2017-07-20T06:58:35.921Z - normal: Simulator: 不销毁
+2017-07-20T06:58:36.171Z - normal: Simulator: 18
+2017-07-20T06:58:36.555Z - normal: Simulator: 销毁
+2017-07-20T06:58:37.754Z - normal: Simulator: 18
+2017-07-20T06:58:38.254Z - normal: Simulator: 不销毁
+2017-07-20T07:04:45.965Z - normal: Compiled project javascript file successfully
+2017-07-20T07:04:45.999Z - warn: The 'type' attribute of '5511.chessList' is undefined when loading script
+2017-07-20T07:04:46.570Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 981.00
+2017-07-20T07:04:46.570Z - normal: Simulator: FRAME SCALE = 1.00
+2017-07-20T07:04:46.572Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-07-20T07:04:47.260Z - normal: Simulator: 
+2017-07-20T07:04:47.260Z - normal: Simulator: {
+2017-07-20T07:04:47.260Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-07-20T07:04:47.261Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-07-20T07:04:47.280Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
+2017-07-20T07:04:47.280Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2017-07-20T07:04:47.281Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-07-20T07:04:47.281Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2017-07-20T07:04:47.281Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-07-20T07:04:47.281Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-07-20T07:04:47.281Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-07-20T07:04:47.281Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-07-20T07:04:47.281Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-07-20T07:04:47.282Z - normal: Simulator: 	gl.max_texture_units: 16
+2017-07-20T07:04:47.282Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-07-20T07:04:47.284Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-07-20T07:04:47.284Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-07-20T07:04:47.284Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.18.5 378.05.05.15f01
+2017-07-20T07:04:47.284Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-07-20T07:04:47.285Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-07-20T07:04:47.285Z - normal: Simulator: }
+2017-07-20T07:04:47.285Z - normal: Simulator: 
+2017-07-20T07:04:47.285Z - normal: Simulator: 
+2017-07-20T07:04:47.285Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-07-20T07:04:47.286Z - normal: Simulator: Project Config:
+2017-07-20T07:04:47.287Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2017-07-20T07:04:47.287Z - normal: Simulator:     writable path: $(PROJDIR)/
+2017-07-20T07:04:47.287Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2017-07-20T07:04:47.287Z - normal: Simulator:     frame size: 960 x 640
+2017-07-20T07:04:47.287Z - normal: Simulator:     frame scale: 1.00
+2017-07-20T07:04:47.288Z - normal: Simulator:     show console: NO
+2017-07-20T07:04:47.288Z - normal: Simulator:     write debug log: NO ()
+2017-07-20T07:04:47.288Z - normal: Simulator:     listen: 
+2017-07-20T07:04:47.288Z - normal: Simulator:     debugger: none
+2017-07-20T07:04:47.289Z - normal: Simulator:     add searching path:
+2017-07-20T07:04:47.289Z - normal: Simulator: 
+2017-07-20T07:04:47.289Z - normal: Simulator: 
+2017-07-20T07:04:47.289Z - normal: Simulator: 
+2017-07-20T07:04:47.289Z - normal: Simulator: ------------------------------------------------
+2017-07-20T07:04:47.290Z - normal: Simulator: LOAD Js FILE: main.js
+2017-07-20T07:04:47.291Z - normal: Simulator: ------------------------------------------------
+2017-07-20T07:04:47.318Z - normal: Simulator: Cocos2d-JS v3.14
+2017-07-20T07:04:47.439Z - normal: Simulator: iShow!
+2017-07-20T07:04:48.248Z - normal: Simulator: 19
+2017-07-20T07:04:48.313Z - normal: Simulator: 不销毁
+2017-07-20T07:04:48.582Z - normal: Simulator: 11
+2017-07-20T07:04:48.680Z - normal: Simulator: 不销毁
+2017-07-20T07:04:49.018Z - normal: Simulator: 18
+2017-07-20T07:04:49.116Z - normal: Simulator: 不销毁
+2017-07-20T07:04:49.300Z - normal: Simulator: 10
+2017-07-20T07:04:49.413Z - normal: Simulator: 不销毁
+2017-07-20T07:04:50.214Z - normal: Simulator: 17
+2017-07-20T07:04:50.307Z - normal: Simulator: 不销毁
+2017-07-20T07:04:50.515Z - normal: Simulator: 9
+2017-07-20T07:04:50.614Z - normal: Simulator: 不销毁
+2017-07-20T07:04:51.281Z - normal: Simulator: 20
+2017-07-20T07:04:51.381Z - normal: Simulator: 不销毁
+2017-07-20T07:04:51.598Z - normal: Simulator: 12
+2017-07-20T07:04:51.713Z - normal: Simulator: 不销毁
+2017-07-20T07:04:52.165Z - normal: Simulator: 21
+2017-07-20T07:04:52.247Z - normal: Simulator: 不销毁
+2017-07-20T07:04:52.465Z - normal: Simulator: 13
+2017-07-20T07:04:52.581Z - normal: Simulator: 不销毁
+2017-07-20T07:04:52.881Z - normal: Simulator: 22
+2017-07-20T07:04:52.981Z - normal: Simulator: 不销毁
+2017-07-20T07:04:53.181Z - normal: Simulator: 14
+2017-07-20T07:04:53.298Z - normal: Simulator: 不销毁
+2017-07-20T07:04:53.698Z - normal: Simulator: 23
+2017-07-20T07:04:53.797Z - normal: Simulator: 不销毁
+2017-07-20T07:04:54.048Z - normal: Simulator: 15
+2017-07-20T07:04:54.163Z - normal: Simulator: 不销毁
+2017-07-20T07:04:54.481Z - normal: Simulator: 7
+2017-07-20T07:04:54.597Z - normal: Simulator: 不销毁
+2017-07-20T07:04:54.865Z - normal: Simulator: 6
+2017-07-20T07:04:54.980Z - normal: Simulator: 不销毁
+2017-07-20T07:04:55.314Z - normal: Simulator: 5
+2017-07-20T07:04:55.430Z - normal: Simulator: 不销毁
+2017-07-20T07:04:55.781Z - normal: Simulator: 4
+2017-07-20T07:04:55.881Z - normal: Simulator: 不销毁
+2017-07-20T07:04:56.298Z - normal: Simulator: 3
+2017-07-20T07:04:56.414Z - normal: Simulator: 不销毁
+2017-07-20T07:04:56.665Z - normal: Simulator: 2
+2017-07-20T07:04:56.765Z - normal: Simulator: 不销毁
+2017-07-20T07:04:57.015Z - normal: Simulator: 1
+2017-07-20T07:04:57.148Z - normal: Simulator: 不销毁
+2017-07-20T07:04:57.398Z - normal: Simulator: 0
+2017-07-20T07:04:57.547Z - normal: Simulator: 不销毁
+2017-07-20T07:04:57.782Z - normal: Simulator: 8
+2017-07-20T07:04:57.914Z - normal: Simulator: 不销毁
+2017-07-20T07:04:58.165Z - normal: Simulator: 16
+2017-07-20T07:04:58.248Z - normal: Simulator: 不销毁
+2017-07-20T07:04:58.498Z - normal: Simulator: 24
+2017-07-20T07:04:58.600Z - normal: Simulator: 不销毁
+2017-07-20T07:04:58.798Z - normal: Simulator: 25
+2017-07-20T07:04:58.930Z - normal: Simulator: 不销毁
+2017-07-20T07:04:59.115Z - normal: Simulator: 26
+2017-07-20T07:04:59.230Z - normal: Simulator: 不销毁
+2017-07-20T07:04:59.430Z - normal: Simulator: 27
+2017-07-20T07:04:59.530Z - normal: Simulator: 不销毁
+2017-07-20T07:04:59.899Z - normal: Simulator: 28
+2017-07-20T07:05:00.014Z - normal: Simulator: 不销毁
+2017-07-20T07:05:00.221Z - normal: Simulator: 29
+2017-07-20T07:05:00.333Z - normal: Simulator: 不销毁
+2017-07-20T07:05:00.617Z - normal: Simulator: 30
+2017-07-20T07:05:00.800Z - normal: Simulator: 不销毁
+2017-07-20T07:05:01.102Z - normal: Simulator: 31
+2017-07-20T07:05:01.233Z - normal: Simulator: 不销毁
+2017-07-20T07:05:02.051Z - normal: Simulator: 21
+2017-07-20T07:05:02.146Z - normal: Simulator: 不销毁
+2017-07-20T07:05:02.398Z - normal: Simulator: 21
+2017-07-20T07:05:02.797Z - normal: Simulator: 销毁
+2017-07-20T07:05:02.797Z - normal: Simulator: 红吃黑--不销毁
+2017-07-20T07:05:03.431Z - normal: Simulator: 22
+2017-07-20T07:05:03.530Z - normal: Simulator: 不销毁
+2017-07-20T07:05:10.230Z - normal: Simulator: 21
+2017-07-20T07:05:10.313Z - normal: Simulator: 不销毁
+2017-07-20T07:05:10.778Z - normal: Simulator: 21
+2017-07-20T07:05:11.861Z - normal: Simulator: 销毁
+2017-07-20T07:05:11.861Z - normal: Simulator: 红吃黑--不销毁
+2017-07-20T07:05:16.030Z - normal: Simulator: 22
+2017-07-20T07:05:16.513Z - normal: Simulator: 不销毁
+2017-07-20T07:05:17.296Z - normal: Simulator: 22
+2017-07-20T07:05:17.980Z - normal: Simulator: 销毁
+2017-07-20T07:05:20.497Z - normal: Simulator: 14
+2017-07-20T07:05:21.280Z - normal: Simulator: 14
+2017-07-20T07:05:21.346Z - normal: Simulator: 不销毁
+2017-07-20T07:05:21.747Z - normal: Simulator: 14
+2017-07-20T07:05:22.530Z - normal: Simulator: 销毁
+2017-07-20T07:05:22.531Z - normal: Simulator: 同色不销毁
+2017-07-20T07:05:23.663Z - normal: Simulator: 14
+2017-07-20T07:05:23.782Z - normal: Simulator: 不销毁
+2017-07-20T07:05:24.480Z - normal: Simulator: 14
+2017-07-20T07:05:25.047Z - normal: Simulator: 销毁
+2017-07-20T07:05:25.047Z - normal: Simulator: 同色不销毁
+2017-07-20T07:12:54.653Z - normal: Compiled project javascript file successfully
+2017-07-20T07:12:54.700Z - warn: The 'type' attribute of '5511.chessList' is undefined when loading script
+2017-07-20T07:12:55.390Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 981.00
+2017-07-20T07:12:55.390Z - normal: Simulator: FRAME SCALE = 1.00
+2017-07-20T07:12:55.392Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-07-20T07:12:55.461Z - normal: Simulator: 
+2017-07-20T07:12:55.461Z - normal: Simulator: {
+2017-07-20T07:12:55.461Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-07-20T07:12:55.461Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-07-20T07:12:55.461Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
+2017-07-20T07:12:55.478Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2017-07-20T07:12:55.478Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-07-20T07:12:55.479Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2017-07-20T07:12:55.479Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-07-20T07:12:55.479Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-07-20T07:12:55.479Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-07-20T07:12:55.479Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-07-20T07:12:55.479Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-07-20T07:12:55.480Z - normal: Simulator: 	gl.max_texture_units: 16
+2017-07-20T07:12:55.480Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-07-20T07:12:55.480Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-07-20T07:12:55.480Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-07-20T07:12:55.480Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.18.5 378.05.05.15f01
+2017-07-20T07:12:55.480Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-07-20T07:12:55.481Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-07-20T07:12:55.481Z - normal: Simulator: }
+2017-07-20T07:12:55.482Z - normal: Simulator: 
+2017-07-20T07:12:55.482Z - normal: Simulator: 
+2017-07-20T07:12:55.482Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-07-20T07:12:55.482Z - normal: Simulator: Project Config:
+2017-07-20T07:12:55.482Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2017-07-20T07:12:55.482Z - normal: Simulator:     writable path: $(PROJDIR)/
+2017-07-20T07:12:55.483Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2017-07-20T07:12:55.483Z - normal: Simulator:     frame size: 960 x 640
+2017-07-20T07:12:55.483Z - normal: Simulator:     frame scale: 1.00
+2017-07-20T07:12:55.483Z - normal: Simulator:     show console: NO
+2017-07-20T07:12:55.483Z - normal: Simulator:     write debug log: NO ()
+2017-07-20T07:12:55.483Z - normal: Simulator:     listen: 
+2017-07-20T07:12:55.483Z - normal: Simulator:     debugger: none
+2017-07-20T07:12:55.484Z - normal: Simulator:     add searching path:
+2017-07-20T07:12:55.484Z - normal: Simulator: ------------------------------------------------
+2017-07-20T07:12:55.485Z - normal: Simulator: LOAD Js FILE: main.js
+2017-07-20T07:12:55.485Z - normal: Simulator: ------------------------------------------------
+2017-07-20T07:12:55.513Z - normal: Simulator: Cocos2d-JS v3.14
+2017-07-20T07:12:55.642Z - normal: Simulator: iShow!
+2017-07-20T07:12:56.552Z - normal: Simulator: 20
+2017-07-20T07:12:56.637Z - normal: Simulator: 不销毁
+2017-07-20T07:12:56.956Z - normal: Simulator: 11
+2017-07-20T07:12:57.062Z - normal: Simulator: 不销毁
+2017-07-20T07:12:57.321Z - normal: Simulator: 19
+2017-07-20T07:12:57.421Z - normal: Simulator: 不销毁
+2017-07-20T07:12:57.688Z - normal: Simulator: 12
+2017-07-20T07:12:57.772Z - normal: Simulator: 不销毁
+2017-07-20T07:12:58.122Z - normal: Simulator: 21
+2017-07-20T07:12:58.187Z - normal: Simulator: 不销毁
+2017-07-20T07:12:58.395Z - normal: Simulator: 13
+2017-07-20T07:12:58.487Z - normal: Simulator: 不销毁
+2017-07-20T07:12:58.738Z - normal: Simulator: 22
+2017-07-20T07:12:58.838Z - normal: Simulator: 不销毁
+2017-07-20T07:12:59.022Z - normal: Simulator: 14
+2017-07-20T07:12:59.137Z - normal: Simulator: 不销毁
+2017-07-20T07:12:59.438Z - normal: Simulator: 23
+2017-07-20T07:12:59.521Z - normal: Simulator: 不销毁
+2017-07-20T07:12:59.738Z - normal: Simulator: 15
+2017-07-20T07:12:59.854Z - normal: Simulator: 不销毁
+2017-07-20T07:13:00.505Z - normal: Simulator: 12
+2017-07-20T07:13:00.588Z - normal: Simulator: 不销毁
+2017-07-20T07:13:00.787Z - normal: Simulator: 12
+2017-07-20T07:13:01.204Z - normal: Simulator: 销毁
+2017-07-20T07:13:01.204Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T07:13:01.989Z - normal: Simulator: 20
+2017-07-20T07:13:02.122Z - normal: Simulator: 不销毁
+2017-07-20T07:13:02.854Z - normal: Simulator: 18
+2017-07-20T07:13:02.954Z - normal: Simulator: 不销毁
+2017-07-20T07:13:03.255Z - normal: Simulator: 10
+2017-07-20T07:13:03.372Z - normal: Simulator: 不销毁
+2017-07-20T07:13:03.755Z - normal: Simulator: 11
+2017-07-20T07:13:03.871Z - normal: Simulator: 不销毁
+2017-07-20T07:13:04.088Z - normal: Simulator: 11
+2017-07-20T07:13:04.587Z - normal: Simulator: 销毁
+2017-07-20T07:13:05.154Z - normal: Simulator: 11
+2017-07-20T07:13:05.637Z - normal: Simulator: 销毁
+2017-07-20T07:13:06.288Z - normal: Simulator: 13
+2017-07-20T07:13:06.387Z - normal: Simulator: 不销毁
+2017-07-20T07:13:06.588Z - normal: Simulator: 13
+2017-07-20T07:13:06.987Z - normal: Simulator: 销毁
+2017-07-20T07:13:07.870Z - normal: Simulator: 22
+2017-07-20T07:13:07.971Z - normal: Simulator: 不销毁
+2017-07-20T07:13:08.170Z - normal: Simulator: 22
+2017-07-20T07:13:08.604Z - normal: Simulator: 销毁
+2017-07-20T07:13:09.387Z - normal: Simulator: 22
+2017-07-20T07:13:09.771Z - normal: Simulator: 销毁
+2017-07-20T07:13:10.170Z - normal: Simulator: 14
+2017-07-20T07:13:10.287Z - normal: Simulator: 不销毁
+2017-07-20T07:13:10.537Z - normal: Simulator: 14
+2017-07-20T07:13:10.820Z - normal: Simulator: 销毁
+2017-07-20T07:13:11.337Z - normal: Simulator: 14
+2017-07-20T07:13:11.753Z - normal: Simulator: 销毁
+2017-07-20T07:13:11.754Z - normal: Simulator: 同色不销毁
+2017-07-20T07:13:12.520Z - normal: Simulator: 14
+2017-07-20T07:13:12.920Z - normal: Simulator: 销毁
+2017-07-20T07:13:12.920Z - normal: Simulator: 同色不销毁
+2017-07-20T07:13:13.404Z - normal: Simulator: 5
+2017-07-20T07:13:13.537Z - normal: Simulator: 不销毁
+2017-07-20T07:13:13.754Z - normal: Simulator: 6
+2017-07-20T07:13:13.870Z - normal: Simulator: 不销毁
+2017-07-20T07:13:14.221Z - normal: Simulator: 7
+2017-07-20T07:13:14.337Z - normal: Simulator: 不销毁
+2017-07-20T07:13:15.605Z - normal: Simulator: 6
+2017-07-20T07:13:16.371Z - normal: Simulator: 6
+2017-07-20T07:13:16.453Z - normal: Simulator: 不销毁
+2017-07-20T07:13:16.654Z - normal: Simulator: 6
+2017-07-20T07:13:17.003Z - normal: Simulator: 销毁
+2017-07-20T07:13:17.904Z - normal: Simulator: 5
+2017-07-20T07:13:18.021Z - normal: Simulator: 不销毁
+2017-07-20T07:13:18.203Z - normal: Simulator: 5
+2017-07-20T07:13:18.587Z - normal: Simulator: 销毁
+2017-07-20T07:13:19.337Z - normal: Simulator: 4
+2017-07-20T07:13:19.454Z - normal: Simulator: 不销毁
+2017-07-20T07:13:19.754Z - normal: Simulator: 4
+2017-07-20T07:13:20.187Z - normal: Simulator: 销毁
+2017-07-20T07:13:20.754Z - normal: Simulator: 3
+2017-07-20T07:13:20.870Z - normal: Simulator: 不销毁
+2017-07-20T07:13:21.121Z - normal: Simulator: 3
+2017-07-20T07:13:21.520Z - normal: Simulator: 销毁
+2017-07-20T07:13:22.005Z - normal: Simulator: 2
+2017-07-20T07:13:22.136Z - normal: Simulator: 不销毁
+2017-07-20T07:13:22.353Z - normal: Simulator: 2
+2017-07-20T07:13:22.936Z - normal: Simulator: 销毁
+2017-07-20T07:13:23.538Z - normal: Simulator: 1
+2017-07-20T07:13:23.620Z - normal: Simulator: 不销毁
+2017-07-20T07:13:23.820Z - normal: Simulator: 1
+2017-07-20T07:13:24.136Z - normal: Simulator: 销毁
+2017-07-20T07:13:24.721Z - normal: Simulator: 9
+2017-07-20T07:13:24.837Z - normal: Simulator: 不销毁
+2017-07-20T07:13:24.987Z - normal: Simulator: 9
+2017-07-20T07:13:25.270Z - normal: Simulator: 销毁
+2017-07-20T07:13:26.637Z - normal: Simulator: 17
+2017-07-20T07:13:26.737Z - normal: Simulator: 不销毁
+2017-07-20T07:13:27.353Z - normal: Simulator: 17
+2017-07-20T07:13:28.021Z - normal: Simulator: 不销毁
+2017-07-20T07:13:28.420Z - normal: Simulator: 17
+2017-07-20T07:13:28.720Z - normal: Simulator: 不销毁
+2017-07-20T07:13:29.004Z - normal: Simulator: 17
+2017-07-20T07:13:29.169Z - normal: Simulator: 不销毁
+2017-07-20T07:13:29.487Z - normal: Simulator: 17
+2017-07-20T07:13:29.637Z - normal: Simulator: 不销毁
+2017-07-20T07:13:29.971Z - normal: Simulator: 17
+2017-07-20T07:13:30.154Z - normal: Simulator: 不销毁
+2017-07-20T07:13:32.320Z - normal: Simulator: 18
+2017-07-20T07:13:32.453Z - normal: Simulator: 不销毁
+2017-07-20T07:13:34.271Z - normal: Simulator: 28
+2017-07-20T07:13:34.353Z - normal: Simulator: 不销毁
+2017-07-20T07:13:34.621Z - normal: Simulator: 27
+2017-07-20T07:13:34.719Z - normal: Simulator: 不销毁
+2017-07-20T07:13:35.038Z - normal: Simulator: 26
+2017-07-20T07:13:35.171Z - normal: Simulator: 不销毁
+2017-07-20T07:13:36.804Z - normal: Simulator: 24
+2017-07-20T07:13:36.903Z - normal: Simulator: 不销毁
+2017-07-20T07:13:37.221Z - normal: Simulator: 16
+2017-07-20T07:13:37.337Z - normal: Simulator: 不销毁
+2017-07-20T07:13:37.555Z - normal: Simulator: 8
+2017-07-20T07:13:37.670Z - normal: Simulator: 不销毁
+2017-07-20T07:13:37.938Z - normal: Simulator: 0
+2017-07-20T07:13:38.087Z - normal: Simulator: 不销毁
+2017-07-20T07:13:38.570Z - normal: Simulator: 25
+2017-07-20T07:13:38.670Z - normal: Simulator: 不销毁
+2017-07-20T07:13:39.138Z - normal: Simulator: 29
+2017-07-20T07:13:39.219Z - normal: Simulator: 不销毁
+2017-07-20T07:13:39.537Z - normal: Simulator: 30
+2017-07-20T07:13:39.637Z - normal: Simulator: 不销毁
+2017-07-20T07:13:39.854Z - normal: Simulator: 31
+2017-07-20T07:13:39.986Z - normal: Simulator: 不销毁
+2017-07-20T07:13:42.755Z - normal: Simulator: 10
+2017-07-20T07:13:42.886Z - normal: Simulator: 不销毁
+2017-07-20T07:13:43.120Z - normal: Simulator: 10
+2017-07-20T07:13:43.437Z - normal: Simulator: 销毁
+2017-07-20T07:13:43.953Z - normal: Simulator: 10
+2017-07-20T07:13:44.303Z - normal: Simulator: 不销毁
+2017-07-20T07:13:44.903Z - normal: Simulator: 10
+2017-07-20T07:13:45.387Z - normal: Simulator: 销毁
+2017-07-20T07:13:45.387Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T07:13:45.819Z - normal: Simulator: 10
+2017-07-20T07:13:46.136Z - normal: Simulator: 销毁
+2017-07-20T07:13:46.136Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T07:13:46.586Z - normal: Simulator: 10
+2017-07-20T07:13:46.870Z - normal: Simulator: 销毁
+2017-07-20T07:13:47.254Z - normal: Simulator: 10
+2017-07-20T07:13:47.537Z - normal: Simulator: 销毁
+2017-07-20T07:13:47.820Z - normal: Simulator: 10
+2017-07-20T07:13:48.069Z - normal: Simulator: 销毁
+2017-07-20T07:13:48.419Z - normal: Simulator: 10
+2017-07-20T07:13:48.737Z - normal: Simulator: 销毁
+2017-07-20T07:13:51.436Z - normal: Simulator: 10
+2017-07-20T07:13:51.702Z - normal: Simulator: 销毁
+2017-07-20T07:13:52.069Z - normal: Simulator: 10
+2017-07-20T07:13:52.336Z - normal: Simulator: 不销毁
+2017-07-20T07:13:52.936Z - normal: Simulator: 10
+2017-07-20T07:13:53.620Z - normal: Simulator: 销毁
+2017-07-20T07:13:54.170Z - normal: Simulator: 10
+2017-07-20T07:13:54.502Z - normal: Simulator: 销毁
+2017-07-20T07:13:54.853Z - normal: Simulator: 10
+2017-07-20T07:13:55.203Z - normal: Simulator: 不销毁
+2017-07-20T07:13:55.736Z - normal: Simulator: 10
+2017-07-20T07:13:55.987Z - normal: Simulator: 销毁
+2017-07-20T07:13:58.054Z - normal: Simulator: 10
+2017-07-20T07:13:58.619Z - normal: Simulator: 销毁
+2017-07-20T07:13:58.886Z - normal: Simulator: 10
+2017-07-20T07:13:59.169Z - normal: Simulator: 不销毁
+2017-07-20T07:14:01.853Z - normal: Simulator: 22
+2017-07-20T07:14:02.637Z - normal: Simulator: 15
+2017-07-20T07:14:02.770Z - normal: Simulator: 不销毁
+2017-07-20T07:14:02.953Z - normal: Simulator: 15
+2017-07-20T07:14:03.419Z - normal: Simulator: 销毁
+2017-07-20T07:14:03.787Z - normal: Simulator: 15
+2017-07-20T07:14:04.053Z - normal: Simulator: 销毁
+2017-07-20T07:14:04.053Z - normal: Simulator: 黑吃红--不销毁
+2017-07-20T07:14:04.303Z - normal: Simulator: 30
+2017-07-20T07:14:06.719Z - normal: Simulator: 31
+2017-07-20T07:14:06.804Z - normal: Simulator: 不销毁
+2017-07-20T07:14:07.002Z - normal: Simulator: 31
+2017-07-20T07:14:07.269Z - normal: Simulator: 销毁
+2017-07-20T07:14:07.269Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T07:14:08.003Z - normal: Simulator: 31
+2017-07-20T07:14:08.319Z - normal: Simulator: 销毁
+2017-07-20T07:14:08.319Z - normal: Simulator: 同色不销毁
+2017-07-20T07:14:08.704Z - normal: Simulator: 30
+2017-07-20T07:14:09.419Z - normal: Simulator: 30
+2017-07-20T07:14:09.503Z - normal: Simulator: 不销毁
+2017-07-20T07:14:09.653Z - normal: Simulator: 30
+2017-07-20T07:14:09.919Z - normal: Simulator: 销毁
+2017-07-20T07:14:10.702Z - normal: Simulator: 30
+2017-07-20T07:14:11.002Z - normal: Simulator: 销毁
+2017-07-20T07:14:11.252Z - normal: Simulator: 30
+2017-07-20T07:14:11.636Z - normal: Simulator: 销毁
+2017-07-20T07:14:11.870Z - normal: Simulator: 30
+2017-07-20T07:14:12.336Z - normal: Simulator: 销毁
+2017-07-20T07:14:12.569Z - normal: Simulator: 30
+2017-07-20T07:14:12.886Z - normal: Simulator: 销毁
+2017-07-20T07:14:12.886Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T07:14:13.070Z - normal: Simulator: 30
+2017-07-20T07:14:13.353Z - normal: Simulator: 销毁
+2017-07-20T07:14:13.569Z - normal: Simulator: 30
+2017-07-20T07:14:13.836Z - normal: Simulator: 销毁
+2017-07-20T07:14:14.035Z - normal: Simulator: 30
+2017-07-20T07:14:14.303Z - normal: Simulator: 销毁
+2017-07-20T07:14:14.303Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T07:14:14.636Z - normal: Simulator: 30
+2017-07-20T07:14:15.052Z - normal: Simulator: 销毁
+2017-07-20T07:14:15.203Z - normal: Simulator: 30
+2017-07-20T07:14:15.502Z - normal: Simulator: 销毁
+2017-07-20T07:14:15.736Z - normal: Simulator: 30
+2017-07-20T07:14:16.202Z - normal: Simulator: 销毁
+2017-07-20T07:14:16.202Z - normal: Simulator: 红吃黑--不销毁
+2017-07-20T07:14:19.170Z - normal: Simulator: 7
+2017-07-20T07:14:19.819Z - normal: Simulator: 7
+2017-07-20T07:14:19.919Z - normal: Simulator: 不销毁
+2017-07-20T07:14:20.053Z - normal: Simulator: 7
+2017-07-20T07:14:20.486Z - normal: Simulator: 销毁
+2017-07-20T07:14:20.703Z - normal: Simulator: 7
+2017-07-20T07:14:21.035Z - normal: Simulator: 销毁
+2017-07-20T07:14:21.336Z - normal: Simulator: 7
+2017-07-20T07:14:21.919Z - normal: Simulator: 销毁
+2017-07-20T07:14:22.136Z - normal: Simulator: 7
+2017-07-20T07:14:22.552Z - normal: Simulator: 销毁
+2017-07-20T07:14:23.503Z - normal: Simulator: 13
+2017-07-20T07:14:24.219Z - normal: Simulator: 13
+2017-07-20T07:14:24.302Z - normal: Simulator: 不销毁
+2017-07-20T07:14:24.536Z - normal: Simulator: 13
+2017-07-20T07:14:24.636Z - normal: Simulator: 不销毁
+2017-07-20T07:14:24.852Z - normal: Simulator: 13
+2017-07-20T07:14:25.269Z - normal: Simulator: 销毁
+2017-07-20T07:14:25.502Z - normal: Simulator: 13
+2017-07-20T07:14:25.736Z - normal: Simulator: 销毁
+2017-07-20T07:14:26.069Z - normal: Simulator: 13
+2017-07-20T07:14:26.419Z - normal: Simulator: 销毁
+2017-07-20T07:14:26.686Z - normal: Simulator: 13
+2017-07-20T07:14:27.303Z - normal: Simulator: 销毁
+2017-07-20T07:14:27.652Z - normal: Simulator: 13
+2017-07-20T07:14:27.952Z - normal: Simulator: 销毁
+2017-07-20T07:14:28.203Z - normal: Simulator: 13
+2017-07-20T07:14:28.568Z - normal: Simulator: 销毁
+2017-07-20T07:14:28.819Z - normal: Simulator: 13
+2017-07-20T07:14:29.069Z - normal: Simulator: 销毁
+2017-07-20T07:14:29.335Z - normal: Simulator: 13
+2017-07-20T07:14:29.602Z - normal: Simulator: 销毁
+2017-07-20T07:14:29.835Z - normal: Simulator: 13
+2017-07-20T07:14:30.302Z - normal: Simulator: 销毁
+2017-07-20T07:14:30.486Z - normal: Simulator: 13
+2017-07-20T07:14:30.786Z - normal: Simulator: 销毁
+2017-07-20T07:14:31.185Z - normal: Simulator: 13
+2017-07-20T07:14:31.319Z - normal: Simulator: 不销毁
+2017-07-20T07:14:31.769Z - normal: Simulator: 13
+2017-07-20T07:14:32.002Z - normal: Simulator: 销毁
+2017-07-20T07:14:32.669Z - normal: Simulator: 7
+2017-07-20T07:14:33.185Z - normal: Simulator: 7
+2017-07-20T07:14:33.286Z - normal: Simulator: 不销毁
+2017-07-20T07:14:33.435Z - normal: Simulator: 7
+2017-07-20T07:14:33.585Z - normal: Simulator: 不销毁
+2017-07-20T07:14:34.036Z - normal: Simulator: 7
+2017-07-20T07:14:34.302Z - normal: Simulator: 销毁
+2017-07-20T07:14:34.670Z - normal: Simulator: 7
+2017-07-20T07:14:34.985Z - normal: Simulator: 不销毁
+2017-07-20T07:14:36.020Z - normal: Simulator: 7
+2017-07-20T07:14:36.369Z - normal: Simulator: 销毁
+2017-07-20T07:14:36.736Z - normal: Simulator: 7
+2017-07-20T07:14:37.069Z - normal: Simulator: 销毁
+2017-07-20T07:14:37.436Z - normal: Simulator: 7
+2017-07-20T07:14:37.719Z - normal: Simulator: 销毁
+2017-07-20T07:14:38.118Z - normal: Simulator: 13
+2017-07-20T07:14:38.252Z - normal: Simulator: 不销毁
+2017-07-20T07:14:38.402Z - normal: Simulator: 13
+2017-07-20T07:14:38.669Z - normal: Simulator: 销毁
+2017-07-20T07:14:38.951Z - normal: Simulator: 13
+2017-07-20T07:14:39.202Z - normal: Simulator: 销毁
+2017-07-20T07:14:39.603Z - normal: Simulator: 7
+2017-07-20T07:14:40.136Z - normal: Simulator: 7
+2017-07-20T07:14:40.235Z - normal: Simulator: 不销毁
+2017-07-20T07:14:40.385Z - normal: Simulator: 7
+2017-07-20T07:14:40.552Z - normal: Simulator: 销毁
+2017-07-20T07:14:41.053Z - normal: Simulator: 13
+2017-07-20T07:14:41.135Z - normal: Simulator: 不销毁
+2017-07-20T07:14:41.286Z - normal: Simulator: 13
+2017-07-20T07:14:41.535Z - normal: Simulator: 销毁
+2017-07-20T07:14:42.335Z - normal: Simulator: 7
+2017-07-20T07:14:42.469Z - normal: Simulator: 不销毁
+2017-07-20T07:14:42.752Z - normal: Simulator: 7
+2017-07-20T07:14:43.085Z - normal: Simulator: 销毁
+2017-07-20T07:14:43.719Z - normal: Simulator: 13
+2017-07-20T07:14:43.852Z - normal: Simulator: 不销毁
+2017-07-20T07:14:44.035Z - normal: Simulator: 13
+2017-07-20T07:14:44.302Z - normal: Simulator: 销毁
+2017-07-20T07:14:44.919Z - normal: Simulator: 7
+2017-07-20T07:14:45.019Z - normal: Simulator: 不销毁
+2017-07-20T07:14:45.201Z - normal: Simulator: 7
+2017-07-20T07:14:45.552Z - normal: Simulator: 销毁
+2017-07-20T07:14:45.968Z - normal: Simulator: 13
+2017-07-20T07:14:46.069Z - normal: Simulator: 不销毁
+2017-07-20T07:14:46.252Z - normal: Simulator: 13
+2017-07-20T07:14:46.635Z - normal: Simulator: 销毁
+2017-07-20T07:14:47.302Z - normal: Simulator: 7
+2017-07-20T07:14:47.435Z - normal: Simulator: 不销毁
+2017-07-20T07:14:47.602Z - normal: Simulator: 7
+2017-07-20T07:14:47.969Z - normal: Simulator: 销毁
+2017-07-20T07:14:48.469Z - normal: Simulator: 13
+2017-07-20T07:14:48.585Z - normal: Simulator: 不销毁
+2017-07-20T07:14:48.718Z - normal: Simulator: 13
+2017-07-20T07:14:48.985Z - normal: Simulator: 销毁
+2017-07-20T07:14:49.885Z - normal: Simulator: 13
+2017-07-20T07:14:51.019Z - normal: Simulator: 销毁
+2017-07-20T07:14:51.768Z - normal: Simulator: 7
+2017-07-20T07:14:52.369Z - normal: Simulator: 7
+2017-07-20T07:14:52.502Z - normal: Simulator: 不销毁
+2017-07-20T07:14:52.619Z - normal: Simulator: 7
+2017-07-20T07:14:52.935Z - normal: Simulator: 销毁
+2017-07-20T07:14:54.435Z - normal: Simulator: 13
+2017-07-20T07:14:57.485Z - normal: Simulator: 7
+2017-07-20T07:14:58.202Z - normal: Simulator: 销毁
+2017-07-20T07:14:58.919Z - normal: Simulator: 13
+2017-07-20T07:14:59.685Z - normal: Simulator: 13
+2017-07-20T07:15:00.338Z - normal: Simulator: 13
+2017-07-20T07:15:01.004Z - normal: Simulator: 13
+2017-07-20T07:15:01.105Z - normal: Simulator: 不销毁
+2017-07-20T07:15:01.255Z - normal: Simulator: 13
+2017-07-20T07:15:01.587Z - normal: Simulator: 销毁
+2017-07-20T07:15:05.318Z - normal: Simulator: 13
+2017-07-20T07:15:05.452Z - normal: Simulator: 不销毁
+2017-07-20T07:15:06.201Z - normal: Simulator: 13
+2017-07-20T07:15:06.635Z - normal: Simulator: 销毁
+2017-07-20T07:15:07.168Z - normal: Simulator: 7
+2017-07-20T07:15:07.301Z - normal: Simulator: 不销毁
+2017-07-20T07:15:07.602Z - normal: Simulator: 7
+2017-07-20T07:15:07.952Z - normal: Simulator: 销毁
+2017-07-20T07:15:08.684Z - normal: Simulator: 13
+2017-07-20T07:15:08.835Z - normal: Simulator: 不销毁
+2017-07-20T07:15:09.051Z - normal: Simulator: 13
+2017-07-20T07:15:09.318Z - normal: Simulator: 销毁
+2017-07-20T07:15:09.835Z - normal: Simulator: 7
+2017-07-20T07:15:09.935Z - normal: Simulator: 不销毁
+2017-07-20T07:15:10.285Z - normal: Simulator: 7
+2017-07-20T07:15:10.584Z - normal: Simulator: 销毁
+2017-07-20T07:15:19.901Z - normal: Simulator: 7
+2017-07-20T07:15:20.535Z - normal: Simulator: 销毁
+2017-07-20T07:15:21.101Z - normal: Simulator: 13
+2017-07-20T07:15:21.217Z - normal: Simulator: 不销毁
+2017-07-20T07:15:21.385Z - normal: Simulator: 13
+2017-07-20T07:15:21.667Z - normal: Simulator: 销毁
+2017-07-20T07:15:44.435Z - normal: Simulator: 7
+2017-07-20T07:15:44.885Z - normal: Simulator: 不销毁
+2017-07-20T07:15:45.052Z - normal: Simulator: 7
+2017-07-20T07:15:45.151Z - normal: Simulator: 不销毁
+2017-07-20T07:15:45.284Z - normal: Simulator: 7
+2017-07-20T07:15:45.568Z - normal: Simulator: 销毁
+2017-07-20T07:15:45.935Z - normal: Simulator: 7
+2017-07-20T07:15:46.385Z - normal: Simulator: 销毁
+2017-07-20T07:15:46.735Z - normal: Simulator: 7
+2017-07-20T07:15:47.068Z - normal: Simulator: 销毁
+2017-07-20T07:15:47.369Z - normal: Simulator: 7
+2017-07-20T07:15:47.669Z - normal: Simulator: 销毁
+2017-07-20T07:17:19.166Z - normal: Simulator: 7
+2017-07-20T07:17:19.235Z - normal: Simulator: 不销毁
+2017-07-20T07:17:19.366Z - normal: Simulator: 7
+2017-07-20T07:17:19.632Z - normal: Simulator: 销毁
+2017-07-20T07:17:20.099Z - normal: Simulator: 13
+2017-07-20T07:17:20.232Z - normal: Simulator: 不销毁
+2017-07-20T07:17:20.499Z - normal: Simulator: 13
+2017-07-20T07:17:20.849Z - normal: Simulator: 销毁
+2017-07-20T07:17:21.249Z - normal: Simulator: 13
+2017-07-20T07:17:21.599Z - normal: Simulator: 销毁
+2017-07-20T07:17:21.966Z - normal: Simulator: 13
+2017-07-20T07:17:22.182Z - normal: Simulator: 销毁
+2017-07-20T07:17:22.515Z - normal: Simulator: 13
+2017-07-20T07:17:22.782Z - normal: Simulator: 销毁
+2017-07-20T07:17:23.082Z - normal: Simulator: 13
+2017-07-20T07:17:23.366Z - normal: Simulator: 销毁
+2017-07-20T07:17:23.632Z - normal: Simulator: 13
+2017-07-20T07:17:23.966Z - normal: Simulator: 销毁
+2017-07-20T07:17:24.332Z - normal: Simulator: 13
+2017-07-20T07:17:24.766Z - normal: Simulator: 销毁
+2017-07-20T07:17:25.049Z - normal: Simulator: 13
+2017-07-20T07:17:25.332Z - normal: Simulator: 销毁
+2017-07-20T07:17:25.682Z - normal: Simulator: 13
+2017-07-20T07:17:25.998Z - normal: Simulator: 销毁
+2017-07-20T07:17:26.217Z - normal: Simulator: 13
+2017-07-20T07:17:26.548Z - normal: Simulator: 销毁
+2017-07-20T07:17:26.782Z - normal: Simulator: 13
+2017-07-20T07:17:27.048Z - normal: Simulator: 销毁
+2017-07-20T07:17:27.315Z - normal: Simulator: 13
+2017-07-20T07:17:27.549Z - normal: Simulator: 销毁
+2017-07-20T07:17:27.767Z - normal: Simulator: 13
+2017-07-20T07:17:27.999Z - normal: Simulator: 销毁
+2017-07-20T07:17:28.266Z - normal: Simulator: 13
+2017-07-20T07:17:28.449Z - normal: Simulator: 销毁
+2017-07-20T07:17:28.699Z - normal: Simulator: 13
+2017-07-20T07:17:28.898Z - normal: Simulator: 销毁
+2017-07-20T07:17:29.116Z - normal: Simulator: 13
+2017-07-20T07:17:29.332Z - normal: Simulator: 销毁
+2017-07-20T07:17:29.515Z - normal: Simulator: 13
+2017-07-20T07:17:29.665Z - normal: Simulator: 销毁
+2017-07-20T07:17:30.099Z - normal: Simulator: 13
+2017-07-20T07:17:30.265Z - normal: Simulator: 销毁
+2017-07-20T07:17:30.531Z - normal: Simulator: 13
+2017-07-20T07:17:30.699Z - normal: Simulator: 销毁
+2017-07-20T07:17:30.931Z - normal: Simulator: 13
+2017-07-20T07:17:31.116Z - normal: Simulator: 销毁
+2017-07-20T07:17:31.666Z - normal: Simulator: 13
+2017-07-20T07:17:31.848Z - normal: Simulator: 销毁
+2017-07-20T07:17:32.082Z - normal: Simulator: 13
+2017-07-20T07:17:32.265Z - normal: Simulator: 销毁
+2017-07-20T07:17:41.482Z - normal: Simulator: 7
+2017-07-20T07:17:42.116Z - normal: Simulator: 7
+2017-07-20T07:17:42.232Z - normal: Simulator: 不销毁
+2017-07-20T07:17:42.449Z - normal: Simulator: 7
+2017-07-20T07:17:42.649Z - normal: Simulator: 销毁
+2017-07-20T07:17:42.998Z - normal: Simulator: 7
+2017-07-20T07:17:43.198Z - normal: Simulator: 销毁
+2017-07-20T07:17:43.498Z - normal: Simulator: 7
+2017-07-20T07:17:43.698Z - normal: Simulator: 销毁
+2017-07-20T07:17:44.032Z - normal: Simulator: 7
+2017-07-20T07:17:44.215Z - normal: Simulator: 销毁
+2017-07-20T07:17:44.549Z - normal: Simulator: 7
+2017-07-20T07:17:44.748Z - normal: Simulator: 销毁
+2017-07-20T07:17:45.032Z - normal: Simulator: 7
+2017-07-20T07:17:45.249Z - normal: Simulator: 销毁
+2017-07-20T07:17:45.498Z - normal: Simulator: 7
+2017-07-20T07:17:45.765Z - normal: Simulator: 销毁
+2017-07-20T07:17:45.982Z - normal: Simulator: 7
+2017-07-20T07:17:46.248Z - normal: Simulator: 销毁
+2017-07-20T07:17:46.498Z - normal: Simulator: 7
+2017-07-20T07:17:46.748Z - normal: Simulator: 销毁
+2017-07-20T07:17:47.031Z - normal: Simulator: 7
+2017-07-20T07:17:47.215Z - normal: Simulator: 销毁
+2017-07-20T07:17:47.498Z - normal: Simulator: 7
+2017-07-20T07:17:47.715Z - normal: Simulator: 销毁
+2017-07-20T07:17:48.048Z - normal: Simulator: 7
+2017-07-20T07:17:48.264Z - normal: Simulator: 销毁
+2017-07-20T07:17:48.481Z - normal: Simulator: 7
+2017-07-20T07:17:48.698Z - normal: Simulator: 销毁
+2017-07-20T07:17:48.931Z - normal: Simulator: 7
+2017-07-20T07:17:49.248Z - normal: Simulator: 销毁
+2017-07-20T07:17:49.449Z - normal: Simulator: 7
+2017-07-20T07:17:49.748Z - normal: Simulator: 销毁
+2017-07-20T07:17:49.998Z - normal: Simulator: 7
+2017-07-20T07:17:50.232Z - normal: Simulator: 销毁
+2017-07-20T07:17:50.415Z - normal: Simulator: 7
+2017-07-20T07:17:50.616Z - normal: Simulator: 销毁
+2017-07-20T07:17:50.899Z - normal: Simulator: 7
+2017-07-20T07:17:51.098Z - normal: Simulator: 销毁
+2017-07-20T07:17:51.399Z - normal: Simulator: 7
+2017-07-20T07:17:51.565Z - normal: Simulator: 不销毁
+2017-07-20T07:17:52.049Z - normal: Simulator: 7
+2017-07-20T07:17:52.248Z - normal: Simulator: 销毁
+2017-07-20T07:17:52.566Z - normal: Simulator: 7
+2017-07-20T07:17:52.748Z - normal: Simulator: 销毁
+2017-07-20T07:17:53.049Z - normal: Simulator: 7
+2017-07-20T07:17:53.265Z - normal: Simulator: 销毁
+2017-07-20T07:17:53.598Z - normal: Simulator: 7
+2017-07-20T07:17:53.899Z - normal: Simulator: 销毁
+2017-07-20T07:17:54.116Z - normal: Simulator: 7
+2017-07-20T07:17:54.431Z - normal: Simulator: 销毁
+2017-07-20T07:17:54.731Z - normal: Simulator: 7
+2017-07-20T07:17:55.081Z - normal: Simulator: 销毁
+2017-07-20T07:17:55.298Z - normal: Simulator: 7
+2017-07-20T07:17:55.564Z - normal: Simulator: 销毁
+2017-07-20T07:17:55.881Z - normal: Simulator: 7
+2017-07-20T07:17:56.115Z - normal: Simulator: 销毁
+2017-07-20T07:17:56.415Z - normal: Simulator: 7
+2017-07-20T07:17:56.615Z - normal: Simulator: 不销毁
+2017-07-20T07:17:57.331Z - normal: Simulator: 7
+2017-07-20T07:17:57.648Z - normal: Simulator: 销毁
+2017-07-20T07:17:58.432Z - normal: Simulator: 7
+2017-07-20T07:17:58.898Z - normal: Simulator: 销毁
+2017-07-20T07:17:59.332Z - normal: Simulator: 7
+2017-07-20T07:17:59.548Z - normal: Simulator: 不销毁
+2017-07-20T07:18:00.181Z - normal: Simulator: 7
+2017-07-20T07:18:00.432Z - normal: Simulator: 销毁
+2017-07-20T07:18:01.082Z - normal: Simulator: 7
+2017-07-20T07:18:01.381Z - normal: Simulator: 销毁
+2017-07-20T07:18:01.714Z - normal: Simulator: 7
+2017-07-20T07:18:02.116Z - normal: Simulator: 销毁
+2017-07-20T07:18:02.398Z - normal: Simulator: 7
+2017-07-20T07:18:02.864Z - normal: Simulator: 销毁
+2017-07-20T07:18:03.231Z - normal: Simulator: 7
+2017-07-20T07:18:03.466Z - normal: Simulator: 销毁
+2017-07-20T07:30:45.337Z - warn: 当前元素已经存在
+2017-07-20T07:31:09.861Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 981.00
+2017-07-20T07:31:09.861Z - normal: Simulator: FRAME SCALE = 1.00
+2017-07-20T07:31:09.863Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-07-20T07:31:10.571Z - normal: Simulator: 
+2017-07-20T07:31:10.571Z - normal: Simulator: {
+2017-07-20T07:31:10.572Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-07-20T07:31:10.572Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-07-20T07:31:10.572Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
+2017-07-20T07:31:10.572Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2017-07-20T07:31:10.572Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-07-20T07:31:10.572Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2017-07-20T07:31:10.573Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-07-20T07:31:10.573Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-07-20T07:31:10.573Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-07-20T07:31:10.573Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-07-20T07:31:10.595Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-07-20T07:31:10.595Z - normal: Simulator: 	gl.max_texture_units: 16
+2017-07-20T07:31:10.595Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-07-20T07:31:10.595Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-07-20T07:31:10.595Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-07-20T07:31:10.596Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.18.5 378.05.05.15f01
+2017-07-20T07:31:10.596Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-07-20T07:31:10.596Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-07-20T07:31:10.596Z - normal: Simulator: }
+2017-07-20T07:31:10.596Z - normal: Simulator: 
+2017-07-20T07:31:10.596Z - normal: Simulator: 
+2017-07-20T07:31:10.597Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-07-20T07:31:10.597Z - normal: Simulator: Project Config:
+2017-07-20T07:31:10.597Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2017-07-20T07:31:10.597Z - normal: Simulator:     writable path: $(PROJDIR)/
+2017-07-20T07:31:10.597Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2017-07-20T07:31:10.597Z - normal: Simulator:     frame size: 960 x 640
+2017-07-20T07:31:10.597Z - normal: Simulator:     frame scale: 1.00
+2017-07-20T07:31:10.597Z - normal: Simulator:     show console: NO
+2017-07-20T07:31:10.597Z - normal: Simulator:     write debug log: NO ()
+2017-07-20T07:31:10.598Z - normal: Simulator:     listen: 
+2017-07-20T07:31:10.598Z - normal: Simulator:     debugger: none
+2017-07-20T07:31:10.598Z - normal: Simulator:     add searching path:
+2017-07-20T07:31:10.598Z - normal: Simulator: ------------------------------------------------
+2017-07-20T07:31:10.598Z - normal: Simulator: LOAD Js FILE: main.js
+2017-07-20T07:31:10.599Z - normal: Simulator: ------------------------------------------------
+2017-07-20T07:31:10.627Z - normal: Simulator: Cocos2d-JS v3.14
+2017-07-20T07:31:10.750Z - normal: Simulator: iShow!
+2017-07-20T07:31:11.616Z - normal: Simulator: 20
+2017-07-20T07:31:11.700Z - normal: Simulator: 不销毁
+2017-07-20T07:31:11.966Z - normal: Simulator: 19
+2017-07-20T07:31:12.066Z - normal: Simulator: 不销毁
+2017-07-20T07:31:12.366Z - normal: Simulator: 11
+2017-07-20T07:31:12.449Z - normal: Simulator: 不销毁
+2017-07-20T07:31:12.701Z - normal: Simulator: 12
+2017-07-20T07:31:12.832Z - normal: Simulator: 不销毁
+2017-07-20T07:31:13.383Z - normal: Simulator: 19
+2017-07-20T07:31:13.483Z - normal: Simulator: 不销毁
+2017-07-20T07:31:13.616Z - normal: Simulator: 19
+2017-07-20T07:31:13.905Z - normal: Simulator: 销毁
+2017-07-20T07:31:14.465Z - normal: Simulator: 19
+2017-07-20T07:31:14.565Z - normal: Simulator: 不销毁
+2017-07-20T07:31:15.100Z - normal: Simulator: 19
+2017-07-20T07:31:15.332Z - normal: Simulator: 销毁
+2017-07-20T07:31:15.783Z - normal: Simulator: 13
+2017-07-20T07:31:15.882Z - normal: Simulator: 不销毁
+2017-07-20T07:31:16.522Z - normal: Simulator: 21
+2017-07-20T07:31:16.649Z - normal: Simulator: 不销毁
+2017-07-20T07:31:16.857Z - normal: Simulator: 29
+2017-07-20T07:31:16.969Z - normal: Simulator: 不销毁
+2017-07-20T07:31:17.133Z - normal: Simulator: 28
+2017-07-20T07:31:17.266Z - normal: Simulator: 不销毁
+2017-07-20T07:32:05.596Z - normal: Compiled project javascript file successfully
+2017-07-20T07:32:05.650Z - warn: The 'type' attribute of '5511.chessList' is undefined when loading script
+2017-07-20T07:32:06.295Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 981.00
+2017-07-20T07:32:06.295Z - normal: Simulator: FRAME SCALE = 1.00
+2017-07-20T07:32:06.297Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-07-20T07:32:06.407Z - normal: Simulator: 
+2017-07-20T07:32:06.407Z - normal: Simulator: {
+2017-07-20T07:32:06.407Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-07-20T07:32:06.408Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-07-20T07:32:06.408Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
+2017-07-20T07:32:06.427Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2017-07-20T07:32:06.427Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-07-20T07:32:06.428Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2017-07-20T07:32:06.428Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-07-20T07:32:06.428Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-07-20T07:32:06.428Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-07-20T07:32:06.428Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-07-20T07:32:06.428Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-07-20T07:32:06.429Z - normal: Simulator: 	gl.max_texture_units: 16
+2017-07-20T07:32:06.429Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-07-20T07:32:06.429Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-07-20T07:32:06.429Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-07-20T07:32:06.429Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.18.5 378.05.05.15f01
+2017-07-20T07:32:06.429Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-07-20T07:32:06.430Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-07-20T07:32:06.430Z - normal: Simulator: }
+2017-07-20T07:32:06.430Z - normal: Simulator: 
+2017-07-20T07:32:06.430Z - normal: Simulator: 
+2017-07-20T07:32:06.430Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-07-20T07:32:06.431Z - normal: Simulator: Project Config:
+2017-07-20T07:32:06.432Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2017-07-20T07:32:06.432Z - normal: Simulator:     writable path: $(PROJDIR)/
+2017-07-20T07:32:06.432Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2017-07-20T07:32:06.432Z - normal: Simulator:     frame size: 960 x 640
+2017-07-20T07:32:06.433Z - normal: Simulator:     frame scale: 1.00
+2017-07-20T07:32:06.433Z - normal: Simulator:     show console: NO
+2017-07-20T07:32:06.433Z - normal: Simulator:     write debug log: NO ()
+2017-07-20T07:32:06.433Z - normal: Simulator:     listen: 
+2017-07-20T07:32:06.433Z - normal: Simulator:     debugger: none
+2017-07-20T07:32:06.434Z - normal: Simulator:     add searching path:
+2017-07-20T07:32:06.434Z - normal: Simulator: 
+2017-07-20T07:32:06.435Z - normal: Simulator: 
+2017-07-20T07:32:06.436Z - normal: Simulator: 
+2017-07-20T07:32:06.436Z - normal: Simulator: ------------------------------------------------
+2017-07-20T07:32:06.436Z - normal: Simulator: LOAD Js FILE: main.js
+2017-07-20T07:32:06.436Z - normal: Simulator: ------------------------------------------------
+2017-07-20T07:32:06.465Z - normal: Simulator: Cocos2d-JS v3.14
+2017-07-20T07:32:06.593Z - normal: Simulator: iShow!
+2017-07-20T07:32:07.449Z - normal: Simulator: 11
+2017-07-20T07:32:07.548Z - normal: Simulator: 不销毁
+2017-07-20T07:32:07.766Z - normal: Simulator: 10
+2017-07-20T07:32:07.865Z - normal: Simulator: 不销毁
+2017-07-20T07:32:08.115Z - normal: Simulator: 18
+2017-07-20T07:32:08.233Z - normal: Simulator: 不销毁
+2017-07-20T07:32:08.764Z - normal: Simulator: 10
+2017-07-20T07:32:08.881Z - normal: Simulator: 不销毁
+2017-07-20T07:32:09.165Z - normal: Simulator: 10
+2017-07-20T07:32:09.432Z - normal: Simulator: 销毁
+2017-07-20T07:32:09.432Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T07:32:09.899Z - normal: Simulator: 10
+2017-07-20T07:32:10.697Z - normal: Simulator: 销毁
+2017-07-20T07:32:10.697Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:32:11.565Z - normal: Simulator: 10
+2017-07-20T07:32:12.098Z - normal: Simulator: 销毁
+2017-07-20T07:32:12.099Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:32:12.831Z - normal: Simulator: 18
+2017-07-20T07:32:12.914Z - normal: Simulator: 不销毁
+2017-07-20T07:32:13.164Z - normal: Simulator: 18
+2017-07-20T07:32:14.330Z - normal: Simulator: 销毁
+2017-07-20T07:32:14.331Z - normal: Simulator: 空棋子 红
+2017-07-20T07:32:15.099Z - normal: Simulator: 18
+2017-07-20T07:32:15.348Z - normal: Simulator: 不销毁
+2017-07-20T07:32:15.948Z - normal: Simulator: 18
+2017-07-20T07:32:16.164Z - normal: Simulator: 销毁
+2017-07-20T07:32:16.164Z - normal: Simulator: 空棋子 红
+2017-07-20T07:32:16.581Z - normal: Simulator: 18
+2017-07-20T07:32:16.881Z - normal: Simulator: 销毁
+2017-07-20T07:32:16.881Z - normal: Simulator: 空棋子 红
+2017-07-20T07:32:17.331Z - normal: Simulator: 18
+2017-07-20T07:32:17.531Z - normal: Simulator: 销毁
+2017-07-20T07:32:17.531Z - normal: Simulator: 空棋子 红
+2017-07-20T07:32:17.947Z - normal: Simulator: 18
+2017-07-20T07:32:18.165Z - normal: Simulator: 销毁
+2017-07-20T07:32:18.165Z - normal: Simulator: 空棋子 红
+2017-07-20T07:32:18.448Z - normal: Simulator: 18
+2017-07-20T07:32:18.615Z - normal: Simulator: 销毁
+2017-07-20T07:32:18.615Z - normal: Simulator: 空棋子 红
+2017-07-20T07:32:18.931Z - normal: Simulator: 18
+2017-07-20T07:32:19.197Z - normal: Simulator: 销毁
+2017-07-20T07:32:19.197Z - normal: Simulator: 空棋子 红
+2017-07-20T07:32:20.298Z - normal: Simulator: 10
+2017-07-20T07:32:20.998Z - normal: Simulator: 10
+2017-07-20T07:32:21.114Z - normal: Simulator: 不销毁
+2017-07-20T07:32:21.281Z - normal: Simulator: 10
+2017-07-20T07:32:21.598Z - normal: Simulator: 销毁
+2017-07-20T07:32:21.598Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:32:22.231Z - normal: Simulator: 18
+2017-07-20T07:32:22.331Z - normal: Simulator: 不销毁
+2017-07-20T07:32:22.514Z - normal: Simulator: 18
+2017-07-20T07:32:22.730Z - normal: Simulator: 销毁
+2017-07-20T07:32:22.730Z - normal: Simulator: 空棋子 红
+2017-07-20T07:32:23.247Z - normal: Simulator: 10
+2017-07-20T07:32:23.331Z - normal: Simulator: 不销毁
+2017-07-20T07:32:23.464Z - normal: Simulator: 10
+2017-07-20T07:32:23.680Z - normal: Simulator: 销毁
+2017-07-20T07:32:23.681Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:32:24.081Z - normal: Simulator: 19
+2017-07-20T07:32:24.181Z - normal: Simulator: 不销毁
+2017-07-20T07:32:24.798Z - normal: Simulator: 19
+2017-07-20T07:32:25.164Z - normal: Simulator: 不销毁
+2017-07-20T07:32:25.414Z - normal: Simulator: 20
+2017-07-20T07:32:25.531Z - normal: Simulator: 不销毁
+2017-07-20T07:32:25.731Z - normal: Simulator: 27
+2017-07-20T07:32:25.831Z - normal: Simulator: 不销毁
+2017-07-20T07:32:25.981Z - normal: Simulator: 26
+2017-07-20T07:32:26.081Z - normal: Simulator: 不销毁
+2017-07-20T07:32:26.547Z - normal: Simulator: 27
+2017-07-20T07:32:26.648Z - normal: Simulator: 不销毁
+2017-07-20T07:32:26.814Z - normal: Simulator: 27
+2017-07-20T07:32:27.031Z - normal: Simulator: 销毁
+2017-07-20T07:32:28.248Z - normal: Simulator: 19
+2017-07-20T07:32:28.364Z - normal: Simulator: 不销毁
+2017-07-20T07:32:28.532Z - normal: Simulator: 19
+2017-07-20T07:32:28.731Z - normal: Simulator: 销毁
+2017-07-20T07:32:28.731Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T07:32:29.647Z - normal: Simulator: 18
+2017-07-20T07:32:29.747Z - normal: Simulator: 不销毁
+2017-07-20T07:32:29.864Z - normal: Simulator: 18
+2017-07-20T07:32:30.064Z - normal: Simulator: 销毁
+2017-07-20T07:32:30.481Z - normal: Simulator: 18
+2017-07-20T07:32:30.831Z - normal: Simulator: 销毁
+2017-07-20T07:32:31.197Z - normal: Simulator: 18
+2017-07-20T07:32:31.430Z - normal: Simulator: 销毁
+2017-07-20T07:32:31.431Z - normal: Simulator: 同色不销毁
+2017-07-20T07:32:32.115Z - normal: Simulator: 18
+2017-07-20T07:32:32.464Z - normal: Simulator: 销毁
+2017-07-20T07:32:32.465Z - normal: Simulator: 同色不销毁
+2017-07-20T07:32:33.047Z - normal: Simulator: 18
+2017-07-20T07:32:33.664Z - normal: Simulator: 销毁
+2017-07-20T07:32:33.664Z - normal: Simulator: 同色不销毁
+2017-07-20T07:32:34.330Z - normal: Simulator: 18
+2017-07-20T07:32:35.065Z - normal: Simulator: 销毁
+2017-07-20T07:32:35.065Z - normal: Simulator: 同色不销毁
+2017-07-20T07:32:36.031Z - normal: Simulator: 18
+2017-07-20T07:32:36.514Z - normal: Simulator: 销毁
+2017-07-20T07:32:36.514Z - normal: Simulator: 同色不销毁
+2017-07-20T07:32:37.198Z - normal: Simulator: 18
+2017-07-20T07:32:37.864Z - normal: Simulator: 销毁
+2017-07-20T07:32:39.065Z - normal: Simulator: 18
+2017-07-20T07:32:39.280Z - normal: Simulator: 销毁
+2017-07-20T07:32:39.997Z - normal: Simulator: 18
+2017-07-20T07:32:40.147Z - normal: Simulator: 销毁
+2017-07-20T07:32:40.148Z - normal: Simulator: 同色不销毁
+2017-07-20T07:32:40.581Z - normal: Simulator: 18
+2017-07-20T07:32:40.747Z - normal: Simulator: 销毁
+2017-07-20T07:32:49.514Z - normal: Simulator: 25
+2017-07-20T07:32:49.613Z - normal: Simulator: 不销毁
+2017-07-20T07:32:49.814Z - normal: Simulator: 24
+2017-07-20T07:32:49.931Z - normal: Simulator: 不销毁
+2017-07-20T07:32:50.147Z - normal: Simulator: 16
+2017-07-20T07:32:50.263Z - normal: Simulator: 不销毁
+2017-07-20T07:32:50.464Z - normal: Simulator: 17
+2017-07-20T07:32:50.598Z - normal: Simulator: 不销毁
+2017-07-20T07:32:50.963Z - normal: Simulator: 17
+2017-07-20T07:32:51.297Z - normal: Simulator: 销毁
+2017-07-20T07:32:51.297Z - normal: Simulator: 空棋子 红
+2017-07-20T07:32:51.598Z - normal: Simulator: 17
+2017-07-20T07:32:51.880Z - normal: Simulator: 不销毁
+2017-07-20T07:32:53.322Z - normal: Simulator: basic_object_finalize 0x19642af0 ...
+2017-07-20T07:32:53.322Z - normal: Simulator: jsbindings: finalizing JS object 0x19642b20 (WebSocket)
+2017-07-20T07:32:53.322Z - normal: Simulator: jsbindings: finalizing JS object 0x19642b50 (SocketIO)
+2017-07-20T07:32:53.323Z - normal: Simulator: basic_object_finalize 0x19642be0 ...
+2017-07-20T07:32:53.323Z - normal: Simulator: basic_object_finalize 0x19642e80 ...
+2017-07-20T07:52:33.043Z - normal: Compiled project javascript file successfully
+2017-07-20T07:52:33.092Z - warn: The 'type' attribute of '5511.chessList' is undefined when loading script
+2017-07-20T07:55:53.498Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 981.00
+2017-07-20T07:55:53.499Z - normal: Simulator: FRAME SCALE = 1.00
+2017-07-20T07:55:53.499Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-07-20T07:55:53.570Z - normal: Simulator: 
+2017-07-20T07:55:53.571Z - normal: Simulator: {
+2017-07-20T07:55:53.579Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-07-20T07:55:53.579Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-07-20T07:55:53.579Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
+2017-07-20T07:55:53.579Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2017-07-20T07:55:53.579Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-07-20T07:55:53.580Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2017-07-20T07:55:53.580Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-07-20T07:55:53.580Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-07-20T07:55:53.580Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-07-20T07:55:53.580Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-07-20T07:55:53.580Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-07-20T07:55:53.580Z - normal: Simulator: 	gl.max_texture_units: 16
+2017-07-20T07:55:53.581Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-07-20T07:55:53.581Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-07-20T07:55:53.581Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-07-20T07:55:53.581Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.18.5 378.05.05.15f01
+2017-07-20T07:55:53.581Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-07-20T07:55:53.581Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-07-20T07:55:53.581Z - normal: Simulator: }
+2017-07-20T07:55:53.582Z - normal: Simulator: 
+2017-07-20T07:55:53.582Z - normal: Simulator: 
+2017-07-20T07:55:53.582Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-07-20T07:55:53.593Z - normal: Simulator: Project Config:
+2017-07-20T07:55:53.593Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2017-07-20T07:55:53.593Z - normal: Simulator:     writable path: $(PROJDIR)/
+2017-07-20T07:55:53.594Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2017-07-20T07:55:53.594Z - normal: Simulator:     frame size: 960 x 640
+2017-07-20T07:55:53.594Z - normal: Simulator:     frame scale: 1.00
+2017-07-20T07:55:53.594Z - normal: Simulator:     show console: NO
+2017-07-20T07:55:53.594Z - normal: Simulator:     write debug log: NO ()
+2017-07-20T07:55:53.594Z - normal: Simulator:     listen: 
+2017-07-20T07:55:53.594Z - normal: Simulator:     debugger: none
+2017-07-20T07:55:53.595Z - normal: Simulator:     add searching path:
+2017-07-20T07:55:53.595Z - normal: Simulator: 
+2017-07-20T07:55:53.595Z - normal: Simulator: 
+2017-07-20T07:55:53.595Z - normal: Simulator: 
+2017-07-20T07:55:53.595Z - normal: Simulator: ------------------------------------------------
+2017-07-20T07:55:53.595Z - normal: Simulator: LOAD Js FILE: main.js
+2017-07-20T07:55:53.596Z - normal: Simulator: ------------------------------------------------
+2017-07-20T07:55:53.628Z - normal: Simulator: Cocos2d-JS v3.14
+2017-07-20T07:55:53.756Z - normal: Simulator: iShow!
+2017-07-20T07:55:54.571Z - normal: Simulator: 19
+2017-07-20T07:55:54.660Z - normal: Simulator: 不销毁
+2017-07-20T07:55:54.791Z - normal: Simulator: 11
+2017-07-20T07:55:54.902Z - normal: Simulator: 不销毁
+2017-07-20T07:55:55.336Z - normal: Simulator: 18
+2017-07-20T07:55:55.453Z - normal: Simulator: 不销毁
+2017-07-20T07:55:55.603Z - normal: Simulator: 10
+2017-07-20T07:55:55.736Z - normal: Simulator: 不销毁
+2017-07-20T07:55:56.187Z - normal: Simulator: 10
+2017-07-20T07:55:56.853Z - normal: Simulator: 销毁
+2017-07-20T07:55:56.853Z - normal: Simulator: 黑吃红
+2017-07-20T07:55:58.569Z - normal: Simulator: 10
+2017-07-20T07:55:59.186Z - normal: Simulator: 销毁
+2017-07-20T07:55:59.186Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:56:00.402Z - normal: Simulator: 10
+2017-07-20T07:56:00.803Z - normal: Simulator: 销毁
+2017-07-20T07:56:00.803Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:56:01.186Z - normal: Simulator: 10
+2017-07-20T07:56:01.453Z - normal: Simulator: 销毁
+2017-07-20T07:56:01.453Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:56:01.736Z - normal: Simulator: 10
+2017-07-20T07:56:02.036Z - normal: Simulator: 销毁
+2017-07-20T07:56:02.036Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:56:02.370Z - normal: Simulator: 10
+2017-07-20T07:56:02.569Z - normal: Simulator: 销毁
+2017-07-20T07:56:02.570Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:56:02.869Z - normal: Simulator: 10
+2017-07-20T07:56:03.036Z - normal: Simulator: 不销毁
+2017-07-20T07:56:03.521Z - normal: Simulator: 10
+2017-07-20T07:56:03.736Z - normal: Simulator: 销毁
+2017-07-20T07:56:03.737Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:56:04.069Z - normal: Simulator: 10
+2017-07-20T07:56:04.372Z - normal: Simulator: 不销毁
+2017-07-20T07:56:04.704Z - normal: Simulator: 18
+2017-07-20T07:56:04.953Z - normal: Simulator: 不销毁
+2017-07-20T07:56:05.136Z - normal: Simulator: 10
+2017-07-20T07:56:05.486Z - normal: Simulator: 10
+2017-07-20T07:56:06.119Z - normal: Simulator: 10
+2017-07-20T07:56:06.752Z - normal: Simulator: 10
+2017-07-20T07:56:07.320Z - normal: Simulator: 10
+2017-07-20T07:56:07.403Z - normal: Simulator: 不销毁
+2017-07-20T07:56:07.620Z - normal: Simulator: 10
+2017-07-20T07:56:08.002Z - normal: Simulator: 销毁
+2017-07-20T07:56:08.003Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:56:08.486Z - normal: Simulator: 10
+2017-07-20T07:56:08.869Z - normal: Simulator: 销毁
+2017-07-20T07:56:08.869Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:56:09.186Z - normal: Simulator: 10
+2017-07-20T07:56:09.519Z - normal: Simulator: 销毁
+2017-07-20T07:56:09.519Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:56:09.969Z - normal: Simulator: 10
+2017-07-20T07:56:10.340Z - normal: Simulator: 销毁
+2017-07-20T07:56:10.340Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:56:10.652Z - normal: Simulator: 10
+2017-07-20T07:56:11.002Z - normal: Simulator: 销毁
+2017-07-20T07:56:11.002Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:56:11.203Z - normal: Simulator: 10
+2017-07-20T07:56:11.552Z - normal: Simulator: 销毁
+2017-07-20T07:56:11.552Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:56:12.069Z - normal: Simulator: 10
+2017-07-20T07:56:12.402Z - normal: Simulator: 销毁
+2017-07-20T07:56:12.402Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:56:12.754Z - normal: Simulator: 10
+2017-07-20T07:56:13.036Z - normal: Simulator: 销毁
+2017-07-20T07:56:13.036Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:56:13.386Z - normal: Simulator: 10
+2017-07-20T07:56:13.669Z - normal: Simulator: 销毁
+2017-07-20T07:56:13.670Z - normal: Simulator: 空棋子 黑
+2017-07-20T07:58:33.809Z - normal: Simulator: 11
+2017-07-20T07:58:33.911Z - normal: Simulator: 不销毁
+2017-07-20T07:58:34.183Z - normal: Simulator: 11
+2017-07-20T07:58:34.747Z - normal: Simulator: 销毁
+2017-07-20T07:58:34.747Z - normal: Simulator: 黑吃红
+2017-07-20T07:58:35.550Z - normal: Simulator: 12
+2017-07-20T07:58:35.682Z - normal: Simulator: 不销毁
+2017-07-20T07:58:36.067Z - normal: Simulator: 20
+2017-07-20T07:58:36.182Z - normal: Simulator: 不销毁
+2017-07-20T07:58:36.551Z - normal: Simulator: 21
+2017-07-20T07:58:36.667Z - normal: Simulator: 不销毁
+2017-07-20T07:58:37.349Z - normal: Simulator: 20
+2017-07-20T07:58:38.066Z - normal: Simulator: 20
+2017-07-20T07:58:38.216Z - normal: Simulator: 不销毁
+2017-07-20T07:58:38.416Z - normal: Simulator: 20
+2017-07-20T07:58:38.832Z - normal: Simulator: 销毁
+2017-07-20T07:58:38.832Z - normal: Simulator: 红吃黑
+2017-07-20T07:58:41.983Z - normal: Simulator: 4
+2017-07-20T07:58:42.100Z - normal: Simulator: 不销毁
+2017-07-20T07:58:42.367Z - normal: Simulator: 3
+2017-07-20T07:58:42.516Z - normal: Simulator: 不销毁
+2017-07-20T07:59:05.005Z - normal: Compiled project javascript file successfully
+2017-07-20T07:59:05.052Z - warn: The 'type' attribute of '5511.chessList' is undefined when loading script
+2017-07-20T07:59:06.181Z - normal: Simulator: 13
+2017-07-20T07:59:06.297Z - normal: Simulator: 不销毁
+2017-07-20T07:59:06.616Z - normal: Simulator: 5
+2017-07-20T07:59:06.733Z - normal: Simulator: 不销毁
+2017-07-20T07:59:07.116Z - normal: Simulator: 14
+2017-07-20T07:59:07.212Z - normal: Simulator: 不销毁
+2017-07-20T07:59:07.457Z - normal: Simulator: 6
+2017-07-20T07:59:07.544Z - normal: Simulator: 不销毁
+2017-07-20T07:59:08.099Z - normal: Simulator: 5
+2017-07-20T07:59:08.199Z - normal: Simulator: 不销毁
+2017-07-20T07:59:08.382Z - normal: Simulator: 5
+2017-07-20T07:59:08.759Z - normal: Simulator: 销毁
+2017-07-20T07:59:08.760Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T07:59:09.216Z - normal: Simulator: 5
+2017-07-20T07:59:09.333Z - normal: Simulator: 不销毁
+2017-07-20T07:59:09.449Z - normal: Simulator: 5
+2017-07-20T07:59:09.832Z - normal: Simulator: 销毁
+2017-07-20T07:59:09.833Z - normal: Simulator: 红吃黑--不销毁
+2017-07-20T08:03:27.812Z - normal: Simulator: 17
+2017-07-20T08:03:27.943Z - normal: Simulator: 不销毁
+2017-07-20T08:03:28.211Z - normal: Simulator: 25
+2017-07-20T08:03:28.328Z - normal: Simulator: 不销毁
+2017-07-20T08:03:28.511Z - normal: Simulator: 24
+2017-07-20T08:03:28.611Z - normal: Simulator: 不销毁
+2017-07-20T08:03:28.794Z - normal: Simulator: 16
+2017-07-20T08:03:28.910Z - normal: Simulator: 不销毁
+2017-07-20T08:03:29.078Z - normal: Simulator: 8
+2017-07-20T08:03:29.177Z - normal: Simulator: 不销毁
+2017-07-20T08:03:29.345Z - normal: Simulator: 0
+2017-07-20T08:03:29.443Z - normal: Simulator: 不销毁
+2017-07-20T08:03:29.627Z - normal: Simulator: 1
+2017-07-20T08:03:29.727Z - normal: Simulator: 不销毁
+2017-07-20T08:03:29.910Z - normal: Simulator: 9
+2017-07-20T08:03:30.027Z - normal: Simulator: 不销毁
+2017-07-20T08:03:30.261Z - normal: Simulator: 2
+2017-07-20T08:03:30.361Z - normal: Simulator: 不销毁
+2017-07-20T08:03:30.877Z - normal: Simulator: 26
+2017-07-20T08:03:30.977Z - normal: Simulator: 不销毁
+2017-07-20T08:03:31.194Z - normal: Simulator: 28
+2017-07-20T08:03:31.293Z - normal: Simulator: 不销毁
+2017-07-20T08:03:31.545Z - normal: Simulator: 27
+2017-07-20T08:03:31.644Z - normal: Simulator: 不销毁
+2017-07-20T08:03:31.978Z - normal: Simulator: 29
+2017-07-20T08:03:32.095Z - normal: Simulator: 不销毁
+2017-07-20T08:03:32.294Z - normal: Simulator: 30
+2017-07-20T08:03:32.394Z - normal: Simulator: 不销毁
+2017-07-20T08:03:32.561Z - normal: Simulator: 22
+2017-07-20T08:03:32.645Z - normal: Simulator: 不销毁
+2017-07-20T08:03:32.844Z - normal: Simulator: 31
+2017-07-20T08:03:32.944Z - normal: Simulator: 不销毁
+2017-07-20T08:03:33.128Z - normal: Simulator: 23
+2017-07-20T08:03:33.226Z - normal: Simulator: 不销毁
+2017-07-20T08:03:33.394Z - normal: Simulator: 15
+2017-07-20T08:03:33.493Z - normal: Simulator: 不销毁
+2017-07-20T08:03:33.645Z - normal: Simulator: 7
+2017-07-20T08:03:33.760Z - normal: Simulator: 不销毁
+2017-07-20T08:07:47.439Z - normal: Simulator: 17
+2017-07-20T08:07:48.142Z - normal: Simulator: 17
+2017-07-20T08:07:48.306Z - normal: Simulator: 不销毁
+2017-07-20T08:07:48.622Z - normal: Simulator: 17
+2017-07-20T08:07:48.905Z - normal: Simulator: 不销毁
+2017-07-20T08:07:49.522Z - normal: Simulator: 17
+2017-07-20T08:07:50.007Z - normal: Simulator: 销毁
+2017-07-20T08:07:50.007Z - normal: Simulator: 空棋子 黑
+2017-07-20T08:07:50.472Z - normal: Simulator: 17
+2017-07-20T08:07:50.905Z - normal: Simulator: 销毁
+2017-07-20T08:07:50.905Z - normal: Simulator: 空棋子 黑
+2017-07-20T08:07:51.239Z - normal: Simulator: 17
+2017-07-20T08:07:51.588Z - normal: Simulator: 销毁
+2017-07-20T08:07:51.589Z - normal: Simulator: 空棋子 黑
+2017-07-20T08:07:51.872Z - normal: Simulator: 17
+2017-07-20T08:07:52.505Z - normal: Simulator: 销毁
+2017-07-20T08:07:52.506Z - normal: Simulator: 空棋子 黑
+2017-07-20T08:07:53.156Z - normal: Simulator: 4
+2017-07-20T08:07:53.255Z - normal: Simulator: 不销毁
+2017-07-20T08:07:53.371Z - normal: Simulator: 4
+2017-07-20T08:07:53.705Z - normal: Simulator: 销毁
+2017-07-20T08:07:53.705Z - normal: Simulator: 空棋子 黑
+2017-07-20T08:07:53.989Z - normal: Simulator: 4
+2017-07-20T08:07:54.305Z - normal: Simulator: 销毁
+2017-07-20T08:07:54.306Z - normal: Simulator: 空棋子 黑
+2017-07-20T08:07:54.572Z - normal: Simulator: 4
+2017-07-20T08:07:54.872Z - normal: Simulator: 销毁
+2017-07-20T08:07:54.872Z - normal: Simulator: 空棋子 黑
+2017-07-20T08:07:55.672Z - normal: Simulator: 4
+2017-07-20T08:07:55.938Z - normal: Simulator: 销毁
+2017-07-20T08:07:55.939Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T08:07:56.289Z - normal: Simulator: 4
+2017-07-20T08:07:56.555Z - normal: Simulator: 销毁
+2017-07-20T08:07:56.555Z - normal: Simulator: 空棋子 黑
+2017-07-20T08:07:56.822Z - normal: Simulator: 4
+2017-07-20T08:07:57.071Z - normal: Simulator: 不销毁
+2017-07-20T08:07:57.522Z - normal: Simulator: 4
+2017-07-20T08:07:57.771Z - normal: Simulator: 销毁
+2017-07-20T08:07:57.772Z - normal: Simulator: 空棋子 黑
+2017-07-20T08:07:58.056Z - normal: Simulator: 4
+2017-07-20T08:07:58.522Z - normal: Simulator: 销毁
+2017-07-20T08:07:58.522Z - normal: Simulator: 空棋子 黑
+2017-07-20T08:07:58.839Z - normal: Simulator: 4
+2017-07-20T08:08:00.039Z - normal: Simulator: 销毁
+2017-07-20T08:08:00.039Z - normal: Simulator: 空棋子 黑
+2017-07-20T08:08:00.789Z - normal: Simulator: 4
+2017-07-20T08:08:03.621Z - normal: Simulator: 不销毁
+2017-07-20T08:08:05.538Z - normal: Simulator: 4
+2017-07-20T08:08:06.071Z - normal: Simulator: 销毁
+2017-07-20T08:08:06.072Z - normal: Simulator: 空棋子 黑
+2017-07-20T08:08:06.371Z - normal: Simulator: 4
+2017-07-20T08:08:07.321Z - normal: Simulator: 不销毁
+2017-07-20T08:08:07.638Z - normal: Simulator: 4
+2017-07-20T08:08:09.321Z - normal: Simulator: 不销毁
+2017-07-20T08:10:58.387Z - normal: Simulator: 20
+2017-07-20T08:10:58.451Z - normal: Simulator: 不销毁
+2017-07-20T08:10:58.719Z - normal: Simulator: 20
+2017-07-20T08:10:59.301Z - normal: Simulator: 销毁
+2017-07-20T08:10:59.301Z - normal: Simulator: 空棋子 红
+2017-07-20T08:11:06.801Z - normal: Simulator: 20
+2017-07-20T08:11:06.902Z - normal: Simulator: 不销毁
+2017-07-20T08:11:07.018Z - normal: Simulator: 20
+2017-07-20T08:11:07.234Z - normal: Simulator: 销毁
+2017-07-20T08:11:07.235Z - normal: Simulator: 空棋子 红
+2017-07-20T08:11:07.717Z - normal: Simulator: 20
+2017-07-20T08:11:07.949Z - normal: Simulator: 销毁
+2017-07-20T08:11:07.949Z - normal: Simulator: 空棋子 红
+2017-07-20T08:11:08.868Z - normal: Simulator: 20
+2017-07-20T08:11:09.151Z - normal: Simulator: 销毁
+2017-07-20T08:11:09.151Z - normal: Simulator: 红吃黑
+2017-07-20T08:11:09.485Z - normal: Simulator: 20
+2017-07-20T08:11:09.718Z - normal: Simulator: 销毁
+2017-07-20T08:11:09.719Z - normal: Simulator: 红吃黑
+2017-07-20T08:11:10.017Z - normal: Simulator: 20
+2017-07-20T08:11:10.267Z - normal: Simulator: 不销毁
+2017-07-20T08:11:11.352Z - normal: Simulator: 21
+2017-07-20T08:11:11.485Z - normal: Simulator: 不销毁
+2017-07-20T08:11:11.601Z - normal: Simulator: 21
+2017-07-20T08:11:12.001Z - normal: Simulator: 销毁
+2017-07-20T08:11:12.001Z - normal: Simulator: 同色不销毁
+2017-07-20T08:11:12.501Z - normal: Simulator: 21
+2017-07-20T08:11:12.834Z - normal: Simulator: 销毁
+2017-07-20T08:11:12.835Z - normal: Simulator: 红吃黑
+2017-07-20T08:12:18.740Z - normal: Compiled project javascript file successfully
+2017-07-20T08:12:18.777Z - warn: The 'type' attribute of '5511.chessList' is undefined when loading script
+2017-07-20T08:12:21.685Z - normal: Compiled project javascript file successfully
+2017-07-20T08:12:21.704Z - warn: The 'type' attribute of '5511.chessList' is undefined when loading script
+2017-07-20T08:12:22.266Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 981.00
+2017-07-20T08:12:22.267Z - normal: Simulator: FRAME SCALE = 1.00
+2017-07-20T08:12:22.277Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-07-20T08:12:22.994Z - normal: Simulator: 
+2017-07-20T08:12:22.995Z - normal: Simulator: {
+2017-07-20T08:12:23.009Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-07-20T08:12:23.010Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-07-20T08:12:23.010Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
+2017-07-20T08:12:23.010Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2017-07-20T08:12:23.010Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-07-20T08:12:23.010Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2017-07-20T08:12:23.011Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-07-20T08:12:23.011Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-07-20T08:12:23.011Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-07-20T08:12:23.011Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-07-20T08:12:23.011Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-07-20T08:12:23.011Z - normal: Simulator: 	gl.max_texture_units: 16
+2017-07-20T08:12:23.011Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-07-20T08:12:23.011Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-07-20T08:12:23.012Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-07-20T08:12:23.012Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.18.5 378.05.05.15f01
+2017-07-20T08:12:23.012Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-07-20T08:12:23.012Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-07-20T08:12:23.012Z - normal: Simulator: }
+2017-07-20T08:12:23.012Z - normal: Simulator: 
+2017-07-20T08:12:23.012Z - normal: Simulator: 
+2017-07-20T08:12:23.013Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-07-20T08:12:23.015Z - normal: Simulator: Project Config:
+2017-07-20T08:12:23.015Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2017-07-20T08:12:23.015Z - normal: Simulator:     writable path: $(PROJDIR)/
+2017-07-20T08:12:23.015Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2017-07-20T08:12:23.016Z - normal: Simulator:     frame size: 960 x 640
+2017-07-20T08:12:23.016Z - normal: Simulator:     frame scale: 1.00
+2017-07-20T08:12:23.016Z - normal: Simulator:     show console: NO
+2017-07-20T08:12:23.016Z - normal: Simulator:     write debug log: NO ()
+2017-07-20T08:12:23.017Z - normal: Simulator:     listen: 
+2017-07-20T08:12:23.017Z - normal: Simulator:     debugger: none
+2017-07-20T08:12:23.017Z - normal: Simulator:     add searching path:
+2017-07-20T08:12:23.017Z - normal: Simulator: 
+2017-07-20T08:12:23.017Z - normal: Simulator: 
+2017-07-20T08:12:23.017Z - normal: Simulator: 
+2017-07-20T08:12:23.018Z - normal: Simulator: ------------------------------------------------
+2017-07-20T08:12:23.018Z - normal: Simulator: LOAD Js FILE: main.js
+2017-07-20T08:12:23.019Z - normal: Simulator: ------------------------------------------------
+2017-07-20T08:12:23.047Z - normal: Simulator: Cocos2d-JS v3.14
+2017-07-20T08:12:23.178Z - normal: Simulator: iShow!
+2017-07-20T08:12:23.984Z - normal: Simulator: 26
+2017-07-20T08:12:24.067Z - normal: Simulator: 不销毁
+2017-07-20T08:12:24.399Z - normal: Simulator: 18
+2017-07-20T08:12:24.466Z - normal: Simulator: 不销毁
+2017-07-20T08:12:27.534Z - normal: Simulator: 19
+2017-07-20T08:12:27.633Z - normal: Simulator: 不销毁
+2017-07-20T08:12:27.917Z - normal: Simulator: 11
+2017-07-20T08:12:28.017Z - normal: Simulator: 不销毁
+2017-07-20T08:12:28.351Z - normal: Simulator: 10
+2017-07-20T08:12:28.450Z - normal: Simulator: 不销毁
+2017-07-20T08:12:29.019Z - normal: Simulator: 9
+2017-07-20T08:12:29.135Z - normal: Simulator: 不销毁
+2017-07-20T08:12:29.750Z - normal: Simulator: 17
+2017-07-20T08:12:29.933Z - normal: Simulator: 不销毁
+2017-07-20T08:15:23.806Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 981.00
+2017-07-20T08:15:23.807Z - normal: Simulator: FRAME SCALE = 1.00
+2017-07-20T08:15:23.808Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2017-07-20T08:15:23.878Z - normal: Simulator: 
+2017-07-20T08:15:23.878Z - normal: Simulator: {
+2017-07-20T08:15:23.879Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-07-20T08:15:23.879Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-07-20T08:15:23.879Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
+2017-07-20T08:15:23.890Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2017-07-20T08:15:23.890Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-07-20T08:15:23.890Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2017-07-20T08:15:23.890Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-07-20T08:15:23.890Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-07-20T08:15:23.890Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-07-20T08:15:23.891Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-07-20T08:15:23.891Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-07-20T08:15:23.891Z - normal: Simulator: 	gl.max_texture_units: 16
+2017-07-20T08:15:23.891Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-07-20T08:15:23.891Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-07-20T08:15:23.891Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-07-20T08:15:23.892Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.18.5 378.05.05.15f01
+2017-07-20T08:15:23.892Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-07-20T08:15:23.892Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-07-20T08:15:23.892Z - normal: Simulator: }
+2017-07-20T08:15:23.892Z - normal: Simulator: 
+2017-07-20T08:15:23.892Z - normal: Simulator: 
+2017-07-20T08:15:23.892Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-07-20T08:15:23.898Z - normal: Simulator: Project Config:
+2017-07-20T08:15:23.899Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2017-07-20T08:15:23.899Z - normal: Simulator:     writable path: $(PROJDIR)/
+2017-07-20T08:15:23.899Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2017-07-20T08:15:23.899Z - normal: Simulator:     frame size: 960 x 640
+2017-07-20T08:15:23.899Z - normal: Simulator:     frame scale: 1.00
+2017-07-20T08:15:23.899Z - normal: Simulator:     show console: NO
+2017-07-20T08:15:23.900Z - normal: Simulator:     write debug log: NO ()
+2017-07-20T08:15:23.900Z - normal: Simulator:     listen: 
+2017-07-20T08:15:23.900Z - normal: Simulator:     debugger: none
+2017-07-20T08:15:23.900Z - normal: Simulator:     add searching path:
+2017-07-20T08:15:23.900Z - normal: Simulator: 
+2017-07-20T08:15:23.900Z - normal: Simulator: 
+2017-07-20T08:15:23.900Z - normal: Simulator: 
+2017-07-20T08:15:23.900Z - normal: Simulator: ------------------------------------------------
+2017-07-20T08:15:23.901Z - normal: Simulator: LOAD Js FILE: main.js
+2017-07-20T08:15:23.901Z - normal: Simulator: ------------------------------------------------
+2017-07-20T08:15:23.931Z - normal: Simulator: Cocos2d-JS v3.14
+2017-07-20T08:15:24.060Z - normal: Simulator: iShow!
+2017-07-20T08:15:24.883Z - normal: Simulator: 18
+2017-07-20T08:15:24.964Z - normal: Simulator: 不销毁
+2017-07-20T08:15:25.447Z - normal: Simulator: 19
+2017-07-20T08:15:25.579Z - normal: Simulator: 不销毁
+2017-07-20T08:15:26.214Z - normal: Simulator: 11
+2017-07-20T08:15:26.329Z - normal: Simulator: 不销毁
+2017-07-20T08:15:26.647Z - normal: Simulator: 10
+2017-07-20T08:15:26.780Z - normal: Simulator: 不销毁
+2017-07-20T08:15:27.565Z - normal: Simulator: 17
+2017-07-20T08:15:27.697Z - normal: Simulator: 不销毁
+2017-07-20T08:15:27.914Z - normal: Simulator: 9
+2017-07-20T08:15:28.030Z - normal: Simulator: 不销毁
+2017-07-20T08:15:28.797Z - normal: Simulator: 20
+2017-07-20T08:15:28.880Z - normal: Simulator: 不销毁
+2017-07-20T08:15:29.013Z - normal: Simulator: 12
+2017-07-20T08:15:29.130Z - normal: Simulator: 不销毁
+2017-07-20T08:15:29.364Z - normal: Simulator: 21
+2017-07-20T08:15:29.430Z - normal: Simulator: 不销毁
+2017-07-20T08:15:29.581Z - normal: Simulator: 13
+2017-07-20T08:15:29.713Z - normal: Simulator: 不销毁
+2017-07-20T08:15:29.897Z - normal: Simulator: 22
+2017-07-20T08:15:29.997Z - normal: Simulator: 不销毁
+2017-07-20T08:15:30.130Z - normal: Simulator: 14
+2017-07-20T08:15:30.229Z - normal: Simulator: 不销毁
+2017-07-20T08:15:30.413Z - normal: Simulator: 23
+2017-07-20T08:15:30.530Z - normal: Simulator: 不销毁
+2017-07-20T08:15:30.630Z - normal: Simulator: 15
+2017-07-20T08:15:30.746Z - normal: Simulator: 不销毁
+2017-07-20T08:15:30.865Z - normal: Simulator: 7
+2017-07-20T08:15:30.996Z - normal: Simulator: 不销毁
+2017-07-20T08:15:31.097Z - normal: Simulator: 6
+2017-07-20T08:15:31.196Z - normal: Simulator: 不销毁
+2017-07-20T08:15:31.414Z - normal: Simulator: 5
+2017-07-20T08:15:31.546Z - normal: Simulator: 不销毁
+2017-07-20T08:15:31.697Z - normal: Simulator: 4
+2017-07-20T08:15:31.796Z - normal: Simulator: 不销毁
+2017-07-20T08:15:31.947Z - normal: Simulator: 3
+2017-07-20T08:15:32.046Z - normal: Simulator: 不销毁
+2017-07-20T08:15:32.180Z - normal: Simulator: 2
+2017-07-20T08:15:32.313Z - normal: Simulator: 不销毁
+2017-07-20T08:15:32.430Z - normal: Simulator: 1
+2017-07-20T08:15:32.546Z - normal: Simulator: 不销毁
+2017-07-20T08:15:32.680Z - normal: Simulator: 1
+2017-07-20T08:15:32.813Z - normal: Simulator: 不销毁
+2017-07-20T08:15:33.114Z - normal: Simulator: 8
+2017-07-20T08:15:33.230Z - normal: Simulator: 不销毁
+2017-07-20T08:15:33.414Z - normal: Simulator: 8
+2017-07-20T08:15:33.497Z - normal: Simulator: 不销毁
+2017-07-20T08:15:33.947Z - normal: Simulator: 0
+2017-07-20T08:15:34.063Z - normal: Simulator: 不销毁
+2017-07-20T08:15:34.380Z - normal: Simulator: 16
+2017-07-20T08:15:34.479Z - normal: Simulator: 不销毁
+2017-07-20T08:15:34.630Z - normal: Simulator: 24
+2017-07-20T08:15:34.746Z - normal: Simulator: 不销毁
+2017-07-20T08:15:34.897Z - normal: Simulator: 24
+2017-07-20T08:15:34.996Z - normal: Simulator: 不销毁
+2017-07-20T08:15:35.580Z - normal: Simulator: 25
+2017-07-20T08:15:35.696Z - normal: Simulator: 不销毁
+2017-07-20T08:15:35.880Z - normal: Simulator: 27
+2017-07-20T08:15:35.980Z - normal: Simulator: 不销毁
+2017-07-20T08:15:36.214Z - normal: Simulator: 26
+2017-07-20T08:15:36.313Z - normal: Simulator: 不销毁
+2017-07-20T08:15:36.681Z - normal: Simulator: 28
+2017-07-20T08:15:36.829Z - normal: Simulator: 不销毁
+2017-07-20T08:15:37.081Z - normal: Simulator: 29
+2017-07-20T08:15:37.196Z - normal: Simulator: 不销毁
+2017-07-20T08:15:37.447Z - normal: Simulator: 31
+2017-07-20T08:15:37.563Z - normal: Simulator: 不销毁
+2017-07-20T08:15:37.980Z - normal: Simulator: 30
+2017-07-20T08:15:38.118Z - normal: Simulator: 不销毁
+2017-07-20T08:15:49.513Z - normal: Simulator: 20
+2017-07-20T08:15:49.613Z - normal: Simulator: 不销毁
+2017-07-20T08:15:50.096Z - normal: Simulator: 20
+2017-07-20T08:15:50.763Z - normal: Simulator: 销毁
+2017-07-20T08:15:50.763Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T08:15:51.314Z - normal: Simulator: 20
+2017-07-20T08:15:51.582Z - normal: Simulator: 销毁
+2017-07-20T08:15:51.583Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T08:16:01.683Z - normal: Simulator: 19
+2017-07-20T08:16:02.078Z - normal: Simulator: 不销毁
+2017-07-20T08:16:02.542Z - normal: Simulator: 19
+2017-07-20T08:16:02.626Z - normal: Simulator: 不销毁
+2017-07-20T08:16:02.827Z - normal: Simulator: 19
+2017-07-20T08:16:03.343Z - normal: Simulator: 销毁
+2017-07-20T08:16:03.343Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T08:16:03.777Z - normal: Simulator: 19
+2017-07-20T08:16:03.846Z - normal: Simulator: 不销毁
+2017-07-20T08:16:04.012Z - normal: Simulator: 19
+2017-07-20T08:16:04.293Z - normal: Simulator: 销毁
+2017-07-20T08:16:04.293Z - normal: Simulator: 黑吃红--不销毁
+2017-07-20T08:16:04.746Z - normal: Simulator: 9
+2017-07-20T08:16:04.846Z - normal: Simulator: 不销毁
+2017-07-20T08:16:04.993Z - normal: Simulator: 9
+2017-07-20T08:16:05.395Z - normal: Simulator: 销毁
+2017-07-20T08:16:05.396Z - normal: Simulator: 红吃黑
+2017-07-20T08:16:05.713Z - normal: Simulator: 9
+2017-07-20T08:16:05.943Z - normal: Simulator: 销毁
+2017-07-20T08:16:05.943Z - normal: Simulator: 红吃黑
+2017-07-20T08:16:06.296Z - normal: Simulator: 9
+2017-07-20T08:16:06.510Z - normal: Simulator: 销毁
+2017-07-20T08:16:06.510Z - normal: Simulator: 红吃黑
+2017-07-20T08:16:06.812Z - normal: Simulator: 9
+2017-07-20T08:16:07.029Z - normal: Simulator: 销毁
+2017-07-20T08:16:07.030Z - normal: Simulator: 红吃黑
+2017-07-20T08:16:07.384Z - normal: Simulator: 9
+2017-07-20T08:16:07.695Z - normal: Simulator: 销毁
+2017-07-20T08:16:07.696Z - normal: Simulator: 红吃黑
+2017-07-20T08:16:07.875Z - normal: Simulator: 9
+2017-07-20T08:16:08.145Z - normal: Simulator: 销毁
+2017-07-20T08:16:08.145Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T08:16:08.329Z - normal: Simulator: 9
+2017-07-20T08:16:08.545Z - normal: Simulator: 销毁
+2017-07-20T08:16:08.545Z - normal: Simulator: 红吃黑--不销毁
+2017-07-20T08:16:08.712Z - normal: Simulator: 2
+2017-07-20T08:16:08.945Z - normal: Simulator: 不销毁
+2017-07-20T08:16:09.263Z - normal: Simulator: 9
+2017-07-20T08:16:10.045Z - normal: Simulator: 9
+2017-07-20T08:16:10.112Z - normal: Simulator: 不销毁
+2017-07-20T08:16:10.246Z - normal: Simulator: 9
+2017-07-20T08:16:10.595Z - normal: Simulator: 销毁
+2017-07-20T08:16:10.595Z - normal: Simulator: 红吃黑--不销毁
+2017-07-20T08:16:11.045Z - normal: Simulator: 9
+2017-07-20T08:16:11.362Z - normal: Simulator: 销毁
+2017-07-20T08:16:11.362Z - normal: Simulator: 红吃黑
+2017-07-20T08:16:11.645Z - normal: Simulator: 9
+2017-07-20T08:16:11.896Z - normal: Simulator: 销毁
+2017-07-20T08:16:11.896Z - normal: Simulator: 红吃黑
+2017-07-20T08:16:12.195Z - normal: Simulator: 9
+2017-07-20T08:16:12.412Z - normal: Simulator: 销毁
+2017-07-20T08:16:12.412Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T08:16:12.878Z - normal: Simulator: 9
+2017-07-20T08:16:13.079Z - normal: Simulator: 销毁
+2017-07-20T08:16:13.079Z - normal: Simulator: 红吃黑
+2017-07-20T08:16:13.529Z - normal: Simulator: 9
+2017-07-20T08:16:13.995Z - normal: Simulator: 销毁
+2017-07-20T08:16:13.995Z - normal: Simulator: 红吃黑
+2017-07-20T08:16:17.479Z - normal: Simulator: 25
+2017-07-20T08:16:17.762Z - normal: Simulator: 不销毁
+2017-07-20T08:16:18.012Z - normal: Simulator: 25
+2017-07-20T08:16:18.095Z - normal: Simulator: 不销毁
+2017-07-20T08:16:18.245Z - normal: Simulator: 25
+2017-07-20T08:16:18.462Z - normal: Simulator: 销毁
+2017-07-20T08:16:18.462Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:18.679Z - normal: Simulator: 25
+2017-07-20T08:16:18.912Z - normal: Simulator: 销毁
+2017-07-20T08:16:18.913Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:19.095Z - normal: Simulator: 25
+2017-07-20T08:16:19.345Z - normal: Simulator: 不销毁
+2017-07-20T08:16:19.846Z - normal: Simulator: 25
+2017-07-20T08:16:20.112Z - normal: Simulator: 销毁
+2017-07-20T08:16:20.112Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:20.429Z - normal: Simulator: 25
+2017-07-20T08:16:20.678Z - normal: Simulator: 销毁
+2017-07-20T08:16:20.678Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:20.929Z - normal: Simulator: 25
+2017-07-20T08:16:21.178Z - normal: Simulator: 销毁
+2017-07-20T08:16:21.178Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:21.512Z - normal: Simulator: 25
+2017-07-20T08:16:21.779Z - normal: Simulator: 不销毁
+2017-07-20T08:16:22.463Z - normal: Simulator: 25
+2017-07-20T08:16:22.662Z - normal: Simulator: 销毁
+2017-07-20T08:16:22.662Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:23.012Z - normal: Simulator: 25
+2017-07-20T08:16:23.278Z - normal: Simulator: 销毁
+2017-07-20T08:16:23.278Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:23.580Z - normal: Simulator: 25
+2017-07-20T08:16:23.895Z - normal: Simulator: 销毁
+2017-07-20T08:16:23.895Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:24.228Z - normal: Simulator: 25
+2017-07-20T08:16:24.595Z - normal: Simulator: 销毁
+2017-07-20T08:16:24.595Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:24.828Z - normal: Simulator: 25
+2017-07-20T08:16:25.211Z - normal: Simulator: 销毁
+2017-07-20T08:16:25.212Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:25.595Z - normal: Simulator: 25
+2017-07-20T08:16:26.112Z - normal: Simulator: 销毁
+2017-07-20T08:16:26.112Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:26.445Z - normal: Simulator: 25
+2017-07-20T08:16:26.678Z - normal: Simulator: 销毁
+2017-07-20T08:16:26.678Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:26.945Z - normal: Simulator: 25
+2017-07-20T08:16:27.412Z - normal: Simulator: 销毁
+2017-07-20T08:16:27.412Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:27.745Z - normal: Simulator: 25
+2017-07-20T08:16:27.995Z - normal: Simulator: 销毁
+2017-07-20T08:16:27.995Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:28.345Z - normal: Simulator: 25
+2017-07-20T08:16:28.629Z - normal: Simulator: 销毁
+2017-07-20T08:16:28.629Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:29.245Z - normal: Simulator: 25
+2017-07-20T08:16:29.612Z - normal: Simulator: 销毁
+2017-07-20T08:16:29.612Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:29.896Z - normal: Simulator: 25
+2017-07-20T08:16:30.262Z - normal: Simulator: 销毁
+2017-07-20T08:16:30.262Z - normal: Simulator: 空棋子 红
+2017-07-20T08:16:31.429Z - normal: Simulator: 14
+2017-07-20T08:16:31.528Z - normal: Simulator: 不销毁
+2017-07-20T08:16:31.679Z - normal: Simulator: 14
+2017-07-20T08:16:32.461Z - normal: Simulator: 销毁
+2017-07-20T08:16:32.461Z - normal: Simulator: 不同色同样的棋子--销毁
+2017-07-20T08:16:33.914Z - normal: Simulator: 6
+2017-07-20T08:16:34.612Z - normal: Simulator: 6
+2017-07-20T08:16:34.711Z - normal: Simulator: 不销毁
+2017-07-20T08:16:34.896Z - normal: Simulator: 6
+2017-07-20T08:16:35.561Z - normal: Simulator: 不销毁
+2017-07-20T08:16:36.412Z - normal: Simulator: 6
+2017-07-20T08:16:38.178Z - normal: Simulator: 销毁
+2017-07-20T08:16:38.178Z - normal: Simulator: 空棋子 黑
+2017-07-20T08:16:39.145Z - normal: Simulator: 6
+2017-07-20T08:16:40.595Z - normal: Simulator: 不销毁
+2017-07-20T08:16:43.062Z - normal: Simulator: 7
+2017-07-20T08:16:43.894Z - normal: Simulator: 7
+2017-07-20T08:16:43.994Z - normal: Simulator: 不销毁
+2017-07-20T08:16:44.128Z - normal: Simulator: 7
+2017-07-20T08:16:44.762Z - normal: Simulator: 销毁
+2017-07-20T08:16:44.762Z - normal: Simulator: 红吃黑
+2017-07-20T08:16:45.879Z - normal: Simulator: 7
+2017-07-20T08:16:46.528Z - normal: Simulator: 不销毁
+2017-07-20T08:16:49.461Z - normal: Simulator: 2
+2017-07-20T08:16:50.095Z - normal: Simulator: 2
+2017-07-20T08:16:50.211Z - normal: Simulator: 不销毁
+2017-07-20T08:16:50.412Z - normal: Simulator: 2
+2017-07-20T08:16:50.695Z - normal: Simulator: 销毁
+2017-07-20T08:16:50.695Z - normal: Simulator: 黑吃红
+2017-07-20T08:16:50.845Z - normal: Simulator: 2
+2017-07-20T08:16:51.112Z - normal: Simulator: 销毁
+2017-07-20T08:16:51.112Z - normal: Simulator: 黑吃红
+2017-07-20T08:16:51.361Z - normal: Simulator: 2
+2017-07-20T08:16:51.678Z - normal: Simulator: 销毁
+2017-07-20T08:16:51.679Z - normal: Simulator: 黑吃红
+2017-07-20T08:16:51.878Z - normal: Simulator: 2
+2017-07-20T08:16:52.161Z - normal: Simulator: 销毁
+2017-07-20T08:16:52.161Z - normal: Simulator: 黑吃红
+2017-07-20T08:16:52.381Z - normal: Simulator: 2
+2017-07-20T08:16:52.662Z - normal: Simulator: 销毁
+2017-07-20T08:16:52.662Z - normal: Simulator: 黑吃红
+2017-07-20T08:16:54.461Z - normal: Simulator: 31
+2017-07-20T08:16:54.962Z - normal: Simulator: 31
+2017-07-20T08:16:55.078Z - normal: Simulator: 不销毁
+2017-07-20T08:16:55.212Z - normal: Simulator: 31
+2017-07-20T08:16:55.427Z - normal: Simulator: 不销毁
+2017-07-20T08:16:56.295Z - normal: Simulator: 2
+2017-07-20T08:16:56.412Z - normal: Simulator: 不销毁
+2017-07-20T08:16:56.579Z - normal: Simulator: 2
+2017-07-20T08:16:56.844Z - normal: Simulator: 销毁
+2017-07-20T08:16:56.844Z - normal: Simulator: 同色不销毁
+2017-07-20T08:16:57.678Z - normal: Simulator: 31
+2017-07-20T08:16:57.778Z - normal: Simulator: 不销毁
+2017-07-20T08:16:57.895Z - normal: Simulator: 31
+2017-07-20T08:16:58.295Z - normal: Simulator: 销毁
+2017-07-20T08:16:58.296Z - normal: Simulator: 红吃黑
+2017-07-20T08:16:58.544Z - normal: Simulator: 31
+2017-07-20T08:16:58.794Z - normal: Simulator: 销毁
+2017-07-20T08:16:58.794Z - normal: Simulator: 红吃黑
+2017-07-20T08:16:59.028Z - normal: Simulator: 31
+2017-07-20T08:16:59.511Z - normal: Simulator: 销毁
+2017-07-20T08:16:59.511Z - normal: Simulator: 红吃黑
+2017-07-20T08:16:59.845Z - normal: Simulator: 31
+2017-07-20T08:17:00.794Z - normal: Simulator: 销毁
+2017-07-20T08:17:00.794Z - normal: Simulator: 同色不销毁
+2017-07-20T08:17:01.411Z - normal: Simulator: 23
+2017-07-20T08:17:01.528Z - normal: Simulator: 不销毁
+2017-07-20T08:17:01.644Z - normal: Simulator: 23
+2017-07-20T08:17:01.994Z - normal: Simulator: 不销毁
+2017-07-20T08:17:03.228Z - normal: Simulator: 7
+2017-07-20T08:17:03.962Z - normal: Simulator: 7
+2017-07-20T08:17:04.060Z - normal: Simulator: 不销毁
+2017-07-20T08:17:04.211Z - normal: Simulator: 7
+2017-07-20T08:17:04.628Z - normal: Simulator: 销毁
+2017-07-20T08:17:04.628Z - normal: Simulator: 空棋子 红
+2017-07-20T08:17:05.261Z - normal: Simulator: 22
+2017-07-20T08:17:05.378Z - normal: Simulator: 不销毁
+2017-07-20T08:17:05.579Z - normal: Simulator: 22
+2017-07-20T08:17:05.911Z - normal: Simulator: 销毁
+2017-07-20T08:17:05.911Z - normal: Simulator: 空棋子 红
+2017-07-20T08:17:06.644Z - normal: Simulator: 22
+2017-07-20T08:17:07.211Z - normal: Simulator: 销毁
+2017-07-20T08:17:07.211Z - normal: Simulator: 空棋子 红
+2017-07-20T08:17:07.711Z - normal: Simulator: 2
+2017-07-20T08:17:08.312Z - normal: Simulator: 2
+2017-07-20T08:17:08.394Z - normal: Simulator: 不销毁
+2017-07-20T08:17:08.544Z - normal: Simulator: 2
+2017-07-20T08:17:08.794Z - normal: Simulator: 销毁
+2017-07-20T08:17:08.795Z - normal: Simulator: 黑吃红
+2017-07-20T08:17:09.161Z - normal: Simulator: 2
+2017-07-20T08:17:09.761Z - normal: Simulator: 销毁
+2017-07-20T08:17:09.761Z - normal: Simulator: 空棋子 黑
+2017-07-20T08:17:10.144Z - normal: Simulator: 31
+2017-07-20T08:17:10.228Z - normal: Simulator: 不销毁
+2017-07-20T08:17:10.395Z - normal: Simulator: 31
+2017-07-20T08:17:11.027Z - normal: Simulator: 销毁
+2017-07-20T08:17:11.027Z - normal: Simulator: 空棋子 红
+2017-07-20T08:17:11.595Z - normal: Simulator: 30
+2017-07-20T08:17:12.345Z - normal: Simulator: 30
+2017-07-20T08:17:12.461Z - normal: Simulator: 不销毁
+2017-07-20T08:17:12.628Z - normal: Simulator: 30
+2017-07-20T08:17:13.028Z - normal: Simulator: 销毁
+2017-07-20T08:17:13.028Z - normal: Simulator: 空棋子 红
+2017-07-20T08:17:13.445Z - normal: Simulator: 31
+2017-07-20T08:17:13.561Z - normal: Simulator: 不销毁
+2017-07-20T08:17:13.645Z - normal: Simulator: 31
+2017-07-20T08:17:13.961Z - normal: Simulator: 销毁
+2017-07-20T08:17:13.961Z - normal: Simulator: 空棋子 红
+2017-07-20T08:17:14.345Z - normal: Simulator: 15
+2017-07-20T08:17:14.427Z - normal: Simulator: 不销毁
+2017-07-20T08:17:14.545Z - normal: Simulator: 15
+2017-07-20T08:17:14.961Z - normal: Simulator: 销毁
+2017-07-20T08:17:14.962Z - normal: Simulator: 空棋子 红
+2017-07-20T08:17:15.545Z - normal: Simulator: 23
+2017-07-20T08:17:15.645Z - normal: Simulator: 不销毁
+2017-07-20T08:17:15.861Z - normal: Simulator: 23
+2017-07-20T08:17:16.411Z - normal: Simulator: 不销毁
+2017-07-20T08:18:00.127Z - normal: Simulator: 23
+2017-07-20T08:18:00.227Z - normal: Simulator: 不销毁
+2017-07-20T08:18:00.427Z - normal: Simulator: 23
+2017-07-20T08:18:01.310Z - normal: Simulator: 销毁
+2017-07-20T08:18:01.310Z - normal: Simulator: 空棋子 红
+2017-07-20T08:18:01.694Z - normal: Simulator: 2
+2017-07-20T08:18:01.810Z - normal: Simulator: 不销毁
+2017-07-20T08:18:02.010Z - normal: Simulator: 2
+2017-07-20T08:18:02.394Z - normal: Simulator: 销毁
+2017-07-20T08:18:02.394Z - normal: Simulator: 黑吃红
+2017-07-20T08:18:02.844Z - normal: Simulator: 2
+2017-07-20T08:18:03.260Z - normal: Simulator: 销毁
+2017-07-20T08:18:03.261Z - normal: Simulator: 空棋子 黑
+2017-07-20T08:18:04.193Z - normal: Simulator: 31
+2017-07-20T08:18:04.326Z - normal: Simulator: 不销毁
+2017-07-20T08:18:04.460Z - normal: Simulator: 31
+2017-07-20T08:18:04.910Z - normal: Simulator: 销毁
+2017-07-20T08:18:04.910Z - normal: Simulator: 空棋子 红
+2017-07-20T08:18:05.377Z - normal: Simulator: 31
+2017-07-20T08:18:05.843Z - normal: Simulator: 销毁
+2017-07-20T08:18:05.843Z - normal: Simulator: 空棋子 红
+2017-07-20T08:18:06.244Z - normal: Simulator: 31
+2017-07-20T08:18:07.793Z - normal: Simulator: 不销毁
+2017-07-20T08:18:48.803Z - normal: Simulator: basic_object_finalize 0x14e42af0 ...
+2017-07-20T08:18:48.804Z - normal: Simulator: jsbindings: finalizing JS object 0x14e42b20 (WebSocket)
+2017-07-20T08:18:48.804Z - normal: Simulator: jsbindings: finalizing JS object 0x14e42b50 (SocketIO)
+2017-07-20T08:18:48.804Z - normal: Simulator: basic_object_finalize 0x14e42be0 ...
+2017-07-20T08:18:48.805Z - normal: Simulator: basic_object_finalize 0x14e42e80 ...

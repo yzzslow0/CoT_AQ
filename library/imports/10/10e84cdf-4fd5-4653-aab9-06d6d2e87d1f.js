@@ -19,7 +19,6 @@ cc.Class({
             default: null,
             type: cc.Prefab
         },
-
         chessList: { //棋子节点的集合，用一维数组表示二维位置
             default: [],
             type: [cc.node]
@@ -72,7 +71,11 @@ cc.Class({
         //     default:[],
         Red_names: [cc.String],
         Black_names: [cc.String]
-    }, _defineProperty(_properties, 'positionX', [cc.Integer]), _defineProperty(_properties, 'positionY', [cc.Integer]), _defineProperty(_properties, 'flag', [cc.Integer]), _properties),
+    }, _defineProperty(_properties, 'positionX', [cc.Integer]), _defineProperty(_properties, 'positionY', [cc.Integer]), _defineProperty(_properties, 'flag', [cc.Integer]), _defineProperty(_properties, 'eatChess', { //
+        default: null,
+        type: cc.Node,
+        visible: false
+    }), _properties),
 
     // use this for initialization
     onLoad: function onLoad() {
@@ -119,7 +122,7 @@ cc.Class({
                         //红色
                         self.flag[i] = 0;
                         var number = parseInt(cc.random0To1() * Red.length); //随机一位数
-                        cc.log('随机' + Red[number]);
+                        // cc.log('随机' + Red[number]);
                         self.Red_names[i] = Red[number];
                         Red.splice(number, 1);
                     } else {
@@ -127,7 +130,7 @@ cc.Class({
                         self.flag[i] = 1;
 
                         var number = parseInt(cc.random0To1() * Black.length); //随机一位数
-                        cc.log('随机' + Black[number]);
+                        // cc.log('随机' + Black[number]);
                         self.Black_names[i] = Black[number];
                         Black.splice(number, 1);
                     }
@@ -137,14 +140,14 @@ cc.Class({
                         self.flag[i] = 1;
 
                         var number = parseInt(cc.random0To1() * Black.length); //随机一位数
-                        cc.log('随机' + Black[number]);
+                        // cc.log('随机' + Black[number]);
                         self.Black_names[i] = Black[number];
                         Black.splice(number, 1);
                     } else {
                         //红色
                         self.flag[i] = 0;
                         var number = parseInt(cc.random0To1() * Red.length); //随机一位数
-                        cc.log('随机' + Red[number]);
+                        // cc.log('随机' + Red[number]);
                         self.Red_names[i] = Red[number];
                         Red.splice(number, 1);
                     }
@@ -214,19 +217,14 @@ cc.Class({
                         this.y += delta.y;
                     }
                 });
-                this.chessList[i].getComponent(cc.Sprite).spriteFrame = this.whiteSpriteFrame;
+
                 i++;
             }
         }
     },
     // called every frame
     update: function update(dt) {
-        this.btn_test.node.on(cc.Node.EventType.TOUCH_START, this.btn_test_func, this);
-    },
-
-    newNode_onClick: function newNode_onClick() {
-        console.log(newNode.tag);
-        //  this.chessList[i].getComponent(cc.Sprite).spriteFrame = this.blackSpriteFrame;
+        // this.btn_test.node.on(cc.Node.EventType.TOUCH_START, this.btn_test_func, this)
     },
 
     setChess: function setChess(flag) {
@@ -240,11 +238,8 @@ cc.Class({
             test_label.string = this.getChessHZ(this.Black_names[this.touchChess.tag], 1);
         }
 
-        //  this.chessList[this.touchChess.tag].getComponent(cc.Sprite).spriteFrame = this.blackSpriteFrame;
+        //  this.chessList[this.touchChess.tag].getComponent(cc.Sprite).spriteFrame = this.whiteSpriteFrame;
 
-    },
-    btn_test_func: function btn_test_func(event) {
-        this.getComponent(cc.Label).string = '123';
     },
 
     destoryChess: function destoryChess(other, self) {
@@ -265,35 +260,66 @@ cc.Class({
     getChessHZ: function getChessHZ(position, flag) {
         switch (position) {
             // var Red = [5, 5, 5, 5, 5, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 15];
+            // case 5:
+            //     if (flag == 0) {
+            //         return '兵';
+            //     } else {
+            //         return '卒';
+            //     }
+            // case 6:
+            //     return '炮';
+            // case 8:
+            //     return '马';
+            // case 10:
+            //     return '车';
+            // case 12:
+            //     if (flag == 0) {
+            //         return '相';
+            //     } else {
+            //         return '象';
+            //     }
+            // case 14:
+            //     if (flag == 0) {
+            //         return '仕';
+            //     } else {
+            //         return '士';
+            //     }
+            // case 15:
+            //     if (flag == 0) {
+            //         return '帅';
+            //     } else {
+            //         return '将';
+            //     }
+
             case 5:
                 if (flag == 0) {
-                    return '兵';
+                    return '5';
                 } else {
-                    return '卒';
+                    return '5';
                 }
             case 6:
-                return '炮';
+                return '6';
             case 8:
-                return '马';
+                return '8';
             case 10:
-                return '车';
+                return '10';
             case 12:
                 if (flag == 0) {
-                    return '相';
+                    return '12';
                 } else {
-                    return '象';
+                    return '12';
                 }
             case 14:
                 if (flag == 0) {
-                    return '仕';
+                    return '14';
                 } else {
-                    return '士';
+                    return '14';
                 }
             case 15:
                 if (flag == 0) {
-                    return '帅';
+                    return '15';
                 } else {
-                    return '将';
+                    return '15';
                 }
         }
     },
@@ -307,23 +333,35 @@ cc.Class({
             if (this.flag[this.touchChess.tag] == 0 && this.flag[this.pzChess.tag] == 1) {
                 //红吃黑
                 if (this.Red_names[this.touchChess.tag] > this.Black_names[this.pzChess.tag]) {
-                    /**
-                     * 尝试 替换 prefab 以空节点来做
-                     */
-
                     // this.pzChess.opacity = 0;
                     // // this.pzChess.destroy();   //吃子
-                    // this.Black_names[this.pzChess.tag] = this.pzChess.x*10;
+                    //  this.Black_names[this.pzChess.tag] = this.pzChess.x*10;
 
+                    // this.pzChess = cc.instantiate(this.chessPrefab);//复制Chess预制资源
+                    cc.log('红吃黑');
+                    this.pzChess.x = this.positionX[this.touchChess.tag];
+                    this.pzChess.y = this.positionY[this.touchChess.tag];
 
+                    this.chessList[this.pzChess.tag].opacity = 0;
+                    this.Black_names[this.pzChess.tag] = 0;
+                    this.flag[this.pzChess.tag] = 2;
+                    this.chessList[this.pzChess.tag].zIndex = 0;
+
+                    // this.chessList[this.pzChess.tag].getComponent(cc.Sprite).spriteFrame = this.blackSpriteFrame;
                 } else if (this.Red_names[this.touchChess.tag] == this.Black_names[this.pzChess.tag]) {
                     cc.log('不同色同样的棋子--销毁');
 
-                    this.pzChess.opacity = 0;
+                    this.pzChess.x = this.positionX[this.touchChess.tag];
+                    this.pzChess.y = this.positionY[this.touchChess.tag];
+
+                    this.chessList[this.pzChess.tag].opacity = 0;
+                    this.Black_names[this.pzChess.tag] = 0;
+                    this.flag[this.pzChess.tag] = 2;
+                    this.chessList[this.pzChess.tag].zIndex = 0;
                     // this.pzChess.destroy();   //吃子
 
 
-                    this.Black_names[this.pzChess.tag] = this.pzChess.x * 10;
+                    // this.Black_names[this.pzChess.tag] = this.pzChess.x*10;
                 } else {
                     cc.log('红吃黑--不销毁');
                     this.touchChess.x = X;
@@ -332,28 +370,62 @@ cc.Class({
             } else if (this.flag[this.touchChess.tag] == 1 && this.flag[this.pzChess.tag] == 0) {
                 //黑吃红
                 if (this.Black_names[this.touchChess.tag] > this.Red_names[this.pzChess.tag]) {
-                    this.pzChess.opacity = 0;
 
-                    // this.pzChess.destroy();   //吃子
-                    this.Red_names[this.pzChess.tag] = this.pzChess.x * 10;
+                    cc.log('黑吃红');
+
+                    this.pzChess.x = this.positionX[this.touchChess.tag];
+                    this.pzChess.y = this.positionY[this.touchChess.tag];
+
+                    this.chessList[this.pzChess.tag].opacity = 0;
+                    this.Red_names[this.pzChess] = 0;
+                    this.flag[this.pzChess.tag] = 2;
+                    this.chessList[this.pzChess.tag].zIndex = 0;
                 } else if (this.Black_names[this.touchChess.tag] == this.Red_names[this.pzChess.tag]) {
 
                     cc.log('不同色同样的棋子--销毁');
+                    this.pzChess.x = this.positionX[this.touchChess.tag];
+                    this.pzChess.y = this.positionY[this.touchChess.tag];
 
-                    this.pzChess.opacity = 0;
-                    // this.pzChess.destroy();   //吃子
+                    this.chessList[this.pzChess.tag].opacity = 0;
+                    this.Red_names[this.pzChess] = 0;
+                    this.flag[this.pzChess.tag] = 2;
+                    this.chessList[this.pzChess.tag].zIndex = 0;
 
-
-                    this.Red_names[this.pzChess.tag] = this.pzChess.x * 10;
+                    // this.Red_names[this.pzChess.tag] = this.pzChess.x*10;
                 } else {
                     cc.log('黑吃红--不销毁');
                     this.touchChess.x = X;
                     this.touchChess.y = Y;
                 }
             } else {
-                cc.log('同色不销毁');
-                this.touchChess.x = X;
-                this.touchChess.y = Y;
+                if (this.flag[this.pzChess.tag] == 2) {
+
+                    if (this.flag[this.touchChess.tag] == 1) {
+
+                        this.pzChess.x = this.positionX[this.touchChess.tag];
+                        this.pzChess.y = this.positionY[this.touchChess.tag];
+
+                        this.chessList[this.pzChess.tag].opacity = 0;
+                        this.Red_names[this.pzChess] = 0;
+                        this.flag[this.pzChess.tag] = 2;
+                        this.chessList[this.pzChess.tag].zIndex = 0;
+                        cc.log('空棋子 黑');
+                    } else {
+
+                        this.pzChess.x = this.positionX[this.touchChess.tag];
+                        this.pzChess.y = this.positionY[this.touchChess.tag];
+
+                        this.chessList[this.pzChess.tag].opacity = 0;
+                        this.Black_names[this.pzChess] = 0;
+                        this.flag[this.pzChess.tag] = 2;
+                        this.chessList[this.pzChess.tag].zIndex = 0;
+                        cc.log('空棋子 红');
+                    }
+                } else {
+                    cc.log('同色不销毁');
+                    this.touchChess.x = X;
+                    this.touchChess.y = Y;
+                }
             }
         } else {
             cc.log('不销毁');

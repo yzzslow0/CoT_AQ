@@ -27,10 +27,10 @@ cc.Class({
         var manager = cc.director.getCollisionManager();
         //开启碰撞检测系统
         manager.enabled = true;
-        // //debug 绘制
-        // manager.enabledDebugDraw = true;
-        // //绘制包围盒
-        // manager.enabledDrawBoundingBox = true;
+        //debug 绘制
+        manager.enabledDebugDraw = true;
+        //绘制包围盒
+        manager.enabledDrawBoundingBox = true;
 
         // PzTouchChess = getComponent('Star').game = this;
     },
