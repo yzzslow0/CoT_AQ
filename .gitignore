@@ -2,3 +2,6 @@ build/
 temp/
 local/
 library/
+library/uuid-to-mtime.json
+local/layout.windows.json
+local/logs/project.log
