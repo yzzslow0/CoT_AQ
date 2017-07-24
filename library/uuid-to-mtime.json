@@ -250,8 +250,8 @@
     "relativePath": "Scene"
   },
   "06dcba75-d4b8-423a-bdee-f3cc98b9fe4f": {
-    "asset": 1500538522000,
-    "meta": 1500538522000,
+    "asset": 1500887453000,
+    "meta": 1500887453000,
     "relativePath": "Scene/game.fire"
   },
   "2d2f792f-a40c-49bb-a189-ed176a246e49": {
@@ -295,13 +295,13 @@
     "relativePath": "Prefab/Chess_null_prefab.prefab"
   },
   "3471a021-e4cc-4537-98de-605e76dd28d1": {
-    "asset": 1499929279000,
-    "meta": 1499929283000,
+    "asset": 1500884687000,
+    "meta": 1500884688000,
     "relativePath": "Script/PZ.js"
   },
   "10e84cdf-4fd5-4653-aab9-06d6d2e87d1f": {
-    "asset": 1500538339000,
-    "meta": 1500538340000,
+    "asset": 1500887455000,
+    "meta": 1500887457000,
     "relativePath": "Script/Game.js"
   }
 }
